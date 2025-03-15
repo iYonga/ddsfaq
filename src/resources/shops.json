@@ -1014,350 +1014,350 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 13,
         "price": 2000,
         "maxStockPrice": 26000
       },
       {
-        "icon": null,
+        "icon": "iconBasicChair",
         "name": "Chair",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconModernChair",
         "name": "Chair",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconBasicArmchair",
         "name": "Armchair",
         "maxStock": 6,
         "price": 7000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconModernArmchair",
         "name": "Armchair",
         "maxStock": 8,
         "price": 8000,
         "maxStockPrice": 64000
       },
       {
-        "icon": null,
+        "icon": "iconBasicSofa",
         "name": "Sofa",
         "maxStock": 6,
         "price": 12000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconModernSofa",
         "name": "Sofa",
         "maxStock": 8,
         "price": 13000,
         "maxStockPrice": 104000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 7,
         "price": 8000,
         "maxStockPrice": 56000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleGhetto",
         "name": "Double bed",
         "maxStock": 3,
         "price": 16000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconModernBed",
         "name": "Bed",
         "maxStock": 8,
         "price": 9000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod",
         "name": "Double bed",
         "maxStock": 1,
         "price": 28000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 3,
         "price": 10000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 4,
         "price": 5500,
         "maxStockPrice": 22000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 6,
         "price": 6000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconModernTable",
         "name": "Table",
         "maxStock": 8,
         "price": 7000,
         "maxStockPrice": 56000
       },
       {
-        "icon": null,
+        "icon": "iconIndustrialTable",
         "name": "Industrial table ",
         "maxStock": 4,
         "price": 7000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinet",
         "name": "Cabinet",
         "maxStock": 6,
         "price": 4500,
         "maxStockPrice": 27000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 5,
         "price": 6000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 5,
         "price": 9000,
         "maxStockPrice": 45000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 3,
         "price": 5000,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 2,
         "price": 6000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelf",
         "name": "Large wooden bookshlef",
         "maxStock": 3,
         "price": 10000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfLarge",
         "name": "Large wooden bookshlef",
         "maxStock": 2,
         "price": 11000,
         "maxStockPrice": 22000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 2,
         "price": 22000,
         "maxStockPrice": 44000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 2,
         "price": 30000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 2,
         "price": 18000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 3,
         "price": 14000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 5,
         "price": 11000,
         "maxStockPrice": 55000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 4,
         "price": 32000,
         "maxStockPrice": 128000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 2,
         "price": 240000,
         "maxStockPrice": 480000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 3,
         "price": 6000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 2,
         "price": 8500,
         "maxStockPrice": 17000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconModernCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconBasicDeskLamp",
         "name": "Desk lamp",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconModernDeskLamp",
         "name": "Desk lamp",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconModernFloorLamp",
         "name": "Floor lamp",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 13,
         "price": 4000,
         "maxStockPrice": 52000
       },
       {
-        "icon": null,
+        "icon": "iconModernPainting",
         "name": "Painting",
         "maxStock": 8,
         "price": 5000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconModernPlant",
         "name": "Potted plant",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase01",
         "name": "Vase",
         "maxStock": 8,
         "price": 3000,
         "maxStockPrice": 24000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase02",
         "name": "Vase",
         "maxStock": 8,
         "price": 3000,
         "maxStockPrice": 24000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase03",
         "name": "Vase",
         "maxStock": 8,
         "price": 3000,
@@ -1615,112 +1615,112 @@
     ],
     "Equipment store": [
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 30,
         "price": 300,
         "maxStockPrice": 9000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 13,
         "price": 500,
         "maxStockPrice": 6500
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 5,
         "price": 900,
         "maxStockPrice": 4500
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 4,
         "price": 3000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 3,
         "price": 4000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQVeggieDryer",
         "name": "Drying rack",
         "maxStock": 3,
         "price": 7000,
         "maxStockPrice": 21000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerL",
         "name": "Drying outdoor rack",
         "maxStock": 3,
         "price": 21000,
         "maxStockPrice": 63000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerHyb",
         "name": "Hybrid dryer",
         "maxStock": 4,
         "price": 46000,
         "maxStockPrice": 184000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrowbox",
         "name": "Growbox",
         "maxStock": 3,
         "price": 32000,
         "maxStockPrice": 96000
       },
       {
-        "icon": null,
+        "icon": "iconPlantRack",
         "name": "Rack (for plants)",
         "maxStock": 3,
         "price": 34000,
         "maxStockPrice": 102000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBox",
         "name": "Seedling box",
         "maxStock": 2,
         "price": 3000,
         "maxStockPrice": 6000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 2,
         "price": 20000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 2,
         "price": 30000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQFermVat",
         "name": "Small fermentation vat",
         "maxStock": 2,
         "price": 11000,
         "maxStockPrice": 22000
       },
       {
-        "icon": null,
+        "icon": "iconEQbucket",
         "name": "Bucket",
         "maxStock": 2,
         "price": 2000,
         "maxStockPrice": 4000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 2,
         "price": 5000,
@@ -1800,7 +1800,7 @@
       }
     ]
   },
-  "Bahía de Oro - Tourists disctrict": {
+  "Bahía de Oro - Downtown": {
     "Mini-market": [
       {
         "icon": "iconWaterBottle",
@@ -2895,616 +2895,616 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 50,
         "price": 2000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconModernShelf",
         "name": "Shelf",
         "maxStock": 50,
         "price": 3000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconBasicChair",
         "name": "Chair",
         "maxStock": 50,
         "price": 3000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconModernChair",
         "name": "Chair",
         "maxStock": 50,
         "price": 4000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconBasicArmchair",
         "name": "Armchair",
         "maxStock": 50,
         "price": 7000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconModernArmchair",
         "name": "Armchair",
         "maxStock": 50,
         "price": 8000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconEQPoufLux",
         "name": "Pouf",
         "maxStock": 20,
         "price": 20000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconBasicSofa",
         "name": "Sofa",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconModernSofa",
         "name": "Sofa",
         "maxStock": 50,
         "price": 13000,
         "maxStockPrice": 650000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 30,
         "price": 8000,
         "maxStockPrice": 240000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas02",
         "name": "Bed",
         "maxStock": 30,
         "price": 12000,
         "maxStockPrice": 360000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas02",
         "name": "Double bed",
         "maxStock": 30,
         "price": 24000,
         "maxStockPrice": 720000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas03",
         "name": "Bed",
         "maxStock": 30,
         "price": 16000,
         "maxStockPrice": 480000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas03",
         "name": "Double bed",
         "maxStock": 30,
         "price": 30000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconModernBed",
         "name": "Bed",
         "maxStock": 30,
         "price": 9000,
         "maxStockPrice": 270000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod",
         "name": "Double bed",
         "maxStock": 30,
         "price": 28000,
         "maxStockPrice": 840000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod03",
         "name": "Double bed",
         "maxStock": 30,
         "price": 30000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleLux",
         "name": "Double bed",
         "maxStock": 20,
         "price": 100000,
         "maxStockPrice": 2000000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeMod",
         "name": "Wardrobe (for clothes)",
         "maxStock": 30,
         "price": 14000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeLux",
         "name": "Wardrobe (for clothes)",
         "maxStock": 20,
         "price": 90000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconModernTable",
         "name": "Table",
         "maxStock": 50,
         "price": 7000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 30,
         "price": 5500,
         "maxStockPrice": 165000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableMod",
         "name": "Coffee table",
         "maxStock": 50,
         "price": 8000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconIndustrialTable",
         "name": "Industrial table ",
         "maxStock": 30,
         "price": 7000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetOffice",
         "name": "Office cabinet",
         "maxStock": 30,
         "price": 7000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 50,
         "price": 9000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeMod",
         "name": "Dresser",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeLux",
         "name": "Dresser",
         "maxStock": 20,
         "price": 40000,
         "maxStockPrice": 800000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandLux",
         "name": "Nightstand",
         "maxStock": 20,
         "price": 22000,
         "maxStockPrice": 440000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasS",
         "name": "Small wooden cabinet",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasM",
         "name": "Wooden cabinet",
         "maxStock": 30,
         "price": 18000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasL",
         "name": "Large wooden cabinet ",
         "maxStock": 30,
         "price": 30000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 50,
         "price": 5000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelf",
         "name": "Large wooden bookshlef",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfLarge",
         "name": "Large wooden bookshlef",
         "maxStock": 50,
         "price": 11000,
         "maxStockPrice": 550000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 30,
         "price": 22000,
         "maxStockPrice": 660000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 30,
         "price": 36000,
         "maxStockPrice": 1080000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 10,
         "price": 30000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 10,
         "price": 18000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 10,
         "price": 8000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 30,
         "price": 14000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod",
         "name": "Telephone with a message recorder",
         "maxStock": 30,
         "price": 15000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod02",
         "name": "Wall telephone with a message recorder",
         "maxStock": 30,
         "price": 18000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 10,
         "price": 10000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 10,
         "price": 16900,
         "maxStockPrice": 169000
       },
       {
-        "icon": null,
+        "icon": "iconEQRecLux",
         "name": "Record player",
         "maxStock": 20,
         "price": 75000,
         "maxStockPrice": 1500000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 5500,
         "maxStockPrice": 165000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed02",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed03",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed05",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 20,
         "price": 34000,
         "maxStockPrice": 680000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 15,
         "price": 240000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 6,
         "price": 600000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 30,
         "price": 8500,
         "maxStockPrice": 255000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicDeskLamp",
         "name": "Desk lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernDeskLamp",
         "name": "Desk lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernFloorLamp",
         "name": "Floor lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQLampCeilingLux",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQLampWallLux",
         "name": "Wall lamp",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconModernPainting",
         "name": "Painting",
         "maxStock": 30,
         "price": 5000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto01",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto02",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto03",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
-        "name": "Potted plant",
-        "maxStock": 30,
-        "price": 4000,
-        "maxStockPrice": 120000
-      },
-      {
-        "icon": null,
+        "icon": "iconModernPlant",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod02",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod03",
+        "name": "Potted plant",
+        "maxStock": 30,
+        "price": 4000,
+        "maxStockPrice": 120000
+      },
+      {
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase01",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase02",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase03",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantLux",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 20000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecor01Lux",
         "name": "Still nature",
         "maxStock": 30,
         "price": 30000,
@@ -4285,7 +4285,7 @@
       }
     ]
   },
-  "Peninsula": {
+  "Paraíso Peninsular": {
     "Mini-market": [
       {
         "icon": "iconWaterBottle",
@@ -4973,532 +4973,532 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 25,
         "price": 2000,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconModernShelf",
         "name": "Shelf",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconBasicChair",
         "name": "Chair",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconModernChair",
         "name": "Chair",
         "maxStock": 18,
         "price": 4000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconBasicArmchair",
         "name": "Armchair",
         "maxStock": 25,
         "price": 7000,
         "maxStockPrice": 175000
       },
       {
-        "icon": null,
+        "icon": "iconModernArmchair",
         "name": "Armchair",
         "maxStock": 13,
         "price": 8000,
         "maxStockPrice": 104000
       },
       {
-        "icon": null,
+        "icon": "iconBasicSofa",
         "name": "Sofa",
         "maxStock": 25,
         "price": 12000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconModernSofa",
         "name": "Sofa",
         "maxStock": 13,
         "price": 13000,
         "maxStockPrice": 169000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 13,
         "price": 8000,
         "maxStockPrice": 104000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas02",
         "name": "Bed",
         "maxStock": 5,
         "price": 12000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas02",
         "name": "Double bed",
         "maxStock": 4,
         "price": 24000,
         "maxStockPrice": 96000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas03",
         "name": "Bed",
         "maxStock": 4,
         "price": 16000,
         "maxStockPrice": 64000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas03",
         "name": "Double bed",
         "maxStock": 4,
         "price": 30000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconModernBed",
         "name": "Bed",
         "maxStock": 9,
         "price": 9000,
         "maxStockPrice": 81000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod",
         "name": "Double bed",
         "maxStock": 5,
         "price": 28000,
         "maxStockPrice": 140000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod03",
         "name": "Double bed",
         "maxStock": 1,
         "price": 30000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 18,
         "price": 4000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 13,
         "price": 10000,
         "maxStockPrice": 130000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeMod",
         "name": "Wardrobe (for clothes)",
         "maxStock": 9,
         "price": 14000,
         "maxStockPrice": 126000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 18,
         "price": 6000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconModernTable",
         "name": "Table",
         "maxStock": 13,
         "price": 7000,
         "maxStockPrice": 91000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableMod",
         "name": "Coffee table",
         "maxStock": 4,
         "price": 8000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 8,
         "price": 5500,
         "maxStockPrice": 44000
       },
       {
-        "icon": null,
+        "icon": "iconIndustrialTable",
         "name": "Industrial table ",
         "maxStock": 9,
         "price": 7000,
         "maxStockPrice": 63000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 18,
         "price": 9000,
         "maxStockPrice": 162000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeMod",
         "name": "Dresser",
         "maxStock": 13,
         "price": 10000,
         "maxStockPrice": 130000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasS",
         "name": "Small wooden cabinet",
         "maxStock": 8,
         "price": 10000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasM",
         "name": "Wooden cabinet",
         "maxStock": 4,
         "price": 18000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasL",
         "name": "Large wooden cabinet ",
         "maxStock": 2,
         "price": 30000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 18,
         "price": 5000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 13,
         "price": 6000,
         "maxStockPrice": 78000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelf",
         "name": "Large wooden bookshlef",
         "maxStock": 13,
         "price": 10000,
         "maxStockPrice": 130000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfLarge",
         "name": "Large wooden bookshlef",
         "maxStock": 9,
         "price": 11000,
         "maxStockPrice": 99000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 5,
         "price": 22000,
         "maxStockPrice": 110000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 5,
         "price": 36000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 3,
         "price": 30000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 2,
         "price": 18000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 2,
         "price": 8000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 8,
         "price": 14000,
         "maxStockPrice": 112000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod",
         "name": "Telephone with a message recorder",
         "maxStock": 5,
         "price": 15000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod02",
         "name": "Wall telephone with a message recorder",
         "maxStock": 4,
         "price": 18000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 8,
         "price": 11000,
         "maxStockPrice": 88000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 6,
         "price": 16900,
         "maxStockPrice": 101400
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 8,
         "price": 5000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed02",
         "name": "Pet bed",
         "maxStock": 8,
         "price": 6000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed03",
         "name": "Pet bed",
         "maxStock": 8,
         "price": 6000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 13,
         "price": 34000,
         "maxStockPrice": 442000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 15,
         "price": 240000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 3,
         "price": 600000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 8,
         "price": 6000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 5,
         "price": 8500,
         "maxStockPrice": 42500
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 5,
         "price": 4000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconModernCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 13,
         "price": 4000,
         "maxStockPrice": 52000
       },
       {
-        "icon": null,
+        "icon": "iconBasicDeskLamp",
         "name": "Desk lamp",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconModernDeskLamp",
         "name": "Desk lamp",
         "maxStock": 13,
         "price": 4000,
         "maxStockPrice": 52000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconModernFloorLamp",
         "name": "Floor lamp",
         "maxStock": 13,
         "price": 4000,
         "maxStockPrice": 52000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconModernPainting",
         "name": "Painting",
         "maxStock": 13,
         "price": 5000,
         "maxStockPrice": 65000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto01",
         "name": "Framed photograph",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto02",
         "name": "Framed photograph",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto03",
         "name": "Framed photograph",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconModernPlant",
         "name": "Potted plant",
         "maxStock": 13,
         "price": 4000,
         "maxStockPrice": 52000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod02",
         "name": "Potted plant",
         "maxStock": 10,
         "price": 4000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod03",
         "name": "Potted plant",
         "maxStock": 8,
         "price": 4000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 25,
         "price": 2000,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 25,
         "price": 2000,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 25,
         "price": 2000,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase01",
         "name": "Vase",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase02",
         "name": "Vase",
         "maxStock": 13,
         "price": 3000,
         "maxStockPrice": 39000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase03",
         "name": "Vase",
         "maxStock": 13,
         "price": 3000,
@@ -5648,7 +5648,7 @@
       }
     ]
   },
-  "Port town": {
+  "Dueño del Mar": {
     "Mini-market": [
       {
         "icon": "iconWaterBottle",
@@ -6477,714 +6477,714 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 35,
         "price": 2000,
         "maxStockPrice": 70000
       },
       {
-        "icon": null,
+        "icon": "iconModernShelf",
         "name": "Shelf",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconBasicChair",
         "name": "Chair",
         "maxStock": 35,
         "price": 3000,
         "maxStockPrice": 105000
       },
       {
-        "icon": null,
+        "icon": "iconModernChair",
         "name": "Chair",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconEQChairVin",
         "name": "Chair",
         "maxStock": 7,
         "price": 9000,
         "maxStockPrice": 63000
       },
       {
-        "icon": null,
+        "icon": "iconBasicArmchair",
         "name": "Armchair",
         "maxStock": 35,
         "price": 7000,
         "maxStockPrice": 245000
       },
       {
-        "icon": null,
+        "icon": "iconModernArmchair",
         "name": "Armchair",
         "maxStock": 25,
         "price": 8000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQPoufVin",
         "name": "Pouf",
         "maxStock": 7,
         "price": 15000,
         "maxStockPrice": 105000
       },
       {
-        "icon": null,
+        "icon": "iconEQPouf02Vin",
         "name": "Pouf",
         "maxStock": 7,
         "price": 12000,
         "maxStockPrice": 84000
       },
       {
-        "icon": null,
+        "icon": "iconBasicSofa",
         "name": "Sofa",
         "maxStock": 35,
         "price": 12000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconModernSofa",
         "name": "Sofa",
         "maxStock": 25,
         "price": 13000,
         "maxStockPrice": 325000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 25,
         "price": 8000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas02",
         "name": "Bed",
         "maxStock": 18,
         "price": 12000,
         "maxStockPrice": 216000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas02",
         "name": "Double bed",
         "maxStock": 18,
         "price": 24000,
         "maxStockPrice": 432000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas03",
         "name": "Bed",
         "maxStock": 18,
         "price": 16000,
         "maxStockPrice": 288000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas03",
         "name": "Double bed",
         "maxStock": 18,
         "price": 30000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconModernBed",
         "name": "Bed",
         "maxStock": 25,
         "price": 9000,
         "maxStockPrice": 225000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod",
         "name": "Double bed",
         "maxStock": 18,
         "price": 28000,
         "maxStockPrice": 504000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod03",
         "name": "Double bed",
         "maxStock": 7,
         "price": 30000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedVin",
         "name": "Bed",
         "maxStock": 10,
         "price": 18000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVin",
         "name": "Double bed",
         "maxStock": 10,
         "price": 99000,
         "maxStockPrice": 990000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 18,
         "price": 4000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 18,
         "price": 10000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeMod",
         "name": "Wardrobe (for clothes)",
         "maxStock": 18,
         "price": 14000,
         "maxStockPrice": 252000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeVin",
         "name": "Wardrobe (for clothes)",
         "maxStock": 10,
         "price": 40000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 35,
         "price": 6000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconModernTable",
         "name": "Table",
         "maxStock": 25,
         "price": 7000,
         "maxStockPrice": 175000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 18,
         "price": 5500,
         "maxStockPrice": 99000
       },
       {
-        "icon": null,
+        "icon": "iconIndustrialTable",
         "name": "Industrial table ",
         "maxStock": 18,
         "price": 7000,
         "maxStockPrice": 126000
       },
       {
-        "icon": null,
+        "icon": "iconEQTableVin",
         "name": "Table",
         "maxStock": 10,
         "price": 24000,
         "maxStockPrice": 240000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableVin",
         "name": "Coffee table",
         "maxStock": 10,
         "price": 20000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandVin",
         "name": "Bedside table",
         "maxStock": 10,
         "price": 11000,
         "maxStockPrice": 110000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 18,
         "price": 6000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetOffice",
         "name": "Office cabinet",
         "maxStock": 18,
         "price": 7000,
         "maxStockPrice": 126000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 30,
         "price": 9000,
         "maxStockPrice": 270000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableMod",
         "name": "Coffee table",
         "maxStock": 18,
         "price": 8000,
         "maxStockPrice": 144000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeMod",
         "name": "Dresser",
         "maxStock": 18,
         "price": 10000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeVin",
         "name": "Dresser",
         "maxStock": 10,
         "price": 20000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommode02Vin",
         "name": "Small dresser",
         "maxStock": 10,
         "price": 17000,
         "maxStockPrice": 170000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasS",
         "name": "Small wooden cabinet",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasM",
         "name": "Wooden cabinet",
         "maxStock": 25,
         "price": 18000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasL",
         "name": "Large wooden cabinet ",
         "maxStock": 18,
         "price": 30000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 35,
         "price": 5000,
         "maxStockPrice": 175000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 25,
         "price": 6000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelf",
         "name": "Large wooden bookshlef",
         "maxStock": 35,
         "price": 10000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfLarge",
         "name": "Large wooden bookshlef",
         "maxStock": 25,
         "price": 11000,
         "maxStockPrice": 275000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 7,
         "price": 22000,
         "maxStockPrice": 154000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 7,
         "price": 36000,
         "maxStockPrice": 252000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 3,
         "price": 30000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 3,
         "price": 18000,
         "maxStockPrice": 54000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 3,
         "price": 8000,
         "maxStockPrice": 24000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 10,
         "price": 14000,
         "maxStockPrice": 140000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod",
         "name": "Telephone with a message recorder",
         "maxStock": 10,
         "price": 15000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod02",
         "name": "Wall telephone with a message recorder",
         "maxStock": 10,
         "price": 18000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 10,
         "price": 11000,
         "maxStockPrice": 110000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 6,
         "price": 16900,
         "maxStockPrice": 101400
       },
       {
-        "icon": null,
+        "icon": "iconEQRecVin",
         "name": "Record player",
         "maxStock": 10,
         "price": 35000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 10,
         "price": 5000,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed02",
         "name": "Pet bed",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed03",
         "name": "Pet bed",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed05",
         "name": "Pet bed",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 18,
         "price": 34000,
         "maxStockPrice": 612000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 15,
         "price": 240000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 3,
         "price": 600000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 10,
         "price": 8500,
         "maxStockPrice": 85000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 10,
         "price": 4000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconBasicDeskLamp",
         "name": "Desk lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernDeskLamp",
         "name": "Desk lamp",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernFloorLamp",
         "name": "Floor lamp",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconModernPainting",
         "name": "Painting",
         "maxStock": 25,
         "price": 5000,
         "maxStockPrice": 125000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto01",
         "name": "Framed photograph",
         "maxStock": 18,
         "price": 6000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto02",
         "name": "Framed photograph",
         "maxStock": 18,
         "price": 6000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto03",
         "name": "Framed photograph",
         "maxStock": 18,
         "price": 6000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernPlant",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod02",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod03",
         "name": "Potted plant",
         "maxStock": 25,
         "price": 4000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase01",
         "name": "Vase",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase02",
         "name": "Vase",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase03",
         "name": "Vase",
         "maxStock": 25,
         "price": 3000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantVin",
         "name": "Vase",
         "maxStock": 10,
         "price": 16000,
         "maxStockPrice": 160000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorDividerVin",
         "name": "Divider",
         "maxStock": 10,
         "price": 12000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCandle01Vin",
         "name": "Candle",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCandle02Vin",
         "name": "Candle",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorLamp01Vin",
         "name": "Oil lamp",
         "maxStock": 50,
         "price": 14000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorLamp02Vin",
         "name": "Oil lamp",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin01",
         "name": "Large painting",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin02",
         "name": "Small painting",
         "maxStock": 50,
         "price": 14000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin03",
         "name": "Small painting",
         "maxStock": 50,
         "price": 14000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin04",
         "name": "Paintings",
         "maxStock": 50,
         "price": 40000,
         "maxStockPrice": 2000000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin05",
         "name": "Paintings",
         "maxStock": 50,
         "price": 40000,
         "maxStockPrice": 2000000
       },
       {
-        "icon": null,
+        "icon": "iconEQPaintingVin06",
         "name": "Large painting",
         "maxStock": 50,
         "price": 100000,
@@ -7682,119 +7682,119 @@
     ],
     "Equipment store": [
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 20,
         "price": 2500,
         "maxStockPrice": 50000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 20,
         "price": 4000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 20,
         "price": 8200,
         "maxStockPrice": 164000
       },
       {
-        "icon": null,
+        "icon": "iconEQContainerIndu",
         "name": "Industrial container",
         "maxStock": 10,
         "price": 70000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 20,
         "price": 3600,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 15,
         "price": 78000,
         "maxStockPrice": 1170000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 12,
         "price": 132000,
         "maxStockPrice": 1584000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 6,
         "price": 228000,
         "maxStockPrice": 1368000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 5,
         "price": 168000,
         "maxStockPrice": 840000
       },
       {
-        "icon": null,
+        "icon": "iconEQorbitalshaker",
         "name": "Laboratory orbital shaker",
         "maxStock": 5,
         "price": 300000,
         "maxStockPrice": 1500000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 5,
         "price": 114000,
         "maxStockPrice": 570000
       },
       {
-        "icon": null,
+        "icon": "iconEQlabtraydryer",
         "name": "Laboratory tray dryer",
         "maxStock": 5,
         "price": 660000,
         "maxStockPrice": 3300000
       },
       {
-        "icon": null,
+        "icon": "iconEQlabmixer",
         "name": "Magnetic stirrer",
         "maxStock": 5,
         "price": 360000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconMicrofineGrinder",
         "name": "Microfine grinder",
         "maxStock": 5,
         "price": 228000,
         "maxStockPrice": 1140000
       },
       {
-        "icon": null,
+        "icon": "iconAnalGrinder",
         "name": "Analytical grinder",
         "maxStock": 5,
         "price": 330000,
         "maxStockPrice": 1650000
       },
       {
-        "icon": null,
+        "icon": "iconEQpillpress",
         "name": "Tableciarka",
         "maxStock": 5,
         "price": 135600,
         "maxStockPrice": 678000
       },
       {
-        "icon": null,
+        "icon": "iconEQLABVAT",
         "name": "Laboratory soaking vat",
         "maxStock": 5,
         "price": 495000,
@@ -8308,525 +8308,525 @@
     ],
     "FurnDefaultShopOffer": [
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 50,
         "price": 2000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconModernShelf",
         "name": "Shelf",
         "maxStock": 50,
         "price": 3000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconBasicChair",
         "name": "Chair",
         "maxStock": 50,
         "price": 3000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconModernChair",
         "name": "Chair",
         "maxStock": 50,
         "price": 4000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconBasicArmchair",
         "name": "Armchair",
         "maxStock": 50,
         "price": 7000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconModernArmchair",
         "name": "Armchair",
         "maxStock": 50,
         "price": 8000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconBasicSofa",
         "name": "Sofa",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconModernSofa",
         "name": "Sofa",
         "maxStock": 50,
         "price": 13000,
         "maxStockPrice": 650000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 30,
         "price": 8000,
         "maxStockPrice": 240000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas02",
         "name": "Bed",
         "maxStock": 30,
         "price": 12000,
         "maxStockPrice": 360000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas02",
         "name": "Double bed",
         "maxStock": 30,
         "price": 24000,
         "maxStockPrice": 720000
       },
       {
-        "icon": null,
+        "icon": "iconModernBed",
         "name": "Bed",
         "maxStock": 30,
         "price": 9000,
         "maxStockPrice": 270000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod",
         "name": "Double bed",
         "maxStock": 30,
         "price": 28000,
         "maxStockPrice": 840000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod03",
         "name": "Double bed",
         "maxStock": 20,
         "price": 30000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconModernTable",
         "name": "Table",
         "maxStock": 50,
         "price": 7000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 30,
         "price": 5500,
         "maxStockPrice": 165000
       },
       {
-        "icon": null,
+        "icon": "iconIndustrialTable",
         "name": "Industrial table ",
         "maxStock": 30,
         "price": 7000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetOffice",
         "name": "Office cabinet",
         "maxStock": 30,
         "price": 7000,
         "maxStockPrice": 210000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 50,
         "price": 9000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeMod",
         "name": "Dresser",
         "maxStock": 30,
         "price": 10000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasS",
         "name": "Small wooden cabinet",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasM",
         "name": "Wooden cabinet",
         "maxStock": 30,
         "price": 18000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetBasL",
         "name": "Large wooden cabinet ",
         "maxStock": 30,
         "price": 30000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 50,
         "price": 5000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelf",
         "name": "Large wooden bookshlef",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconModernBookshelfLarge",
         "name": "Large wooden bookshlef",
         "maxStock": 50,
         "price": 11000,
         "maxStockPrice": 550000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 30,
         "price": 22000,
         "maxStockPrice": 660000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 10,
         "price": 30000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 10,
         "price": 18000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 10,
         "price": 8000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 30,
         "price": 14000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod",
         "name": "Telephone with a message recorder",
         "maxStock": 30,
         "price": 15000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhoneMod02",
         "name": "Wall telephone with a message recorder",
         "maxStock": 30,
         "price": 18000,
         "maxStockPrice": 540000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 10,
         "price": 10000,
         "maxStockPrice": 100000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 10,
         "price": 16900,
         "maxStockPrice": 169000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 5500,
         "maxStockPrice": 165000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed02",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed03",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed04",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed05",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed06",
         "name": "Pet bed",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 20,
         "price": 34000,
         "maxStockPrice": 680000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 15,
         "price": 240000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 6,
         "price": 600000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 30,
         "price": 8500,
         "maxStockPrice": 255000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicDeskLamp",
         "name": "Desk lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernDeskLamp",
         "name": "Desk lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernFloorLamp",
         "name": "Floor lamp",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconModernPainting",
         "name": "Painting",
         "maxStock": 30,
         "price": 5000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto01",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto02",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorPhoto03",
         "name": "Framed photograph",
         "maxStock": 30,
         "price": 6000,
         "maxStockPrice": 180000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconModernPlant",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod02",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantMod03",
         "name": "Potted plant",
         "maxStock": 30,
         "price": 4000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 30,
         "price": 2000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase01",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase02",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVase03",
         "name": "Vase",
         "maxStock": 30,
         "price": 3000,
@@ -8840,238 +8840,238 @@
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconEQDeskIndu",
         "name": "Desk",
         "maxStock": 30,
         "price": 8500,
         "maxStockPrice": 255000
       },
       {
-        "icon": null,
+        "icon": "iconEQChairIndu",
         "name": "Chair",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQChair02Indu",
         "name": "Stool",
         "maxStock": 50,
         "price": 5000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconEQChairVin",
         "name": "Chair",
         "maxStock": 50,
         "price": 9000,
         "maxStockPrice": 450000
       },
       {
-        "icon": null,
+        "icon": "iconEQPoufVin",
         "name": "Pouf",
         "maxStock": 50,
         "price": 15000,
         "maxStockPrice": 750000
       },
       {
-        "icon": null,
+        "icon": "iconEQPouf02Vin",
         "name": "Pouf",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQTableIndu",
         "name": "Table",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQTableVin",
         "name": "Table",
         "maxStock": 50,
         "price": 24000,
         "maxStockPrice": 1200000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableIndu",
         "name": "Coffee table",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableVin",
         "name": "Coffee table",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeIndu",
         "name": "Wardrobe (for clothes)",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeVin",
         "name": "Wardrobe (for clothes)",
         "maxStock": 50,
         "price": 40000,
         "maxStockPrice": 2000000
       },
       {
-        "icon": null,
+        "icon": "iconEQBookshelfIndu",
         "name": "Bookshelf",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeIndu",
         "name": "Dresser",
         "maxStock": 50,
         "price": 17000,
         "maxStockPrice": 850000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeVin",
         "name": "Dresser",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommode02Vin",
         "name": "Small dresser",
         "maxStock": 50,
         "price": 17000,
         "maxStockPrice": 850000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVD",
         "name": "Double bed",
         "maxStock": 50,
         "price": 50000,
         "maxStockPrice": 2500000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVD02",
         "name": "Double bed",
         "maxStock": 50,
         "price": 50000,
         "maxStockPrice": 2500000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleIndu",
         "name": "Double bed",
         "maxStock": 50,
         "price": 50000,
         "maxStockPrice": 2500000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedVin",
         "name": "Bed",
         "maxStock": 50,
         "price": 18000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVin",
         "name": "Double bed",
         "maxStock": 50,
         "price": 99000,
         "maxStockPrice": 4950000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandIndu",
         "name": "Nightstand",
         "maxStock": 50,
         "price": 7000,
         "maxStockPrice": 350000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandVin",
         "name": "Bedside table",
         "maxStock": 50,
         "price": 11000,
         "maxStockPrice": 550000
       },
       {
-        "icon": null,
+        "icon": "iconEQRecVin",
         "name": "Record player",
         "maxStock": 50,
         "price": 35000,
         "maxStockPrice": 1750000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantVin",
         "name": "Vase",
         "maxStock": 50,
         "price": 16000,
         "maxStockPrice": 800000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorDividerVin",
         "name": "Divider",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCandle01Vin",
         "name": "Candle",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCandle02Vin",
         "name": "Candle",
         "maxStock": 50,
         "price": 6000,
         "maxStockPrice": 300000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorLamp01Vin",
         "name": "Oil lamp",
         "maxStock": 50,
         "price": 14000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorLamp02Vin",
         "name": "Oil lamp",
         "maxStock": 50,
         "price": 12000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeMod",
         "name": "Wardrobe (for clothes)",
         "maxStock": 50,
         "price": 14000,
         "maxStockPrice": 700000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedBas03",
         "name": "Bed",
         "maxStock": 50,
         "price": 16000,
         "maxStockPrice": 800000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleBas03",
         "name": "Double bed",
         "maxStock": 50,
         "price": 30000,
         "maxStockPrice": 1500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableMod",
         "name": "Coffee table",
         "maxStock": 50,
         "price": 8000,
@@ -9085,91 +9085,91 @@
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconEQPoufMod",
         "name": "Pouf",
         "maxStock": 50,
         "price": 8000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconEQDressingtableVin",
         "name": "Dressing table ",
         "maxStock": 50,
         "price": 50000,
         "maxStockPrice": 2500000
       },
       {
-        "icon": null,
+        "icon": "iconEQPoufLux",
         "name": "Pouf",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeLux",
         "name": "Wardrobe (for clothes)",
         "maxStock": 50,
         "price": 90000,
         "maxStockPrice": 4500000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeLux",
         "name": "Dresser",
         "maxStock": 50,
         "price": 40000,
         "maxStockPrice": 2000000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleLux",
         "name": "Double bed",
         "maxStock": 50,
         "price": 100000,
         "maxStockPrice": 5000000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandLux",
         "name": "Nightstand",
         "maxStock": 50,
         "price": 22000,
         "maxStockPrice": 1100000
       },
       {
-        "icon": null,
+        "icon": "iconEQRecLux",
         "name": "Record player",
         "maxStock": 50,
         "price": 75000,
         "maxStockPrice": 3750000
       },
       {
-        "icon": null,
+        "icon": "iconEQLampCeilingLux",
         "name": "Ceiling lamp",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQLampWallLux",
         "name": "Wall lamp",
         "maxStock": 50,
         "price": 10000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantLux",
         "name": "Potted plant",
         "maxStock": 50,
         "price": 20000,
         "maxStockPrice": 1000000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecor01Lux",
         "name": "Still nature",
         "maxStock": 50,
         "price": 30000,
         "maxStockPrice": 1500000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecor02Lux",
         "name": "Decor element",
         "maxStock": 50,
         "price": 21370,
@@ -9180,91 +9180,91 @@
   "None": {
     "Special equipment": [
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 0,
         "price": 11000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 0,
         "price": 5000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 0,
         "price": 15000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 0,
         "price": 4000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconEQSpecialDIYTable",
         "name": "DIY table",
         "maxStock": 0,
         "price": 20000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconEQSpecialChemTable",
         "name": "Chemistry table",
         "maxStock": 0,
         "price": 30000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconBossDesk",
         "name": "Boss's desk",
         "maxStock": 2,
         "price": 35000,
         "maxStockPrice": 70000
       },
       {
-        "icon": null,
+        "icon": "iconWorkerCabinet",
         "name": "Dealer's cabinet",
         "maxStock": 10,
         "price": 25000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconEQSpecialDistrTable",
         "name": "Distributor's desk",
         "maxStock": 1,
         "price": 80000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconEQSpecialLabTable",
         "name": "Lab technician table",
         "maxStock": 5,
         "price": 50000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconSlavStashSmall",
         "name": "Small slav stash",
         "maxStock": 0,
         "price": 170000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconSlavStashLarge",
         "name": "Large slav stash",
         "maxStock": 0,
         "price": 350000,
         "maxStockPrice": 0
       },
       {
-        "icon": null,
+        "icon": "iconMuscleStation",
         "name": "Bodyguard station",
         "maxStock": 0,
         "price": 120000,
@@ -9580,126 +9580,126 @@
     ],
     "Boot sale": [
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 5,
         "price": 1500,
         "maxStockPrice": 7500
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 5,
         "price": 1500,
         "maxStockPrice": 7500
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 3,
         "price": 4000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 4500,
         "maxStockPrice": 22500
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 12,
         "price": 200,
         "maxStockPrice": 2400
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 10,
         "price": 400,
         "maxStockPrice": 4000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 5,
         "price": 800,
         "maxStockPrice": 4000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 3,
         "price": 3000,
         "maxStockPrice": 9000
       },
       {
-        "icon": null,
+        "icon": "iconEQVeggieDryer",
         "name": "Drying rack",
         "maxStock": 3,
         "price": 7000,
         "maxStockPrice": 21000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerL",
         "name": "Drying outdoor rack",
         "maxStock": 3,
         "price": 21000,
         "maxStockPrice": 63000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBox",
         "name": "Seedling box",
         "maxStock": 2,
         "price": 2000,
         "maxStockPrice": 4000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 2,
         "price": 3000,
         "maxStockPrice": 6000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 2,
         "price": 3000,
         "maxStockPrice": 6000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 1,
         "price": 7000,
         "maxStockPrice": 7000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 2,
         "price": 19000,
         "maxStockPrice": 38000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 2,
         "price": 29000,
         "maxStockPrice": 58000
       },
       {
-        "icon": null,
+        "icon": "iconEQFermVat",
         "name": "Small fermentation vat",
         "maxStock": 2,
         "price": 10000,
@@ -9708,14 +9708,14 @@
     ],
     "Slav's equipment": [
       {
-        "icon": null,
+        "icon": "iconSlavStashSmall",
         "name": "Small slav stash",
         "maxStock": 100,
         "price": 136000,
         "maxStockPrice": 13600000
       },
       {
-        "icon": null,
+        "icon": "iconSlavStashLarge",
         "name": "Large slav stash",
         "maxStock": 100,
         "price": 355000,
@@ -9723,7 +9723,7 @@
       }
     ]
   },
-  "Slavs Bay": {
+  "Slav's Bay": {
     "Construction store": [
       {
         "icon": "iconWaterBottleLarge",
@@ -10322,252 +10322,252 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 5,
         "price": 8000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleGhetto",
         "name": "Double bed",
         "maxStock": 3,
         "price": 16000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 3,
         "price": 5000,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 3,
         "price": 10000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 6,
         "price": 6000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 5,
         "price": 5500,
         "maxStockPrice": 27500
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinet",
         "name": "Cabinet",
         "maxStock": 5,
         "price": 4500,
         "maxStockPrice": 22500
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 5,
         "price": 6000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 5,
         "price": 9000,
         "maxStockPrice": 45000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 3,
         "price": 22000,
         "maxStockPrice": 66000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 2,
         "price": 38000,
         "maxStockPrice": 76000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 3,
         "price": 4000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 2,
         "price": 8000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 3,
         "price": 14000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 3,
         "price": 11000,
         "maxStockPrice": 33000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 2,
         "price": 16900,
         "maxStockPrice": 33800
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed04",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 5,
         "price": 32000,
         "maxStockPrice": 160000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 3,
         "price": 240000,
         "maxStockPrice": 720000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 1,
         "price": 600000,
         "maxStockPrice": 600000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 5,
         "price": 6000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 4,
         "price": 8500,
         "maxStockPrice": 34000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 10,
         "price": 3000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 10,
         "price": 3000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 6,
         "price": 3000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 6,
         "price": 3000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 6,
         "price": 3000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas04",
         "name": "Potted plant",
         "maxStock": 2,
         "price": 3000,
         "maxStockPrice": 6000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPainting",
         "name": "Painting",
         "maxStock": 4,
         "price": 3000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus01",
         "name": "Cactus sculpture",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus02",
         "name": "Cactus sculpture",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorCactus03",
         "name": "Cactus sculpture",
         "maxStock": 5,
         "price": 2000,
@@ -10888,224 +10888,224 @@
     ],
     "Ghetto equipment store": [
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 40,
         "price": 300,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 30,
         "price": 500,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 12,
         "price": 900,
         "maxStockPrice": 10800
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 5,
         "price": 3500,
         "maxStockPrice": 17500
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 4,
         "price": 3000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 2,
         "price": 8000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 4,
         "price": 22000,
         "maxStockPrice": 88000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 1,
         "price": 38000,
         "maxStockPrice": 38000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 3,
         "price": 30000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 3,
         "price": 65000,
         "maxStockPrice": 195000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 2,
         "price": 110000,
         "maxStockPrice": 220000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 1,
         "price": 190000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 2,
         "price": 140000,
         "maxStockPrice": 280000
       },
       {
-        "icon": null,
+        "icon": "iconEQorbitalshaker",
         "name": "Laboratory orbital shaker",
         "maxStock": 1,
         "price": 250000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconEQVeggieDryer",
         "name": "Drying rack",
         "maxStock": 6,
         "price": 7000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerL",
         "name": "Drying outdoor rack",
         "maxStock": 7,
         "price": 21000,
         "maxStockPrice": 147000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerHyb",
         "name": "Hybrid dryer",
         "maxStock": 6,
         "price": 46000,
         "maxStockPrice": 276000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 1,
         "price": 95000,
         "maxStockPrice": 95000
       },
       {
-        "icon": null,
+        "icon": "iconEQbucket",
         "name": "Bucket",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQbarrel",
         "name": "Old Barrel",
         "maxStock": 2,
         "price": 4000,
         "maxStockPrice": 8000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 1,
         "price": 18000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconEQFermVat",
         "name": "Small fermentation vat",
         "maxStock": 4,
         "price": 11000,
         "maxStockPrice": 44000
       },
       {
-        "icon": null,
+        "icon": "iconEQHomemadeVat",
         "name": "Homemade soaking vat",
         "maxStock": 3,
         "price": 40000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrowbox",
         "name": "Growbox",
         "maxStock": 4,
         "price": 32000,
         "maxStockPrice": 128000
       },
       {
-        "icon": null,
+        "icon": "iconPlantRack",
         "name": "Rack (for plants)",
         "maxStock": 4,
         "price": 35500,
         "maxStockPrice": 142000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBox",
         "name": "Seedling box",
         "maxStock": 2,
         "price": 3000,
         "maxStockPrice": 6000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBoxOut",
         "name": "Outdoor pot box",
         "maxStock": 5,
         "price": 15000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 2,
         "price": 4000,
         "maxStockPrice": 8000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 4,
         "price": 5000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLabLarge",
         "name": "Large laboratory cabinet",
         "maxStock": 1,
         "price": 19000,
@@ -11185,7 +11185,7 @@
       }
     ]
   },
-  "Bahía de Oro - Residential disctrict": {
+  "Bahía de Oro - Favela": {
     "CIA agent": [
       {
         "icon": "iconGPSTracker",
@@ -11826,238 +11826,238 @@
     ],
     "Ghetto equipment store": [
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 40,
         "price": 300,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 30,
         "price": 500,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 12,
         "price": 900,
         "maxStockPrice": 10800
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 6,
         "price": 2000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 4,
         "price": 3500,
         "maxStockPrice": 14000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 4,
         "price": 7000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 4,
         "price": 3000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 4,
         "price": 8000,
         "maxStockPrice": 32000
       },
       {
-        "icon": null,
+        "icon": "iconMicrofineGrinder",
         "name": "Microfine grinder",
         "maxStock": 2,
         "price": 190000,
         "maxStockPrice": 380000
       },
       {
-        "icon": null,
+        "icon": "iconAnalGrinder",
         "name": "Analytical grinder",
         "maxStock": 1,
         "price": 275000,
         "maxStockPrice": 275000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 4,
         "price": 22000,
         "maxStockPrice": 88000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 3,
         "price": 30000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 3,
         "price": 65000,
         "maxStockPrice": 195000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 2,
         "price": 110000,
         "maxStockPrice": 220000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 1,
         "price": 190000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 2,
         "price": 140000,
         "maxStockPrice": 280000
       },
       {
-        "icon": null,
+        "icon": "iconEQorbitalshaker",
         "name": "Laboratory orbital shaker",
         "maxStock": 1,
         "price": 250000,
         "maxStockPrice": 250000
       },
       {
-        "icon": null,
+        "icon": "iconEQVeggieDryer",
         "name": "Drying rack",
         "maxStock": 6,
         "price": 7000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerL",
         "name": "Drying outdoor rack",
         "maxStock": 7,
         "price": 21000,
         "maxStockPrice": 147000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerHyb",
         "name": "Hybrid dryer",
         "maxStock": 6,
         "price": 46000,
         "maxStockPrice": 276000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 1,
         "price": 95000,
         "maxStockPrice": 95000
       },
       {
-        "icon": null,
+        "icon": "iconEQbucket",
         "name": "Bucket",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQbarrel",
         "name": "Old Barrel",
         "maxStock": 2,
         "price": 4000,
         "maxStockPrice": 8000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 1,
         "price": 18000,
         "maxStockPrice": 18000
       },
       {
-        "icon": null,
+        "icon": "iconEQFermVat",
         "name": "Small fermentation vat",
         "maxStock": 6,
         "price": 11000,
         "maxStockPrice": 66000
       },
       {
-        "icon": null,
+        "icon": "iconEQHomemadeVat",
         "name": "Homemade soaking vat",
         "maxStock": 5,
         "price": 40000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrowbox",
         "name": "Growbox",
         "maxStock": 5,
         "price": 32000,
         "maxStockPrice": 160000
       },
       {
-        "icon": null,
+        "icon": "iconPlantRack",
         "name": "Rack (for plants)",
         "maxStock": 6,
         "price": 35500,
         "maxStockPrice": 213000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBox",
         "name": "Seedling box",
         "maxStock": 7,
         "price": 3000,
         "maxStockPrice": 21000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBoxOut",
         "name": "Outdoor pot box",
         "maxStock": 5,
         "price": 15000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 5,
         "price": 4000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 6,
         "price": 5000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLabLarge",
         "name": "Large laboratory cabinet",
         "maxStock": 6,
         "price": 19000,
@@ -12065,7 +12065,7 @@
       }
     ]
   },
-  "Foreshore": {
+  "Callejon": {
     "Hardware store": [
       {
         "icon": "iconGlasses1",
@@ -13131,182 +13131,182 @@
     ],
     "Equipment store": [
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 6,
         "price": 3500,
         "maxStockPrice": 21000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 4,
         "price": 7000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 4,
         "price": 3000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 3,
         "price": 22000,
         "maxStockPrice": 66000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 3,
         "price": 36000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 4,
         "price": 30000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 4,
         "price": 65000,
         "maxStockPrice": 260000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 3,
         "price": 110000,
         "maxStockPrice": 330000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 2,
         "price": 190000,
         "maxStockPrice": 380000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 3,
         "price": 140000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconEQorbitalshaker",
         "name": "Laboratory orbital shaker",
         "maxStock": 2,
         "price": 250000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 2,
         "price": 95000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerTable",
         "name": "Large drying table",
         "maxStock": 2,
         "price": 200000,
         "maxStockPrice": 400000
       },
       {
-        "icon": null,
+        "icon": "iconEQlabtraydryer",
         "name": "Laboratory tray dryer",
         "maxStock": 2,
         "price": 550000,
         "maxStockPrice": 1100000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 4,
         "price": 18000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconEQlabmixer",
         "name": "Magnetic stirrer",
         "maxStock": 3,
         "price": 300000,
         "maxStockPrice": 900000
       },
       {
-        "icon": null,
+        "icon": "iconMicrofineGrinder",
         "name": "Microfine grinder",
         "maxStock": 3,
         "price": 190000,
         "maxStockPrice": 570000
       },
       {
-        "icon": null,
+        "icon": "iconAnalGrinder",
         "name": "Analytical grinder",
         "maxStock": 2,
         "price": 275000,
         "maxStockPrice": 550000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 3,
         "price": 4000,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconWindowBars",
         "name": "Window bars",
         "maxStock": 18,
         "price": 4500,
         "maxStockPrice": 81000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 18,
         "price": 4000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 15,
         "price": 6000,
         "maxStockPrice": 90000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 15,
         "price": 8500,
         "maxStockPrice": 127500
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 4,
         "price": 5000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLabLarge",
         "name": "Large laboratory cabinet",
         "maxStock": 6,
         "price": 19000,
@@ -13315,42 +13315,42 @@
     ],
     "Sklep z częściami do łodzi i nie tylko": [
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 30,
         "price": 300,
         "maxStockPrice": 9000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 20,
         "price": 500,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 10,
         "price": 900,
         "maxStockPrice": 9000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 4,
         "price": 1200,
         "maxStockPrice": 4800
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 5,
         "price": 2500,
         "maxStockPrice": 12500
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 3,
         "price": 6000,
@@ -14035,7 +14035,7 @@
       }
     ]
   },
-  "The Hill": {
+  "La Colina Sangrienta": {
     "Bakery": [
       {
         "icon": "iconFlour",
@@ -14163,364 +14163,364 @@
     ],
     "Furniture store": [
       {
-        "icon": null,
+        "icon": "iconEQChairIndu",
         "name": "Chair",
         "maxStock": 7,
         "price": 6000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconEQChair02Indu",
         "name": "Stool",
         "maxStock": 7,
         "price": 5000,
         "maxStockPrice": 35000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBed",
         "name": "Bed",
         "maxStock": 8,
         "price": 8000,
         "maxStockPrice": 64000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleMod03",
         "name": "Double bed",
         "maxStock": 8,
         "price": 30000,
         "maxStockPrice": 240000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleIndu",
         "name": "Double bed",
         "maxStock": 4,
         "price": 50000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVD",
         "name": "Double bed",
         "maxStock": 4,
         "price": 50000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQBedDoubleVD02",
         "name": "Double bed",
         "maxStock": 4,
         "price": 50000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQNightstandIndu",
         "name": "Nightstand",
         "maxStock": 4,
         "price": 7000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconBasicShelf",
         "name": "Shelf",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconBasicBookshelfSmall",
         "name": "Bookshelf",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconEQBookshelfIndu",
         "name": "Bookshelf",
         "maxStock": 4,
         "price": 10000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconBackPackHanger",
         "name": "Backpack hanger",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconBasicWardrobe",
         "name": "Wardrobe (for clothes)",
         "maxStock": 3,
         "price": 10000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconEQWardrobeIndu",
         "name": "Wardrobe (for clothes)",
         "maxStock": 4,
         "price": 20000,
         "maxStockPrice": 80000
       },
       {
-        "icon": null,
+        "icon": "iconBasicTable",
         "name": "Table",
         "maxStock": 5,
         "price": 6000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconEQTableIndu",
         "name": "Table",
         "maxStock": 4,
         "price": 12000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQCoffeetableIndu",
         "name": "Coffee table",
         "maxStock": 4,
         "price": 10000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconDesk",
         "name": "Desk",
         "maxStock": 5,
         "price": 5500,
         "maxStockPrice": 27500
       },
       {
-        "icon": null,
+        "icon": "iconEQDeskIndu",
         "name": "Desk",
         "maxStock": 4,
         "price": 8500,
         "maxStockPrice": 34000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinet",
         "name": "Cabinet",
         "maxStock": 6,
         "price": 4500,
         "maxStockPrice": 27000
       },
       {
-        "icon": null,
+        "icon": "iconEQMetalCabinet",
         "name": "Metal cabinet",
         "maxStock": 4,
         "price": 6000,
         "maxStockPrice": 24000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCommode",
         "name": "Dresser",
         "maxStock": 4,
         "price": 9000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconEQCommodeIndu",
         "name": "Dresser",
         "maxStock": 4,
         "price": 17000,
         "maxStockPrice": 68000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 3,
         "price": 22000,
         "maxStockPrice": 66000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 3,
         "price": 36000,
         "maxStockPrice": 108000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 5,
         "price": 4000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQPhone",
         "name": "Telephone with a message recorder",
         "maxStock": 3,
         "price": 14000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconRadioRetro",
         "name": "Retro radio",
         "maxStock": 3,
         "price": 11000,
         "maxStockPrice": 33000
       },
       {
-        "icon": null,
+        "icon": "iconBoomBox",
         "name": "Radio",
         "maxStock": 2,
         "price": 16900,
         "maxStockPrice": 33800
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed01",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 5000,
         "maxStockPrice": 25000
       },
       {
-        "icon": null,
+        "icon": "iconEQPetBed06",
         "name": "Pet bed",
         "maxStock": 5,
         "price": 6000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 6,
         "price": 34000,
         "maxStockPrice": 204000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 4,
         "price": 240000,
         "maxStockPrice": 960000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 3,
         "price": 600000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 6,
         "price": 6000,
         "maxStockPrice": 36000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 4,
         "price": 8500,
         "maxStockPrice": 34000
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 6,
         "price": 4000,
         "maxStockPrice": 24000
       },
       {
-        "icon": null,
+        "icon": "iconBasicCeilingLamp",
         "name": "Ceiling lamp",
         "maxStock": 10,
         "price": 3000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicFloorLamp",
         "name": "Floor lamp",
         "maxStock": 10,
         "price": 3000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconBasicPlant",
         "name": "Potted plant",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas02",
         "name": "Potted plant",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas03",
         "name": "Potted plant",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBas04",
         "name": "Potted plant",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantVD01",
         "name": "Potted plant",
         "maxStock": 4,
         "price": 16000,
         "maxStockPrice": 64000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDUrn01",
         "name": "Urn",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDUrn02",
         "name": "Urn",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDPlate01",
         "name": "Plate",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDCross01",
         "name": "Cross",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDPenta01",
         "name": "Pentagram",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDDolls01",
         "name": "Dolls",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDCandles01",
         "name": "Candles",
         "maxStock": 6,
         "price": 8000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconEQDecorVDSkull01",
         "name": "Skull",
         "maxStock": 6,
         "price": 8000,
@@ -15128,280 +15128,280 @@
     ],
     "Equipment and upgrade store ": [
       {
-        "icon": null,
+        "icon": "iconSubContainerSmall",
         "name": "Small container",
         "maxStock": 40,
         "price": 300,
         "maxStockPrice": 12000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerMed",
         "name": "Medium container",
         "maxStock": 30,
         "price": 500,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconSubContainerBig",
         "name": "Large container",
         "maxStock": 12,
         "price": 900,
         "maxStockPrice": 10800
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 10,
         "price": 2000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 7,
         "price": 3500,
         "maxStockPrice": 24500
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 4,
         "price": 7000,
         "maxStockPrice": 28000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 5,
         "price": 3000,
         "maxStockPrice": 15000
       },
       {
-        "icon": null,
+        "icon": "iconEQmortar",
         "name": "Mortar",
         "maxStock": 5,
         "price": 4000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 5,
         "price": 8000,
         "maxStockPrice": 40000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenstove",
         "name": "Kitchen stove with oven",
         "maxStock": 5,
         "price": 22000,
         "maxStockPrice": 110000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 5,
         "price": 30000,
         "maxStockPrice": 150000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 4,
         "price": 65000,
         "maxStockPrice": 260000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 3,
         "price": 110000,
         "maxStockPrice": 330000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 2,
         "price": 190000,
         "maxStockPrice": 380000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 3,
         "price": 140000,
         "maxStockPrice": 420000
       },
       {
-        "icon": null,
+        "icon": "iconEQorbitalshaker",
         "name": "Laboratory orbital shaker",
         "maxStock": 2,
         "price": 250000,
         "maxStockPrice": 500000
       },
       {
-        "icon": null,
+        "icon": "iconEQVeggieDryer",
         "name": "Drying rack",
         "maxStock": 6,
         "price": 7000,
         "maxStockPrice": 42000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerL",
         "name": "Drying outdoor rack",
         "maxStock": 7,
         "price": 21000,
         "maxStockPrice": 147000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerHyb",
         "name": "Hybrid dryer",
         "maxStock": 5,
         "price": 46000,
         "maxStockPrice": 230000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 2,
         "price": 95000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQDryerTable",
         "name": "Large drying table",
         "maxStock": 1,
         "price": 550000,
         "maxStockPrice": 550000
       },
       {
-        "icon": null,
+        "icon": "iconEQbucket",
         "name": "Bucket",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQbarrel",
         "name": "Old Barrel",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQkitchenmixer",
         "name": "Kitchen mixer",
         "maxStock": 3,
         "price": 18000,
         "maxStockPrice": 54000
       },
       {
-        "icon": null,
+        "icon": "iconEQFermVat",
         "name": "Small fermentation vat",
         "maxStock": 7,
         "price": 11000,
         "maxStockPrice": 77000
       },
       {
-        "icon": null,
+        "icon": "iconEQHomemadeVat",
         "name": "Homemade soaking vat",
         "maxStock": 5,
         "price": 40000,
         "maxStockPrice": 200000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrowbox",
         "name": "Growbox",
         "maxStock": 6,
         "price": 32000,
         "maxStockPrice": 192000
       },
       {
-        "icon": null,
+        "icon": "iconPlantRack",
         "name": "Rack (for plants)",
         "maxStock": 6,
         "price": 35500,
         "maxStockPrice": 213000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBox",
         "name": "Seedling box",
         "maxStock": 7,
         "price": 3000,
         "maxStockPrice": 21000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantBoxOut",
         "name": "Outdoor pot box",
         "maxStock": 5,
         "price": 15000,
         "maxStockPrice": 75000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 4,
         "price": 4000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 18,
         "price": 34000,
         "maxStockPrice": 612000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 15,
         "price": 240000,
         "maxStockPrice": 3600000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 4,
         "price": 600000,
         "maxStockPrice": 2400000
       },
       {
-        "icon": null,
+        "icon": "iconWindowBars",
         "name": "Window bars",
         "maxStock": 15,
         "price": 4500,
         "maxStockPrice": 67500
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 15,
         "price": 4000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 12,
         "price": 6000,
         "maxStockPrice": 72000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 6,
         "price": 8500,
         "maxStockPrice": 51000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 6,
         "price": 5000,
         "maxStockPrice": 30000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLabLarge",
         "name": "Large laboratory cabinet",
         "maxStock": 6,
         "price": 19000,
@@ -15449,182 +15449,182 @@
     ],
     "Equipment and upgrade store ": [
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelSmall",
         "name": "Small barrel",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelMedium",
         "name": "Medium barrel",
         "maxStock": 5,
         "price": 3500,
         "maxStockPrice": 17500
       },
       {
-        "icon": null,
+        "icon": "iconSubstanceBarrelLarge",
         "name": "Large barrel",
         "maxStock": 5,
         "price": 7000,
         "maxStockPrice": 35000
       },
       {
-        "icon": null,
+        "icon": "iconLabTray",
         "name": "Laboratory tray",
         "maxStock": 3,
         "price": 3000,
         "maxStockPrice": 9000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrinder",
         "name": "Coffee grinder",
         "maxStock": 2,
         "price": 8000,
         "maxStockPrice": 16000
       },
       {
-        "icon": null,
+        "icon": "iconEQKitchenStoveMod",
         "name": "Kitchen stove with oven",
         "maxStock": 2,
         "price": 38000,
         "maxStockPrice": 76000
       },
       {
-        "icon": null,
+        "icon": "iconEqCooker",
         "name": "Electric pressure cooker",
         "maxStock": 4,
         "price": 32500,
         "maxStockPrice": 130000
       },
       {
-        "icon": null,
+        "icon": "iconEQautoclave",
         "name": "Laboratory autoclave",
         "maxStock": 3,
         "price": 65000,
         "maxStockPrice": 195000
       },
       {
-        "icon": null,
+        "icon": "iconEQwaterbath",
         "name": "Laboratory water bath",
         "maxStock": 2,
         "price": 110000,
         "maxStockPrice": 220000
       },
       {
-        "icon": null,
+        "icon": "iconEQicebath",
         "name": "Laboratory ice bath",
         "maxStock": 1,
         "price": 190000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQcentrifuge",
         "name": "Laboratory centrifuge",
         "maxStock": 2,
         "price": 140000,
         "maxStockPrice": 280000
       },
       {
-        "icon": null,
+        "icon": "iconEQlaboven",
         "name": "Laboratory oven",
         "maxStock": 2,
         "price": 95000,
         "maxStockPrice": 190000
       },
       {
-        "icon": null,
+        "icon": "iconEQHomemadeVat",
         "name": "Homemade soaking vat",
         "maxStock": 3,
         "price": 40000,
         "maxStockPrice": 120000
       },
       {
-        "icon": null,
+        "icon": "iconEQgrowbox",
         "name": "Growbox",
         "maxStock": 4,
         "price": 32000,
         "maxStockPrice": 128000
       },
       {
-        "icon": null,
+        "icon": "iconEQPlantPlasticBox",
         "name": "Plastic box (for plants)",
         "maxStock": 2,
         "price": 4000,
         "maxStockPrice": 8000
       },
       {
-        "icon": null,
+        "icon": "iconEQbucket",
         "name": "Bucket",
         "maxStock": 5,
         "price": 2000,
         "maxStockPrice": 10000
       },
       {
-        "icon": null,
+        "icon": "iconEQbarrel",
         "name": "Old Barrel",
         "maxStock": 2,
         "price": 4000,
         "maxStockPrice": 8000
       },
       {
-        "icon": null,
+        "icon": "iconSafeSmall",
         "name": "Small safe",
         "maxStock": 10,
         "price": 34000,
         "maxStockPrice": 340000
       },
       {
-        "icon": null,
+        "icon": "iconSafeMedium",
         "name": "Safe",
         "maxStock": 6,
         "price": 240000,
         "maxStockPrice": 1440000
       },
       {
-        "icon": null,
+        "icon": "iconSafeLarge",
         "name": "Large safe",
         "maxStock": 3,
         "price": 600000,
         "maxStockPrice": 1800000
       },
       {
-        "icon": null,
+        "icon": "iconWindowBars",
         "name": "Window bars",
         "maxStock": 15,
         "price": 4500,
         "maxStockPrice": 67500
       },
       {
-        "icon": null,
+        "icon": "iconWindoShutter",
         "name": "Window shutters",
         "maxStock": 12,
         "price": 4000,
         "maxStockPrice": 48000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock1",
         "name": "Door lock",
         "maxStock": 10,
         "price": 6000,
         "maxStockPrice": 60000
       },
       {
-        "icon": null,
+        "icon": "iconDoorLock2",
         "name": "Large door lock",
         "maxStock": 5,
         "price": 8500,
         "maxStockPrice": 42500
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLab",
         "name": "Laboratory cabinet",
         "maxStock": 4,
         "price": 5000,
         "maxStockPrice": 20000
       },
       {
-        "icon": null,
+        "icon": "iconEQCabinetLabLarge",
         "name": "Large laboratory cabinet",
         "maxStock": 2,
         "price": 19000,

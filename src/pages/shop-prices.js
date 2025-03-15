@@ -5,6 +5,27 @@ import shops from "@/resources/shops.json";
 
 const index = () => {
   const router = useRouter();
+  const regionBlacklist = [
+    "Unknown",
+    "None",
+    "Bahía de Oro - Villa disctrict",
+    "Rabin's Jungle",
+    "Swamp",
+  ];
+
+  const sorting = [
+    "Small Island",
+    "Archipelago",
+    "Callejon",
+    "Jungle",
+    "Slav's Bay",
+    "Paraíso Peninsular",
+    "La Colina Sangrienta",
+    "Dueño del Mar",
+    "Volcano Island",
+    "Bahía de Oro - Downtown",
+    "Bahía de Oro - Favela",
+  ];
   return (
     <div
       style={{
@@ -21,17 +42,27 @@ const index = () => {
       <h1>Drug Dealer Simulator | Interactive FAQ</h1>
       <h2>Shop Prices</h2>
       <h3>Choose a Region</h3>
-      {Object.keys(shops).map(region => {
-        return (
-          <Button
-            key={region}
-            label={region}
-            trigger={() => {
-              router.push(`/shop-prices/${region}`);
-            }}
-          />
-        );
-      })}
+      <Button
+        key={"back"}
+        label={"Back"}
+        trigger={() => {
+          router.push("/");
+        }}
+      />
+      {Object.keys(shops)
+        .filter(region => !regionBlacklist.includes(region))
+        .sort((a, b) => sorting.indexOf(a) - sorting.indexOf(b))
+        .map(region => {
+          return (
+            <Button
+              key={region}
+              label={region}
+              trigger={() => {
+                router.push(`/shop-prices/${region}`);
+              }}
+            />
+          );
+        })}
     </div>
   );
 };
