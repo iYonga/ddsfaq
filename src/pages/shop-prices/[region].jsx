@@ -270,7 +270,7 @@ const ShopPricesPage = () => {
                             x
                             {chosenLevel == 0
                               ? item.ItemDefaultStock
-                              : item.ItemRestockPerLevel[chosenLevel - 1]}
+                              : item.ItemMaxStockPerLevel[chosenLevel - 1]}
                           </p>
 
                           {/* Fiyat */}
