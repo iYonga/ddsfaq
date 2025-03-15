@@ -4,7 +4,7 @@ import shops from "@/resources/shops.json";
 import { useState, useEffect } from "react";
 import { formatPrice } from "@/utils/numerology";
 import Button from "@/components/pickles/Button";
-import { Tooltip } from "antd";
+import { Popover, Tooltip } from "antd";
 
 const shopPricesPage = () => {
   const router = useRouter();
@@ -23,7 +23,6 @@ const shopPricesPage = () => {
         flexDirection: "column",
         gap: "1rem",
         textAlign: "center",
-
         width: "100vw",
       }}
     >
@@ -99,49 +98,75 @@ const shopPricesPage = () => {
                     >
                       {items.map(item => {
                         return (
-                          <div
+                          <Popover
+                            color="#0B0B0B"
+                            mouseEnterDelay={0}
+                            mouseLeaveDelay={0}
+                            content={
+                              <div
+                                style={{
+                                  display: "flex",
+                                  gap: "0.25rem",
+                                  alignItems: "center",
+                                  backgroundColor: "#0B0B0B",
+                                  border: "#323131 solid 3px",
+                                  borderRadius: "0.5rem",
+                                  height: "8rem",
+                                  width: "8rem",
+                                  justifyContent: "center",
+                                  color: "white",
+                                  textAlign: "center",
+                                }}
+                              >
+                                {item.name}
+                              </div>
+                            }
                             key={item.name}
-                            style={{
-                              display: "flex",
-                              gap: "0.25rem",
-                              alignItems: "center",
-                              backgroundColor: "#0B0B0B",
-                              border: "#323131 solid 3px",
-                              borderRadius: "0.5rem",
-                              height: "7rem",
-                              width: "7rem",
-                              justifyContent: "center",
-                              position: "relative",
-                              color: "white",
-                            }}
                           >
-                            <img
-                              src={`/icons/${item.icon}.png`}
-                              alt={item.name}
-                              style={{ width: "70%", height: "70%" }}
-                            />
-                            <p
+                            <div
+                              key={item.name}
                               style={{
-                                position: "absolute",
-                                bottom: "0.1rem",
-                                left: "0.1rem",
-                                margin: "auto",
+                                display: "flex",
+                                gap: "0.25rem",
+                                alignItems: "center",
+                                backgroundColor: "#0B0B0B",
+                                border: "#323131 solid 3px",
+                                borderRadius: "0.5rem",
+                                height: "7rem",
+                                width: "7rem",
+                                justifyContent: "center",
+                                position: "relative",
+                                color: "white",
                               }}
                             >
-                              x{item.maxStock}
-                            </p>
-                            <p
-                              style={{
-                                position: "absolute",
-                                top: "0.1rem",
-                                right: "0.1rem",
-                                margin: "auto",
-                                color: "#4F9B23",
-                              }}
-                            >
-                              B {formatPrice(item.price)}
-                            </p>
-                          </div>
+                              <img
+                                src={`/icons/${item.icon}.png`}
+                                alt={item.name}
+                                style={{ width: "70%", height: "70%" }}
+                              />
+                              <p
+                                style={{
+                                  position: "absolute",
+                                  bottom: "0.1rem",
+                                  left: "0.1rem",
+                                  margin: "auto",
+                                }}
+                              >
+                                x{item.maxStock}
+                              </p>
+                              <p
+                                style={{
+                                  position: "absolute",
+                                  top: "0.1rem",
+                                  right: "0.1rem",
+                                  margin: "auto",
+                                  color: "#4F9B23",
+                                }}
+                              >
+                                B {formatPrice(item.price)}
+                              </p>
+                            </div>
+                          </Popover>
                         );
                       })}
                     </div>

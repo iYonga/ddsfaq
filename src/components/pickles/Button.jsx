@@ -1,5 +1,5 @@
 import React from "react";
-
+// this is a custom button wrapper thingy i've written. its a reusable component.
 const Button = ({ label, trigger = () => {} }) => {
   return (
     <button

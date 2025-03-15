@@ -1,0 +1,4272 @@
+{
+  "EQ-SPECIAL-MARUCS-STATION": {
+    "name": "Marcus' work station",
+    "description": "A workstation where Marcus does his magic. You can move it between hideouts.",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 6
+      },
+      {
+        "key": "HIDEOUT-SECURITY",
+        "value": 10
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 15000
+      }
+    ],
+    "icon": "iconMarcusStation"
+  },
+  "EQ-SPECIAL-WORKER-CABINET": {
+    "name": "Dealer's cabinet",
+    "description": "Cabinet that allows hiring employees and assigning jobs for them.",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 12000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 3
+      }
+    ],
+    "icon": "iconWorkerCabinet"
+  },
+  "EQ-SPECIAL-BOSS-DESK": {
+    "name": "Boss's desk",
+    "description": "Cartel management work place",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 17500,
+    "wattage": 5,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconBossDesk"
+  },
+  "EQ-SPECIAL-BOSS-DESK-MID": {
+    "name": "Większe biurko szefa",
+    "description": "Większe biurko do zarządzania kartelem",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 10,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "EQ-SPECIAL-BOSS-DESK-ADV": {
+    "name": "Zaawansowane biurko szefa",
+    "description": "Zaawansowane biurko do zarządzania kartelem",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 15,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "EQ-SPECIAL-DISTRIBUTOR-DESK": {
+    "name": "Distributor's desk",
+    "description": "Distributor's workplace",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 40000,
+    "wattage": 5,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 5
+      },
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQSpecialDistrTable"
+  },
+  "EQ-SPECIAL-DISTRIBUTOR-HELPER-DESK": {
+    "name": "Biurko pomocnika dystrybutora",
+    "description": "Biurko do pracy dla pomocnika dystrybutora",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 2,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "EQ-SPECIAL-DISTRIBUTOR-CABINET": {
+    "name": "Szafka dystrybutora",
+    "description": "Szafka do zostawiania stuffu dla dystrybutora",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-WORKING-CONDITIONS",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-SPECIAL-LABTECH-TABLE": {
+    "name": "Lab technician table",
+    "description": "Laboratory technician workplace",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 5,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 3
+      }
+    ],
+    "icon": "iconEQSpecialLabTable"
+  },
+  "EQ-SPECIAL-MUSCLE-STATION": {
+    "name": "Bodyguard station",
+    "description": "No description",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconMuscleStation"
+  },
+  "LABEQ-CRAFTER-DIY-TABLE": {
+    "name": "DIY table",
+    "description": "Enables production of upgrades and small items",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 5,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 100
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQSpecialDIYTable"
+  },
+  "EQ-SUB-CONTAINER-SMALL": {
+    "name": "Small container",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 150,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 750
+      }
+    ],
+    "icon": "iconSubContainerSmall"
+  },
+  "EQ-SUB-CONTAINER-MEDIUM": {
+    "name": "Medium container",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 250,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 1500
+      }
+    ],
+    "icon": "iconSubContainerMed"
+  },
+  "EQ-SUB-CONTAINER-LARGE": {
+    "name": "Large container",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 450,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 5000
+      }
+    ],
+    "icon": "iconSubContainerBig"
+  },
+  "EQ-SUB-CONTAINER-BARREL-SMALL": {
+    "name": "Small barrel",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 10000
+      }
+    ],
+    "icon": "iconSubstanceBarrelSmall"
+  },
+  "EQ-SUB-CONTAINER-BARREL-MEDIUM": {
+    "name": "Medium barrel",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 1700,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 20000
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconSubstanceBarrelMedium"
+  },
+  "EQ-SUB-CONTAINER-BARREL-LARGE": {
+    "name": "Large barrel",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 50000
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconSubstanceBarrelLarge"
+  },
+  "EQ-SUB-CONTAINER-INDU": {
+    "name": "Industrial container",
+    "description": "Increases overall substance storage capacity",
+    "type": "TYPE-SUB-CONTAINERS",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 500000
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQContainerIndu"
+  },
+  "LABEQ-LAB-TRAY": {
+    "name": "Laboratory tray",
+    "description": "Allows packing, unpacking and transfer of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 150
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconLabTray"
+  },
+  "LABEQ-KITCHEN-STOVE": {
+    "name": "Kitchen stove with oven",
+    "description": "A multipurpose general kitchen device",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 11000,
+    "wattage": 2500,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQkitchenstove"
+  },
+  "LABEQ-KITCHEN-STOVE-MOD": {
+    "name": "Kitchen stove with oven",
+    "description": "Modern collection",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 18000,
+    "wattage": 2500,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQKitchenStoveMod"
+  },
+  "LABEQ-COOKER": {
+    "name": "Electric pressure cooker",
+    "description": "Domestic equipment for heat treatment of substances under pressure",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 2000,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEqCooker"
+  },
+  "LABEQ-AUTOCLAVE": {
+    "name": "Laboratory autoclave",
+    "description": "Specialised equipment for thermal treatment of substances under pressure",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 32500,
+    "wattage": 1400,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQautoclave"
+  },
+  "LABEQ-WATER-BATH": {
+    "name": "Laboratory water bath",
+    "description": "Specialised equipment for heat and cold treatment of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 55000,
+    "wattage": 2400,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQwaterbath"
+  },
+  "LABEQ-ICE-BATH": {
+    "name": "Laboratory ice bath",
+    "description": "Specialised equipment for cool processing of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 95000,
+    "wattage": 1200,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQicebath"
+  },
+  "LABEQ-FERM-VAT": {
+    "name": "Small fermentation vat",
+    "description": "Domestic tank for soaking and fermenting substances under strict conditions",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 5500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQFermVat"
+  },
+  "LABEQ-HOMEMADE-VAT": {
+    "name": "Homemade soaking vat",
+    "description": "Vat designed for fermenting grapes, also used for soaking. Outdoor equipment. ",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 20000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQHomemadeVat"
+  },
+  "LABEQ-LAB-VAT": {
+    "name": "Laboratory soaking vat",
+    "description": "Specialised laboratory equipment for soaking substances under strict conditions",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 205000,
+    "wattage": 1000,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQLABVAT"
+  },
+  "LABEQ-DRYING-RACK": {
+    "name": "Drying rack",
+    "description": "Small kitchen rack woven with a wide-hole netting that allows great airflow for drying herbs, vegetables and fruit",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQVeggieDryer"
+  },
+  "LABEQ-DRYING-RACK-L": {
+    "name": "Drying outdoor rack",
+    "description": "Rack for drying large amount of herbs and vegetables with random blows of fresh air. Outdoor equipment.",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 10500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 3.5
+      }
+    ],
+    "icon": "iconEQDryerL"
+  },
+  "LABEQ-HYBRID-DRYER": {
+    "name": "Hybrid dryer",
+    "description": "Specialised large herb and plant dryer",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 23000,
+    "wattage": 50,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDryerHyb"
+  },
+  "LABEQ-LAB-OVEN": {
+    "name": "Laboratory oven",
+    "description": "Laboratory air heater for precise adjustment of drying conditions",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 47500,
+    "wattage": 2000,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQlaboven"
+  },
+  "LABEQ-DRYING-TABLE": {
+    "name": "Large drying table",
+    "description": "Large surface table for efficient drying of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 100000,
+    "wattage": 4000,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQDryerTable"
+  },
+  "LABEQ-LAB-TRAY-DRYER": {
+    "name": "Laboratory tray dryer",
+    "description": "Specialised laboratory equipment for drying large quantities of substances under precise conditions",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 275000,
+    "wattage": 1200,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQlabtraydryer"
+  },
+  "LABEQ-CHEMISTRY-TABLE": {
+    "name": "Chemistry table",
+    "description": "Casual equipment that allows performing silmple chemical reactions, including extracting substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 5,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 50
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQSpecialChemTable"
+  },
+  "LABEQ-ORBITAL-SHAKER": {
+    "name": "Laboratory orbital shaker",
+    "description": "Specialised equipment that allows samples to be shaken in an orbital motion to extract substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 125000,
+    "wattage": 300,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQorbitalshaker"
+  },
+  "LABEQ-CENTRIFUGE": {
+    "name": "Laboratory centrifuge",
+    "description": "Equipment designed to separate suspensions and emulsions by high-speed rotary motion in order to extract substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 70000,
+    "wattage": 150,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQcentrifuge"
+  },
+  "PLANT-GROWBOX": {
+    "name": "Growbox",
+    "description": "Specialised equipment for growing plants, providing a sealed environment with lighting and air filtration for optimum growth",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 16000,
+    "wattage": 80,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQgrowbox"
+  },
+  "PLANT-POT": {
+    "name": "Rack (for plants)",
+    "description": "Rack for growing plants, requires installation of a pot, hydroponic elements and LED or UV bulb",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 17750,
+    "wattage": 150,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconPlantRack"
+  },
+  "PLANT-BOX": {
+    "name": "Seedling box",
+    "description": "Planting box for seedlings",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQPlantBox"
+  },
+  "PLANT-BOX-OUT": {
+    "name": "Outdoor pot box",
+    "description": "Box for plants breeding. Outdoor equipment",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 8500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQPlantBoxOut"
+  },
+  "PLANT-PLASTIC-BOX": {
+    "name": "Plastic box (for plants)",
+    "description": "Container for growing mushrooms",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQPlantPlasticBox"
+  },
+  "LABEQ-BUCKET-MIXER": {
+    "name": "Bucket",
+    "description": "Simple mixing equipment",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQbucket"
+  },
+  "LABEQ-BARREL-MIXER": {
+    "name": "Old Barrel",
+    "description": "Large mixing equipment",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQbarrel"
+  },
+  "LABEQ-KITCHEN-MIXER": {
+    "name": "Kitchen mixer",
+    "description": "Basic kitchen equipment for automatic mixing of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 9000,
+    "wattage": 1500,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQkitchenmixer"
+  },
+  "LABEQ-LAB-MIXER": {
+    "name": "Magnetic stirrer",
+    "description": "Specialised laboratory equipment for precise mixing of liquid substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 150000,
+    "wattage": 550,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQlabmixer"
+  },
+  "LABEQ-MORTAR": {
+    "name": "Mortar",
+    "description": "Simple tool for powdering substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQmortar"
+  },
+  "LABEQ-COFFEE-GRINDER": {
+    "name": "Coffee grinder",
+    "description": "Electrical grinder for powdering substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 120,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconEQgrinder"
+  },
+  "LABEQ-MICROFINE-GRINDER": {
+    "name": "Microfine grinder",
+    "description": "Specialized laboratory tool for precise substance powdering",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 95000,
+    "wattage": 800,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconMicrofineGrinder"
+  },
+  "LABEQ-ANALYTICAL-GRINDER": {
+    "name": "Analytical grinder",
+    "description": "Advanced laboratory grinder for powdering substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 137500,
+    "wattage": 200,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1
+      }
+    ],
+    "icon": "iconAnalGrinder"
+  },
+  "LABEQ-PILL-PRESS": {
+    "name": "Tableciarka",
+    "description": "Specjalistyczne narzędzie do formowania tabletek z substancji sproszkowanych",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 65000,
+    "wattage": 30,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 1.5
+      }
+    ],
+    "icon": "iconEQpillpress"
+  },
+  "EQ-RADIO-STATION": {
+    "name": "Radiostacja",
+    "description": "Radiostacja poprawia jakość komunikacji z innymi hideoutami i pracownikami w wiosce",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 100,
+    "wattage": 250,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "EQ-SPECIAL-PHONE": {
+    "name": "Telephone with a message recorder",
+    "description": "Allows you to listen to recorded messages",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 7000,
+    "wattage": 10,
+    "properties": [],
+    "icon": "iconEQPhone"
+  },
+  "EQ-SPECIAL-PHONE-MOD": {
+    "name": "Telephone with a message recorder",
+    "description": "Modern collection",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 7500,
+    "wattage": 10,
+    "properties": [],
+    "icon": "iconEQPhoneMod"
+  },
+  "EQ-SPECIAL-PHONE-MOD-02": {
+    "name": "Wall telephone with a message recorder",
+    "description": "Modern collection",
+    "type": "TYPE-SPECIAL",
+    "tier": 1,
+    "price": 9000,
+    "wattage": 10,
+    "properties": [],
+    "icon": "iconEQPhoneMod02"
+  },
+  "EQ-TABLE-INDUSTRIAL": {
+    "name": "Industrial table ",
+    "description": "Table with large surface for placing items, upgrade option available ",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconIndustrialTable"
+  },
+  "EQ-DESK": {
+    "name": "Desk",
+    "description": "Desk with a surface for placing items, upgrade option available ",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 2750,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconDesk"
+  },
+  "EQ-DESK-INDU": {
+    "name": "Desk",
+    "description": "Industrial collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 4250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQDeskIndu"
+  },
+  "EQ-METAL-CABINET": {
+    "name": "Metal cabinet",
+    "description": "Provides storage space for items, upgrade option available ",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "SLOT",
+        "value": 15
+      }
+    ],
+    "icon": "iconEQMetalCabinet"
+  },
+  "EQ-SAFE-SMALL": {
+    "name": "Small safe",
+    "description": "Enables possibily of collecting money from employees in hideout",
+    "type": "TYPE-CONT-SAFE",
+    "tier": 1,
+    "price": 16000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconSafeSmall"
+  },
+  "EQ-SAFE-MEDIUM": {
+    "name": "Safe",
+    "description": "Enables possibily of collecting money from employees in hideout",
+    "type": "TYPE-CONT-SAFE",
+    "tier": 1,
+    "price": 120000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconSafeMedium"
+  },
+  "EQ-SAFE-LARGE": {
+    "name": "Large safe",
+    "description": "Enables possibily of collecting money from employees in hideout",
+    "type": "TYPE-CONT-SAFE",
+    "tier": 1,
+    "price": 300000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconSafeLarge"
+  },
+  "EQ-BACKPACK-HANGER": {
+    "name": "Backpack hanger",
+    "description": "Used to hang backpacks on the wall in your hideout",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconBackPackHanger"
+  },
+  "EQ-CHAIR-BAS": {
+    "name": "Chair",
+    "description": "Basic collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicChair"
+  },
+  "EQ-CHAIR-MOD": {
+    "name": "Chair",
+    "description": "Modern collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernChair"
+  },
+  "EQ-CHAIR-VINT": {
+    "name": "Chair",
+    "description": "Vintage collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 4500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "iconEQChairVin"
+  },
+  "EQ-CHAIR-INDU": {
+    "name": "Chair",
+    "description": "Industrial collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "iconEQChairIndu"
+  },
+  "EQ-CHAIR-INDU-02": {
+    "name": "Stool",
+    "description": "Industrial collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 2500,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQChair02Indu"
+  },
+  "EQ-SOFA-BAS": {
+    "name": "Sofa",
+    "description": "Basic collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "iconBasicSofa"
+  },
+  "EQ-SOFA-MOD": {
+    "name": "Sofa",
+    "description": "Modern collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 6500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "iconModernSofa"
+  },
+  "EQ-ARMCHAIR-BAS": {
+    "name": "Armchair",
+    "description": "Basic collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconBasicArmchair"
+  },
+  "EQ-ARMCHAIR-MOD": {
+    "name": "Armchair",
+    "description": "Modern collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconModernArmchair"
+  },
+  "EQ-POUF-MOD-01": {
+    "name": "Pouf",
+    "description": "Modern collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQPoufMod"
+  },
+  "EQ-POUF-VINT-01": {
+    "name": "Pouf",
+    "description": "Vintage collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 7500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQPoufVin"
+  },
+  "EQ-POUF-VINT-02": {
+    "name": "Pouf",
+    "description": "Vintage collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "iconEQPouf02Vin"
+  },
+  "EQ-POUF-LUX-01": {
+    "name": "Pouf",
+    "description": "Luxurious collection",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "iconEQPoufLux"
+  },
+  "EQ-TABLE-BAS": {
+    "name": "Table",
+    "description": "Basic collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 3
+      }
+    ],
+    "icon": "iconBasicTable"
+  },
+  "EQ-TABLE-MOD": {
+    "name": "Table",
+    "description": "Modern collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 3
+      }
+    ],
+    "icon": "iconModernTable"
+  },
+  "EQ-TABLE-VINT": {
+    "name": "Table",
+    "description": "Vintage collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 12000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQTableVin"
+  },
+  "EQ-TABLE-INDU": {
+    "name": "Table",
+    "description": "Industrial collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQTableIndu"
+  },
+  "EQ-TABLE-COFFE-MOD": {
+    "name": "Coffee table",
+    "description": "Modern collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQCoffeetableMod"
+  },
+  "EQ-TABLE-COFFE-INDU": {
+    "name": "Coffee table",
+    "description": "Industrial collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQCoffeetableIndu"
+  },
+  "EQ-TABLE-COFFE-VINT": {
+    "name": "Coffee table",
+    "description": "Vintage collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQCoffeetableVin"
+  },
+  "EQ-SHELF-BAS": {
+    "name": "Shelf",
+    "description": "Basic collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 500
+      }
+    ],
+    "icon": "iconBasicShelf"
+  },
+  "EQ-SHELF-MOD": {
+    "name": "Shelf",
+    "description": "Modern collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 500
+      }
+    ],
+    "icon": "iconModernShelf"
+  },
+  "EQ-BOOKSHELF-BAS": {
+    "name": "Bookshelf",
+    "description": "Basic collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 2500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 5
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 1500
+      }
+    ],
+    "icon": "iconBasicBookshelfSmall"
+  },
+  "EQ-BOOKSHELF-MOD": {
+    "name": "Bookshelf",
+    "description": "Modern collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 5
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 1500
+      }
+    ],
+    "icon": "iconModernBookshelfSmall"
+  },
+  "EQ-BOOKSHELF-INDU": {
+    "name": "Bookshelf",
+    "description": "Industrial collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 7
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 1500
+      }
+    ],
+    "icon": "iconEQBookshelfIndu"
+  },
+  "EQ-BOOKSHELF-L-BAS": {
+    "name": "Large wooden bookshlef",
+    "description": "Basic collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 9
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 3000
+      }
+    ],
+    "icon": "iconBasicBookshelf"
+  },
+  "EQ-BOOKSHELF-L-MOD": {
+    "name": "Large wooden bookshlef",
+    "description": "Modern collection",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 5500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 9
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 3000
+      }
+    ],
+    "icon": "iconModernBookshelfLarge"
+  },
+  "EQ-WARDROBE-BAS": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Used to store clothes, create collections",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 30
+      }
+    ],
+    "icon": "iconBasicWardrobe"
+  },
+  "EQ-WARDROBE-MOD": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 7000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 50
+      }
+    ],
+    "icon": "iconEQWardrobeMod"
+  },
+  "EQ-DRESSING-TABLE-VINT": {
+    "name": "Dressing table ",
+    "description": "Vintage collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDressingtableVin"
+  },
+  "EQ-WARDROBE-VINT": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Vintage collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 20000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 50
+      }
+    ],
+    "icon": "iconEQWardrobeVin"
+  },
+  "EQ-WARDROBE-INDU": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Industrial collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 50
+      }
+    ],
+    "icon": "iconEQWardrobeIndu"
+  },
+  "EQ-WARDROBE-LUX": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Luxurious collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 45000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 80
+      },
+      {
+        "key": "COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQWardrobeLux"
+  },
+  "EQ-DRESSER-BAS": {
+    "name": "Dresser",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 4500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 25
+      }
+    ],
+    "icon": "iconBasicCommode"
+  },
+  "EQ-DRESSER-MOD": {
+    "name": "Dresser",
+    "description": "Modern collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 25
+      }
+    ],
+    "icon": "iconEQCommodeMod"
+  },
+  "EQ-DRESSER-VINT": {
+    "name": "Dresser",
+    "description": "Vintage collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 25
+      }
+    ],
+    "icon": "iconEQCommodeVin"
+  },
+  "EQ-DRESSER-VINT-02": {
+    "name": "Small dresser",
+    "description": "Vintage collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 8500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 15
+      }
+    ],
+    "icon": "iconEQCommode02Vin"
+  },
+  "EQ-DRESSER-LUX": {
+    "name": "Dresser",
+    "description": "Luxurious collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 20000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 25
+      }
+    ],
+    "icon": "iconEQCommodeLux"
+  },
+  "EQ-DRESSER-INDU": {
+    "name": "Dresser",
+    "description": "Industrial collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 8500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 25
+      }
+    ],
+    "icon": "iconEQCommodeIndu"
+  },
+  "EQ-BED-BAS": {
+    "name": "Bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicBed"
+  },
+  "EQ-BED-DOUBLE-GHETTO": {
+    "name": "Double bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 8000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQBedDoubleGhetto"
+  },
+  "EQ-BED-BAS-02": {
+    "name": "Bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQBedBas02"
+  },
+  "EQ-BED-DOUBLE-BAS-02": {
+    "name": "Double bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 12000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQBedDoubleBas02"
+  },
+  "EQ-BED-BAS-03": {
+    "name": "Bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 8000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQBedBas03"
+  },
+  "EQ-BED-DOUBLE-BAS-03": {
+    "name": "Double bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQBedDoubleBas03"
+  },
+  "EQ-BED-MOD": {
+    "name": "Bed",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 4500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernBed"
+  },
+  "EQ-BED-DOUBLE-MOD": {
+    "name": "Double bed",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 14000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "iconEQBedDoubleMod"
+  },
+  "EQ-BED-MOD-02": {
+    "name": "Double bed",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-BED-DOUBLE-MOD-02": {
+    "name": "Double bed",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-BED-DOUBLE-MOD-03": {
+    "name": "Double bed",
+    "description": "Modern collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "iconEQBedDoubleMod03"
+  },
+  "EQ-BED-DOUBLE-VD-01": {
+    "name": "Double bed",
+    "description": "Voodoo collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQBedDoubleVD"
+  },
+  "EQ-BED-DOUBLE-VD-02": {
+    "name": "Double bed",
+    "description": "Voodoo collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "iconEQBedDoubleVD02"
+  },
+  "EQ-BED-DOUBLE-INDU": {
+    "name": "Double bed",
+    "description": "Industrial collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 25000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 6
+      }
+    ],
+    "icon": "iconEQBedDoubleIndu"
+  },
+  "EQ-BED-VINT": {
+    "name": "Bed",
+    "description": "Vintage collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 9000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "iconEQBedVin"
+  },
+  "EQ-BED-DOUBLE-VINT": {
+    "name": "Double bed",
+    "description": "Vintage collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 50000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 6
+      }
+    ],
+    "icon": "iconEQBedDoubleVin"
+  },
+  "EQ-BED-DOUBLE-LUX": {
+    "name": "Double bed",
+    "description": "Luxurious collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 50000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 6
+      }
+    ],
+    "icon": "iconEQBedDoubleLux"
+  },
+  "EQ-CABINET-GHETTO": {
+    "name": "Cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 10
+      }
+    ],
+    "icon": "iconEQCabinet"
+  },
+  "EQ-CABINET-OFFICE": {
+    "name": "Office cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 16
+      }
+    ],
+    "icon": "iconEQCabinetOffice"
+  },
+  "EQ-CABINET-LAB": {
+    "name": "Laboratory cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 2500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 8
+      }
+    ],
+    "icon": "iconEQCabinetLab"
+  },
+  "EQ-CABINET-LAB-L": {
+    "name": "Large laboratory cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 9500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 40
+      }
+    ],
+    "icon": "iconEQCabinetLabLarge"
+  },
+  "EQ-CABINET-BAS-S": {
+    "name": "Small wooden cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "SLOT",
+        "value": 8
+      }
+    ],
+    "icon": "iconEQCabinetBasS"
+  },
+  "EQ-CABINET-BAS-M": {
+    "name": "Wooden cabinet",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 8000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 16
+      }
+    ],
+    "icon": "iconEQCabinetBasM"
+  },
+  "EQ-CABINET-BAS-L": {
+    "name": "Large wooden cabinet ",
+    "description": "Basic collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 12000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 50
+      }
+    ],
+    "icon": "iconEQCabinetBasL"
+  },
+  "EQ-NIGHTSTAND-VINT": {
+    "name": "Bedside table",
+    "description": "Vintage collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 5500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 5
+      }
+    ],
+    "icon": "iconEQNightstandVin"
+  },
+  "EQ-NIGHTSTAND-INDU": {
+    "name": "Nightstand",
+    "description": "Industrial collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 3500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 5
+      }
+    ],
+    "icon": "iconEQNightstandIndu"
+  },
+  "EQ-NIGHTSTAND-LUX": {
+    "name": "Nightstand",
+    "description": "Luxurious collection",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 11000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      },
+      {
+        "key": "SLOT",
+        "value": 5
+      }
+    ],
+    "icon": "iconEQNightstandLux"
+  },
+  "EQ-RECORD-PLAYER-VINT": {
+    "name": "Record player",
+    "description": "Vintage collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 17500,
+    "wattage": 30,
+    "properties": [],
+    "icon": "iconEQRecVin"
+  },
+  "EQ-RECORD-PLAYER-LUX": {
+    "name": "Record player",
+    "description": "Luxurious collection",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 3750,
+    "wattage": 30,
+    "properties": [],
+    "icon": "iconEQRecLux"
+  },
+  "WINDOW-UPGRADE-BARS": {
+    "name": "Window bars",
+    "description": "Metal bars on the outside of the window",
+    "type": "UPGRADE-WINDOW",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SECURITY",
+        "value": 2
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 0.5
+      }
+    ],
+    "icon": "iconWindowBars"
+  },
+  "WINDOW-UPGRADE-SHUTTERS": {
+    "name": "Window shutters",
+    "description": "Solid-wood shutters on the outside of the window",
+    "type": "UPGRADE-WINDOW",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SECURITY",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": -2
+      },
+      {
+        "key": "HIDEOUT-GRENADE-BLOCK",
+        "value": 1
+      }
+    ],
+    "icon": "iconWindoShutter"
+  },
+  "DOOR-UPGRADE-LOCK": {
+    "name": "Door lock",
+    "description": "An additional, sturdy door lock",
+    "type": "UPGRADE-DOOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SECURITY",
+        "value": 7
+      }
+    ],
+    "icon": "iconDoorLock1"
+  },
+  "DOOR-UPGRADE-LOCK-BIG": {
+    "name": "Large door lock",
+    "description": "Specialized heavy duty door lock",
+    "type": "UPGRADE-DOOR",
+    "tier": 1,
+    "price": 4250,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-SECURITY",
+        "value": 15
+      }
+    ],
+    "icon": "iconDoorLock2"
+  },
+  "EQ-HIDEOUT-RADIO-RETRO": {
+    "name": "Retro radio",
+    "description": "Stationary music player",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 5500,
+    "wattage": 15,
+    "properties": [],
+    "icon": "iconRadioRetro"
+  },
+  "EQ-HIDEOUT-RADIO": {
+    "name": "Radio",
+    "description": "Stationary music player",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 8450,
+    "wattage": 30,
+    "properties": [],
+    "icon": "iconBoomBox"
+  },
+  "EQ-PET-LAYER": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed01"
+  },
+  "EQ-PET-BED-02": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed02"
+  },
+  "EQ-PET-BED-03": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed03"
+  },
+  "EQ-PET-BED-04": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed04"
+  },
+  "EQ-PET-BED-05": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed05"
+  },
+  "EQ-PET-BED-06": {
+    "name": "Pet bed",
+    "description": "A comfy bed for pets",
+    "type": "None",
+    "tier": 1,
+    "price": 2250,
+    "wattage": 0,
+    "properties": [],
+    "icon": "iconEQPetBed06"
+  },
+  "EQ-SLAV-STASH-S": {
+    "name": "Small slav stash",
+    "description": "A stash containing contraband from the Slavs gang. Source of passive income",
+    "type": "TYPE-SLAV-STASH",
+    "tier": 1,
+    "price": 85000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 3
+      },
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": -3
+      }
+    ],
+    "icon": "iconSlavStashSmall"
+  },
+  "EQ-SLAV-STASH-L": {
+    "name": "Large slav stash",
+    "description": "A stash containing contraband from the Slavs gang. Source of passive income",
+    "type": "TYPE-SLAV-STASH",
+    "tier": 1,
+    "price": 175000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-VISIBILITY",
+        "value": 5
+      },
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": -5
+      }
+    ],
+    "icon": "iconSlavStashLarge"
+  },
+  "LABEQ-TRAY-MIL": {
+    "name": "Tray",
+    "description": "Allows packing, unpacking and transfer of substances",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "LABEQ-DIY-TABLE-MIL": {
+    "name": "DIY table",
+    "description": "Enables production of upgrades and small items",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 10
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "LABEQ-STOVE-MIL": {
+    "name": "Kitchen stove with oven",
+    "description": "A multipurpose general kitchen device",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "LABEQ-WASH-MACHINE-MIL": {
+    "name": "Washing machine",
+    "description": "Device that enables washing dirty uniforms",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-CEILING-BULB": {
+    "name": "Ceiling bulb",
+    "description": "Simple light source installed in empty apartments and houses",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQBulb"
+  },
+  "EQ-CEILING-LAMP-BAS": {
+    "name": "Ceiling lamp",
+    "description": "Basic collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicCeilingLamp"
+  },
+  "EQ-CEILING-LAMP-MOD": {
+    "name": "Ceiling lamp",
+    "description": "Modern collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernCeilingLamp"
+  },
+  "EQ-CEILING-LAMP-LUX": {
+    "name": "Ceiling lamp",
+    "description": "Luxurious collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQLampCeilingLux"
+  },
+  "EQ-WALL-LAMP-LUX": {
+    "name": "Wall lamp",
+    "description": "Luxurious collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 5000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQLampWallLux"
+  },
+  "EQ-DESK-LAMP-BAS": {
+    "name": "Desk lamp",
+    "description": "Basic collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicDeskLamp"
+  },
+  "EQ-DESK-LAMP-MOD": {
+    "name": "Desk lamp",
+    "description": "Modern collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernDeskLamp"
+  },
+  "EQ-FLOOR-LAMP-BAS": {
+    "name": "Floor lamp",
+    "description": "Basic collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicFloorLamp"
+  },
+  "EQ-FLOOR-LAMP-MOD": {
+    "name": "Floor lamp",
+    "description": "Modern collection",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernFloorLamp"
+  },
+  "EQ-PLANT-BAS-01": {
+    "name": "Potted plant",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicPlant"
+  },
+  "EQ-PLANT-BAS-02": {
+    "name": "Potted plant",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantBas02"
+  },
+  "EQ-PLANT-BAS-03": {
+    "name": "Potted plant",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantBas03"
+  },
+  "EQ-PLANT-BAS-04": {
+    "name": "Potted plant",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantBas04"
+  },
+  "EQ-PLANT-VD-01": {
+    "name": "Potted plant",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 8000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantVD01"
+  },
+  "EQ-PLANT-MOD-01": {
+    "name": "Potted plant",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernPlant"
+  },
+  "EQ-PLANT-MOD-02": {
+    "name": "Potted plant",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantMod02"
+  },
+  "EQ-PLANT-MOD-03": {
+    "name": "Potted plant",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantMod03"
+  },
+  "EQ-PLANT-LUX-01": {
+    "name": "Potted plant",
+    "description": "Luxurious collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantLux"
+  },
+  "EQ-POSTER-BAS-01": {
+    "name": "Poster",
+    "description": "potem",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 750,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 0.5
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-POSTER-MOD-01": {
+    "name": "Poster",
+    "description": "Modern collection -  potem",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 750,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 0.5
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-PAINTING-BAS-01": {
+    "name": "Painting",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicPainting"
+  },
+  "EQ-PAINTING-MOD-01": {
+    "name": "Painting",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 2500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconModernPainting"
+  },
+  "EQ-DECOR-CACTUS-01": {
+    "name": "Cactus sculpture",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorCactus01"
+  },
+  "EQ-DECOR-CACTUS-02": {
+    "name": "Cactus sculpture",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorCactus02"
+  },
+  "EQ-DECOR-CACTUS-03": {
+    "name": "Cactus sculpture",
+    "description": "Basic collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorCactus03"
+  },
+  "EQ-DECOR-VASE-01": {
+    "name": "Vase",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVase01"
+  },
+  "EQ-DECOR-VASE-02": {
+    "name": "Vase",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVase02"
+  },
+  "EQ-DECOR-VASE-03": {
+    "name": "Vase",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 1500,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVase03"
+  },
+  "EQ-DECOR-PHOTO-01": {
+    "name": "Framed photograph",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorPhoto01"
+  },
+  "EQ-DECOR-PHOTO-02": {
+    "name": "Framed photograph",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorPhoto02"
+  },
+  "EQ-DECOR-PHOTO-03": {
+    "name": "Framed photograph",
+    "description": "Modern collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorPhoto03"
+  },
+  "EQ-DECOR-VD-URN-01": {
+    "name": "Urn",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDUrn01"
+  },
+  "EQ-DECOR-VD-URN-02": {
+    "name": "Urn",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDUrn02"
+  },
+  "EQ-DECOR-VD-PLATE-01": {
+    "name": "Plate",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDPlate01"
+  },
+  "EQ-DECOR-VD-CROSS-01": {
+    "name": "Cross",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDCross01"
+  },
+  "EQ-DECOR-VD-CANDLES-01": {
+    "name": "Candles",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDCandles01"
+  },
+  "EQ-DECOR-VD-PENTAGRAM-01": {
+    "name": "Pentagram",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDPenta01"
+  },
+  "EQ-DECOR-VD-DOLLS-01": {
+    "name": "Dolls",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDDolls01"
+  },
+  "EQ-DECOR-VD-SKULL-01": {
+    "name": "Skull",
+    "description": "Voodoo collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 4000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorVDSkull01"
+  },
+  "EQ-PAINTING-VINT-01": {
+    "name": "Large painting",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin01"
+  },
+  "EQ-PAINTING-VINT-02": {
+    "name": "Small painting",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 7000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin02"
+  },
+  "EQ-PAINTING-VINT-03": {
+    "name": "Small painting",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 7000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin03"
+  },
+  "EQ-PAINTING-VINT-04": {
+    "name": "Paintings",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 20000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin04"
+  },
+  "EQ-PAINTING-VINT-05": {
+    "name": "Paintings",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 20000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin05"
+  },
+  "EQ-PAINTING-VINT-06": {
+    "name": "Large painting",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 50000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPaintingVin06"
+  },
+  "EQ-DECOR-VINT-PHOTO-01": {
+    "name": "Framed photograph",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 750,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": null
+  },
+  "EQ-DECOR-VINT-PHOTO-02": {
+    "name": "Framed photograph",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 750,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": null
+  },
+  "EQ-DECOR-VINT-VASE-01": {
+    "name": "Vase",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 8000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQPlantVin"
+  },
+  "EQ-DECOR-VINT-01": {
+    "name": "Divider",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorDividerVin"
+  },
+  "EQ-DECOR-VINT-02": {
+    "name": "Candle",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorCandle01Vin"
+  },
+  "EQ-DECOR-VINT-03": {
+    "name": "Candle",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 3000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorCandle02Vin"
+  },
+  "EQ-DECOR-VINT-04": {
+    "name": "Oil lamp",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 7000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorLamp01Vin"
+  },
+  "EQ-DECOR-VINT-05": {
+    "name": "Oil lamp",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecorLamp02Vin"
+  },
+  "EQ-DECOR-VINT-CLOCK-01": {
+    "name": "Clock",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 18000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-DECOR-VINT-CLOCK-02": {
+    "name": "Old clock",
+    "description": "Vintage collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 11000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-DECOR-LUX-01": {
+    "name": "Still nature",
+    "description": "Luxurious collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 15000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecor01Lux"
+  },
+  "EQ-DECOR-LUX-02": {
+    "name": "Decor element",
+    "description": "Luxurious collection",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 10000,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "iconEQDecor02Lux"
+  },
+  "EQ-DECOR-BAS-01": {
+    "name": "Decor element",
+    "description": "- potem",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-DECOR-MOD-01": {
+    "name": "Decor element",
+    "description": "Modern collection -  potem",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      },
+      {
+        "key": "DECOR",
+        "value": 1
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-VANITY-CLASSIC": {
+    "name": "Vanity table",
+    "description": "No description",
+    "type": "TYPE-FUNCTIONAL",
+    "tier": 1,
+    "price": 6000,
+    "wattage": 0,
+    "properties": [],
+    "icon": null
+  },
+  "______________________________": {
+    "name": "______________________________",
+    "description": "No description",
+    "type": "None",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [],
+    "icon": null
+  },
+  "EQ-BOOKSHELF": {
+    "name": "Bookshelf",
+    "description": "No description",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 5
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 1500
+      }
+    ],
+    "icon": "iconBasicBookshelfSmall"
+  },
+  "EQ-BOOKSHELF-BIG": {
+    "name": "Large wooden bookshlef",
+    "description": "No description",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 9
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 3000
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-KRZESLO": {
+    "name": "Chair",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "decoOldschoolChair_icon"
+  },
+  "EQ-KANAPA": {
+    "name": "Sofa",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-KANAPA-1": {
+    "name": "Sofa",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-STOL": {
+    "name": "Table",
+    "description": "No description",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 3
+      }
+    ],
+    "icon": "iconBasicTable"
+  },
+  "EQ-BIURKO": {
+    "name": "Desk",
+    "description": "No description",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 2
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-KOMODA": {
+    "name": "Dresser",
+    "description": "No description",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      }
+    ],
+    "icon": "decoOldschoolCommodeSmall_icon"
+  },
+  "EQ-POLKA": {
+    "name": "Shelf",
+    "description": "No description",
+    "type": "TYPE-BLATY",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      },
+      {
+        "key": "HIDEOUT-SUBSTANCE-STORAGE",
+        "value": 500
+      }
+    ],
+    "icon": "iconBasicShelf"
+  },
+  "EQ-FOTEL": {
+    "name": "Armchair",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-FOTEL-1": {
+    "name": "Armchair",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "tempIconNone"
+  },
+  "EQ-SZAFA": {
+    "name": "Wardrobe (for clothes)",
+    "description": "Used to store clothes, create collections",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-HANDYSPACE",
+        "value": 1
+      }
+    ],
+    "icon": "decoOldschoolWardrobe_icon"
+  },
+  "EQ-LOZKO": {
+    "name": "Bed",
+    "description": "Enables sleeping through the night",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "tempIcon_Lozko"
+  },
+  "EQ-LAMPA": {
+    "name": "Ceiling lamp",
+    "description": "No description",
+    "type": "TYPE-LAMPS",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "iconBasicCeilingLamp"
+  },
+  "EQ-LAUNDERER": {
+    "name": "Pralka do pinindzy",
+    "description": "Pierze piniondze",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "EQ-KIBEL": {
+    "name": "Kibel",
+    "description": "No description",
+    "type": "TYPE-SIT",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [],
+    "icon": "decoGoldenThrone_icon"
+  },
+  "EQ-SKRZYNIA": {
+    "name": "Skrzynia",
+    "description": "Do przechowywania itemów",
+    "type": "TYPE-CONTAINERS",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [],
+    "icon": "tempIconNone"
+  },
+  "________________________________": {
+    "name": "________________________________",
+    "description": "No description",
+    "type": "None",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [],
+    "icon": null
+  },
+  "LABEQ-CHRISTMASDLC-CHRISTMASTREE": {
+    "name": "Christmas tree",
+    "description": "A festive crafting station where gingerbread cookies can be transformed into holiday presents.",
+    "type": "TYPE-LABEQ",
+    "tier": 1,
+    "price": 2000,
+    "wattage": 0,
+    "properties": [],
+    "icon": "IconChristmasTree"
+  },
+  "CHRISTMASDLC-WEEDTREE": {
+    "name": "Christmas weed tree",
+    "description": "Light up the holidays in more ways than one with the Christmas Weed Tree—decoration perfect for a smoky festive vibe!",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "IconChristmasWeedTree"
+  },
+  "CHRISTMASDLC-BISCUIT": {
+    "name": "Christmas biscuits",
+    "description": "Delightfully festive, these Christmas Biscuits add a cozy holiday touch to your hideout decor!",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasBiscuit"
+  },
+  "CHRISTMASDLC-BRANCH": {
+    "name": "Wooden branch",
+    "description": "A simple wooden branch, perfect for adding a rustic, natural charm to your hideout.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasBranch"
+  },
+  "CHRISTMASDLC-DOILY": {
+    "name": "Christmas doily",
+    "description": "A delicate doily, bringing a touch of elegance and vintage charm to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasDoily"
+  },
+  "CHRISTMASDLC-FIREPLACE": {
+    "name": "Fireplace",
+    "description": "A cozy fireplace to warm up your hideout and add a classic holiday atmosphere.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "IconChristmasFireplace"
+  },
+  "CHRISTMASDLC-FIREPLACE-ACCESORY-1": {
+    "name": "Fireplace wood set",
+    "description": "A stack of firewood, ready to bring warmth and charm to your hideout's fireplace.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconChristmasFireplaceAccessories1"
+  },
+  "CHRISTMASDLC-FIREPLACE-ACCESORY-2": {
+    "name": "Fireplace toolset",
+    "description": "A set of fireplace tools, adding both style and practicality to your hideout's cozy corner.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconChristmasFireplaceAccessories2"
+  },
+  "CHRISTMASDLC-GARLAND": {
+    "name": "Christmas garland",
+    "description": "A festive garland to brighten up your hideout with holiday spirit and cheer.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasGarland1"
+  },
+  "CHRISTMASDLC-GIFTBOX-1": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconGiftbox1"
+  },
+  "CHRISTMASDLC-GIFTBOX-2": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox2"
+  },
+  "CHRISTMASDLC-GIFTBOX-3": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconGiftbox3"
+  },
+  "CHRISTMASDLC-GIFTBOX-4": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox4"
+  },
+  "CHRISTMASDLC-GIFTBOX-5": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox5"
+  },
+  "CHRISTMASDLC-GIFTBOX-6": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox6"
+  },
+  "CHRISTMASDLC-GIFTBOX-7": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox7"
+  },
+  "CHRISTMASDLC-GIFTBOX-8": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox8"
+  },
+  "CHRISTMASDLC-GIFTBOX-9": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox9"
+  },
+  "CHRISTMASDLC-GIFTBOX-10": {
+    "name": "Giftbox",
+    "description": "A charming gift box, perfect for adding a festive touch to your hideout's holiday decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 2
+      }
+    ],
+    "icon": "IconGiftbox10"
+  },
+  "CHRISTMASDLC-GINGERMAN": {
+    "name": "Gingerman plate",
+    "description": "A festive plate of gingerbread men, perfect for adding a touch of holiday sweetness to your hideout.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasGingerman"
+  },
+  "CHRISTMASDLC-GLASSBALL": {
+    "name": "Chrismtas snowball",
+    "description": "A playful snowball, bringing a frosty touch of winter fun to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasGlassBall"
+  },
+  "CHRISTMASDLC-LAMP": {
+    "name": "Christmas lamp",
+    "description": "A warm and inviting lamp, perfect for lighting up your hideout with a cozy holiday glow.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasLamp"
+  },
+  "CHRISTMASDLC-NUTCRACKER": {
+    "name": "Christmas nutracker",
+    "description": "A classic nutcracker, bringing timeless charm and festive spirit to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasNutcracker"
+  },
+  "CHRISTMASDLC-RAG-1": {
+    "name": "Rag",
+    "description": "A simple rag, adding a touch of rustic charm to your hideout's decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasRag1"
+  },
+  "CHRISTMASDLC-RAG-2": {
+    "name": "Rag",
+    "description": "A simple rag, adding a touch of rustic charm to your hideout's decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasRag2"
+  },
+  "CHRISTMASDLC-REINDEER": {
+    "name": "Reindeer decoration",
+    "description": "A graceful reindeer decoration, embodying the magic and elegance of the holiday season in your hideout.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "IconChristmasReindeerStatue"
+  },
+  "CHRISTMASDLC-SANTA-STATUE": {
+    "name": "Santa statue",
+    "description": "A towering Santa statue with a cheeky twist— red eyes hint at a holly jolly extra relaxed vibe!",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 4
+      }
+    ],
+    "icon": "IconChristmasSantaStatue"
+  },
+  "CHRISTMASDLC-SLEIGH": {
+    "name": "Sleigh",
+    "description": "A festive sleigh, ready to deliver holiday cheer and a touch of seasonal magic to your hideout.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 3
+      }
+    ],
+    "icon": "IconChristmasSleighFurniture"
+  },
+  "CHRISTMASDLC-SOCK": {
+    "name": "Christmas sock",
+    "description": "A cozy Christmas sock, perfect for hanging by the fireplace and filling your hideout with festive charm.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasSock"
+  },
+  "CHRISTMASDLC-TOY-1": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy1"
+  },
+  "CHRISTMASDLC-TOY-2": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy2"
+  },
+  "CHRISTMASDLC-TOY-3": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy3"
+  },
+  "CHRISTMASDLC-TOY-4": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy4"
+  },
+  "CHRISTMASDLC-TOY-5": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy5_v2"
+  },
+  "CHRISTMASDLC-TOY-6": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy6"
+  },
+  "CHRISTMASDLC-TOY-7": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy7"
+  },
+  "CHRISTMASDLC-TOY-8": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy8"
+  },
+  "CHRISTMASDLC-TOY-9": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy9"
+  },
+  "CHRISTMASDLC-TOY-10": {
+    "name": "Christmas ornament",
+    "description": "A classic Christmas ornament, adding a sparkle of holiday magic to your hideout decor.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasToy10"
+  },
+  "CHRISTMASDLC-WREATH": {
+    "name": "Wreath",
+    "description": "A festive wreath, bringing a warm and welcoming holiday touch to your hideout.",
+    "type": "TYPE-DECOR",
+    "tier": 1,
+    "price": 100,
+    "wattage": 0,
+    "properties": [
+      {
+        "key": "HIDEOUT-COMFORT",
+        "value": 1
+      }
+    ],
+    "icon": "IconChristmasWreath"
+  },
+  "LABEQ-CRAFTER-TOILET": {
+    "name": "Toaleta użytkowa",
+    "description": "Umożliwia wytwarzanie nawozu",
+    "type": "CRAFTER-TOILET",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [],
+    "icon": null
+  },
+  "LABEQ-TRAY": {
+    "name": "Tray",
+    "description": "Allows packing, unpacking and transfer of substances",
+    "type": "CRAFTER-TRAY",
+    "tier": 1,
+    "price": 0,
+    "wattage": 0,
+    "properties": [],
+    "icon": null
+  }
+}

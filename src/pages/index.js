@@ -24,6 +24,12 @@ const index = () => {
           router.push("/shop-prices");
         }}
       />
+      <Button
+        label="Equipment"
+        trigger={() => {
+          router.push("/equipment");
+        }}
+      />
       <h5>by Yonga | Up to date as of DDS2 v1.0.13</h5>
     </div>
   );
