@@ -39,7 +39,7 @@ const index = () => {
         textAlign: "center",
       }}
     >
-      <h1>Drug Dealer Simulator | Interactive FAQ</h1>
+      <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
       <h2>Shop Prices</h2>
       <h3>Choose a Region</h3>
       <Button

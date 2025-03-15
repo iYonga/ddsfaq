@@ -4,11 +4,14 @@ import shops from "@/resources/shops.json";
 import { useState, useEffect } from "react";
 import { formatPrice } from "@/utils/numerology";
 import Button from "@/components/pickles/Button";
+import { Tooltip } from "antd";
 
 const shopPricesPage = () => {
   const router = useRouter();
   const { region } = router.query;
-  const [expandedShops, setExpandedShops] = useState([]);
+  const [expandedShops, setExpandedShops] = useState([
+    shops[region] ? Object.keys(shops[region])[0] : "",
+  ]);
   return (
     <div
       style={{

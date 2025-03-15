@@ -17,13 +17,14 @@ const index = () => {
         textAlign: "center",
       }}
     >
-      <h1>Drug Dealer Simulator | Interactive FAQ</h1>
+      <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
       <Button
         label="Shop Prices"
         trigger={() => {
           router.push("/shop-prices");
         }}
       />
+      <h5>by Yonga | Up to date as of DDS2 v1.0.13</h5>
     </div>
   );
 };
