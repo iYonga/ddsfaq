@@ -36,3 +36,25 @@ const index = () => {
 };
 
 export default index;
+
+function formatNumber(num) {
+  num = typeof num === "number" ? num : Number(num);
+  if (isNaN(num)) return "0";
+  if (num < 1000) return num.toFixed(0);
+  let divisor = 1;
+  let suffix = "";
+  if (num >= 1e12) {
+    divisor = 1e12;
+    suffix = "T";
+  } else if (num >= 1e9) {
+    divisor = 1e9;
+    suffix = "B";
+  } else if (num >= 1e6) {
+    divisor = 1e6;
+    suffix = "M";
+  } else if (num >= 1e3) {
+    divisor = 1e3;
+    suffix = "K";
+  }
+  return (num / divisor).toFixed(2) + suffix;
+}
