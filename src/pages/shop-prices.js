@@ -49,6 +49,13 @@ const index = () => {
           router.push("/");
         }}
       />
+      <Button
+        key={"search"}
+        label={"🔎 Search Items"}
+        trigger={() => {
+          router.push(`/shop-prices/search`);
+        }}
+      />
       {Object.keys(shops)
         .filter(region => !regionBlacklist.includes(region))
         .sort((a, b) => sorting.indexOf(a) - sorting.indexOf(b))

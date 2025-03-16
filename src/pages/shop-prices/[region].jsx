@@ -5,6 +5,7 @@ import { formatPrice } from "@/utils/numerology";
 import Button from "@/components/pickles/Button";
 import { Popover, Dropdown } from "antd";
 import { Menu } from "antd";
+import Input from "@/components/pickles/Input";
 
 const ShopPricesPage = () => {
   const router = useRouter();
@@ -12,6 +13,10 @@ const ShopPricesPage = () => {
   region = region && region.replaceAll("_", " ");
   const [expandedShops, setExpandedShops] = useState([]);
   const [chosenLevel, setChosenLevel] = useState(0);
+  const [search, setSearch] = useState("");
+  const [initialWidth, setInitialWidth] = useState(0);
+  const [initialHeight, setInitialHeight] = useState(0);
+  const paneRef = React.useRef(null);
 
   // region değiştiğinde, expandedShops'ı ilk dükkan ile başlat
   useEffect(() => {
@@ -28,6 +33,9 @@ const ShopPricesPage = () => {
   const handleExpandShop = shopName => {
     // Tek bir dükkan açılsın istiyorsan direkt set, birden çok açılacaksa push
     setExpandedShops([shopName]);
+    setSearch("");
+    setInitialHeight(paneRef.current.scrollHeight);
+    setInitialWidth(paneRef.current.scrollWidth);
   };
 
   if (!region || !shops[region]) {
@@ -83,7 +91,10 @@ const ShopPricesPage = () => {
             alignItems: "flex-start",
             flexWrap: "wrap",
             maxWidth: "75vw",
+            width: initialWidth === 0 ? "auto" : initialWidth,
+            height: initialHeight === 0 ? "auto" : initialHeight,
           }}
+          ref={paneRef}
         >
           {Object.entries(shops[region]).map(([shopName, shopObj]) => {
             // Dükkan expandedShops'ta yoksa hiç renderlama
@@ -103,6 +114,7 @@ const ShopPricesPage = () => {
                     marginBottom: "1rem",
                     display: "flex",
                     justifyContent: "space-between",
+                    height: "3rem",
                   }}
                 >
                   <span
@@ -149,14 +161,27 @@ const ShopPricesPage = () => {
                         : `every ${shopObj.data.ShopRestockInterval} days`}
                     </span>
                   </span>
-                  <span>
+                  <span
+                    style={{
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      gap: "0.5rem",
+                    }}
+                  >
+                    <Input
+                      placeholder="Search"
+                      value={search}
+                      setValue={setSearch}
+                      style={{
+                        width: "70%",
+                      }}
+                    />
                     {shopObj.data.PriceDiscountPerLevel &&
                       shopObj.data.PriceDiscountPerLevel.length > 0 && (
                         <Dropdown
                           overlay={
                             <Menu
                               style={{
-                                maxHeight: "200px",
                                 overflowY: "auto",
                                 backgroundColor: "#0B0B0B",
                                 color: "white",
@@ -184,6 +209,9 @@ const ShopPricesPage = () => {
                             <Button
                               label={`Level: ${chosenLevel}`}
                               onClick={e => e.preventDefault()}
+                              style={{
+                                height: "2.5rem",
+                              }}
                             ></Button>
                           </span>
                         </Dropdown>
@@ -201,8 +229,30 @@ const ShopPricesPage = () => {
                   }}
                 >
                   {shopObj.items.map(item => {
+                    // Eğer arama kutusuna bir şey yazıldıysa, item.name içinde ara
+                    if (
+                      search.length > 0 &&
+                      !item.name.toLowerCase().includes(search.toLowerCase())
+                    )
+                      return null;
+
                     // item.icon var mı bak, yoksa fallback
                     const iconFilename = item.icon || "placeholderIcon";
+
+                    const stock =
+                      chosenLevel === 0
+                        ? item.ItemDefaultStock
+                        : item.ItemMaxStockPerLevel[chosenLevel];
+
+                    const discount =
+                      chosenLevel > 0 &&
+                      shopObj.data.PriceDiscountPerLevel?.length > chosenLevel
+                        ? shopObj.data.PriceDiscountPerLevel[chosenLevel]
+                        : 0;
+
+                    const finalPrice = formatPrice(
+                      stock * (item.price * (1 - discount)),
+                    );
 
                     return (
                       <Popover
@@ -228,10 +278,7 @@ const ShopPricesPage = () => {
                           >
                             <h2>{item.name}</h2>
                             <span>
-                              <b>Max Stock:</b> {item.maxStock}
-                            </span>
-                            <span>
-                              <b>Max Stock Price:</b> {item.maxStockPrice}
+                              <b>Stack Price:</b> B {finalPrice}
                             </span>
                           </div>
                         }

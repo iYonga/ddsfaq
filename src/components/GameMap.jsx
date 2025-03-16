@@ -3,9 +3,10 @@ import { useEffect, useState, useCallback } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
 import styles from "../styles/GameMap.module.css";
 import { Popover, Button } from "antd";
+
 import maplibregl from "maplibre-gl";
 
-// Dynamically import Map and Marker (from the MapLibre version) to avoid SSR issues.
+// Dynamically import Map and Marker from the MapLibre version of react-map-gl for SSR safety.
 const Map = dynamic(
   () => import("react-map-gl/maplibre").then(mod => mod.default),
   { ssr: false },
@@ -15,7 +16,7 @@ const Marker = dynamic(
   { ssr: false },
 );
 
-// Helper: Convert image (0-4096) coordinates to geographic coordinates.
+// Helper: Convert image (0 to 4096) coordinates to geographic coordinates.
 const convertCoordinates = (x, y, imageWidth = 4096, imageHeight = 4096) => {
   const longitude = (x / imageWidth) * 360 - 180;
   const latitude = 85 - (y / imageHeight) * 170;
@@ -24,10 +25,10 @@ const convertCoordinates = (x, y, imageWidth = 4096, imageHeight = 4096) => {
 
 const GameMap = () => {
   const [markers, setMarkers] = useState([]);
-  const [coords, setCoords] = useState({ longitude: 0, latitude: 0 });
+  const [coords, setCoords] = useState({ lng: 0, lat: 0 });
 
   useEffect(() => {
-    // Define markers in image coordinates.
+    // Define markers in image coordinate space.
     const imageMarkers = [
       {
         id: 1,
@@ -43,9 +44,9 @@ const GameMap = () => {
         icon: "/icons/Marker_Town.png",
         title: "Town",
       },
-      // Add more markers as needed...
+      // You can add more markers here...
     ];
-    // Convert to geographic coordinates.
+    // Convert image coordinates to geographic coordinates.
     const geoMarkers = imageMarkers.map(marker => {
       const { longitude, latitude } = convertCoordinates(marker.x, marker.y);
       return { ...marker, longitude, latitude };
@@ -57,7 +58,7 @@ const GameMap = () => {
     console.log("Marker clicked:", marker);
   }, []);
 
-  // Popup content using Ant Design as a placeholder.
+  // Popup content using Ant Design.
   const getPopupContent = marker => (
     <div>
       <h3>{marker.title}</h3>
@@ -75,12 +76,11 @@ const GameMap = () => {
     <div className={styles.mapContainer}>
       <Map
         initialViewState={{
-          longitude: 0,
+          longitude: 0, // Centered at 0,0 (this is the center of our coordinate system)
           latitude: 0,
           zoom: 1.5,
         }}
         style={{ width: "100vw", height: "100vh" }}
-        onMouseMove={e => setCoords(e.lngLat)}
         mapStyle={{
           version: 8,
           sources: {
@@ -103,8 +103,12 @@ const GameMap = () => {
             },
           ],
         }}
-        // Disable world copies to prevent horizontal looping.
+        // Disable world copies so the map doesn't loop.
         renderWorldCopies={false}
+        // Update coordinates on mouse movement.
+        onMouseMove={e => {
+          setCoords({ lng: e.lngLat.lng, lat: e.lngLat.lat });
+        }}
         mapLib={maplibregl}
       >
         {markers.map(marker => (
@@ -134,9 +138,9 @@ const GameMap = () => {
           </Marker>
         ))}
       </Map>
-      {/* Coordinates View */}
-      <div className={styles.coordsView}>
-        Longitude: {coords.longitude} | Latitude: {coords.latitude}
+      {/* Coordinates overlay */}
+      <div className={styles.coordsDisplay}>
+        Coordinates: {coords.lng.toFixed(4)}, {coords.lat.toFixed(4)}
       </div>
     </div>
   );

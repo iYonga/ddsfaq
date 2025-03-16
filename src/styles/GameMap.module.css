@@ -1,17 +1,17 @@
 .mapContainer {
     position: relative;
+    width: 100vw;
+        height: 100vh;
 }
 
-.coordsView {
+.coordsDisplay {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 3px;
     font-size: 14px;
-    font-family: monospace;
-    user-select: none;
     z-index: 1000;
 }

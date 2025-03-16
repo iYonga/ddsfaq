@@ -1,10 +1,11 @@
 import React from "react";
+import { Input as InputA } from "antd";
 // this is a custom button wrapper thingy i've written. its a reusable component.
-const Button = ({ style, label, trigger = () => {} }) => {
+const Input = ({ style, placeholder = "", value, setValue }) => {
   return (
-    <button
-      onClick={() => {
-        trigger();
+    <InputA
+      onChange={e => {
+        setValue(e.target.value);
       }}
       style={{
         padding: "0.5rem 1rem",
@@ -12,14 +13,15 @@ const Button = ({ style, label, trigger = () => {} }) => {
         borderRadius: "0.5rem",
         border: "#FFCC00 2px solid",
         background: "#111",
-        cursor: "pointer",
+        color: "white",
+        height: "2.5rem",
         ...style,
       }}
-      id="button"
-    >
-      {label}
-    </button>
+      id="input"
+      placeholder={placeholder}
+      value={value}
+    ></InputA>
   );
 };
 
-export default Button;
+export default Input;
