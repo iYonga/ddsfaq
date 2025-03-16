@@ -6,6 +6,7 @@ import Button from "@/components/pickles/Button";
 import { Popover, Dropdown } from "antd";
 import { Menu } from "antd";
 import Input from "@/components/pickles/Input";
+import Head from "next/head";
 
 const ShopPricesPage = () => {
   const router = useRouter();
@@ -58,6 +59,9 @@ const ShopPricesPage = () => {
         padding: "1rem",
       }}
     >
+      <Head>
+        <title>{region} Shops | DDS2FAQ</title>
+      </Head>
       <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Shop Prices | {region}</h4>
 

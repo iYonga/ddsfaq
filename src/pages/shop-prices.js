@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
 import shops from "@/resources/shops.json";
+import Head from "next/head";
 
 const index = () => {
   const router = useRouter();
@@ -39,6 +40,9 @@ const index = () => {
         textAlign: "center",
       }}
     >
+      <Head>
+        <title>Shop Prices | DDS2FAQ</title>
+      </Head>
       <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
       <h2>Shop Prices</h2>
       <h3>Choose a Region</h3>

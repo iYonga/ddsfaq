@@ -30,6 +30,27 @@ const index = () => {
           router.push("/demands");
         }}
       />
+      <Button
+        label="Common Questions"
+        trigger={() => {
+          router.push("/common-questions");
+        }}
+      />
+      <Button
+        label="Common Bugs & Fixes"
+        trigger={() => {
+          router.push("/common-bugs");
+        }}
+      />
+      <Button
+        label="All Links"
+        trigger={() => {
+          var url =
+            "https://docs.google.com/document/d/1J-RtTgDRv6Qipjm3BoPLdx9C4uAoFxV4f94PqxGD3SQ";
+          // open in new tab
+          window.open(url, "_blank");
+        }}
+      />
 
       <h5>by Yonga | Up to date as of DDS2 v1.0.13</h5>
     </div>

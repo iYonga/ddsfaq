@@ -1,11 +1,15 @@
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 export default function Home() {
   const router = useRouter();
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       {/* Title Section */}
+      <Head>
+        <title>Drug Demands | DDS2FAQ</title>
+      </Head>
       <header
         style={{
           textAlign: "center",
