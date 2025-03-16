@@ -35,7 +35,7 @@ const index = () => {
         height: "100vh",
         padding: "1rem",
         flexDirection: "column",
-        gap: "1rem",
+        gap: "0.5rem",
         textAlign: "center",
       }}
     >
@@ -58,7 +58,7 @@ const index = () => {
               key={region}
               label={region}
               trigger={() => {
-                router.push(`/shop-prices/${region}`);
+                router.push(`/shop-prices/${region.replaceAll(/ /g, "_")}`);
               }}
             />
           );

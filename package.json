@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.23.0",
+    "@deck.gl/core": "^9.1.5",
+    "@deck.gl/layers": "^9.1.5",
     "antd": "^5.24.3",
+    "maplibre-gl": "^5.2.0",
     "next": "15.2.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-map-gl": "^8.0.1"
   }
 }

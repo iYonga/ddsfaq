@@ -8,9 +8,8 @@ import { Menu } from "antd";
 
 const ShopPricesPage = () => {
   const router = useRouter();
-  const { region } = router.query;
-
-  // expandedShops, aktif olarak açılmış/expand edilmiş dükkanları tutuyor
+  var { region } = router.query;
+  region = region && region.replaceAll("_", " ");
   const [expandedShops, setExpandedShops] = useState([]);
   const [chosenLevel, setChosenLevel] = useState(0);
 
@@ -48,8 +47,10 @@ const ShopPricesPage = () => {
         gap: "1rem",
         alignItems: "center",
         width: "100%",
+        padding: "1rem",
       }}
     >
+      <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Shop Prices | {region}</h4>
 
       {/* Sol taraftaki butonlar */}
@@ -139,7 +140,7 @@ const ShopPricesPage = () => {
                           >
                             CAN'T
                           </span>{" "}
-                          pay with your bank account.
+                          pay with your bank account,{" "}
                         </>
                       )}
                       Restocks{" "}
@@ -206,6 +207,7 @@ const ShopPricesPage = () => {
                     return (
                       <Popover
                         key={`${shopName}-${item.name}`}
+                        color="#0B0B0B"
                         content={
                           <div
                             style={{
@@ -283,7 +285,18 @@ const ShopPricesPage = () => {
                               color: "#4F9B23",
                             }}
                           >
-                            B {formatPrice(item.price)}
+                            B{" "}
+                            {formatPrice(
+                              shopObj.data.PriceDiscountPerLevel &&
+                                chosenLevel > 0 &&
+                                shopObj.data.PriceDiscountPerLevel.length > 0
+                                ? item.price -
+                                    item.price *
+                                      shopObj.data.PriceDiscountPerLevel[
+                                        chosenLevel
+                                      ]
+                                : item.price,
+                            )}
                           </p>
                         </div>
                       </Popover>
