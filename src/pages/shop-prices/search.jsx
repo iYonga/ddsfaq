@@ -126,9 +126,54 @@ const Search = () => {
                     height: "3rem",
                   }}
                 >
-                  <span>
-                    {shopObj.data.region} - {shopObj.data.name}
+                  <span
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      flexDirection: "column",
+                    }}
+                  >
+                    <span>
+                      {" "}
+                      {shopObj.data.region} - {shopObj.data.name}
+                    </span>
+                    <span
+                      style={{
+                        fontSize: "0.75rem",
+                      }}
+                    >
+                      {shopObj.data.ShopCanPayCheck ? (
+                        <>
+                          You{" "}
+                          <span
+                            style={{
+                              color: "green",
+                            }}
+                          >
+                            CAN
+                          </span>{" "}
+                          pay with your bank account,{" "}
+                        </>
+                      ) : (
+                        <>
+                          You{" "}
+                          <span
+                            style={{
+                              color: "red",
+                            }}
+                          >
+                            CAN'T
+                          </span>{" "}
+                          pay with your bank account,{" "}
+                        </>
+                      )}
+                      Restocks{" "}
+                      {shopObj.data.ShopRestockInterval == 1
+                        ? "daily"
+                        : `every ${shopObj.data.ShopRestockInterval} days`}
+                    </span>
                   </span>
+
                   <span>
                     {shopObj.data.PriceDiscountPerLevel?.length > 0 && (
                       <Dropdown
