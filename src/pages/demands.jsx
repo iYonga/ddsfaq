@@ -1,6 +1,8 @@
 import Button from "@/components/pickles/Button";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       {/* Title Section */}
