@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const GameMap = dynamic(() => import("@/components/GameMap"), { ssr: false });
+import GameMap from "../components/GameMap";
 
 export default function Home() {
   return (

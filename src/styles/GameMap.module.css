@@ -1,17 +1,21 @@
 .mapContainer {
     position: relative;
     width: 100vw;
-        height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.coordsDisplay {
+.mapImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    user-select: none;
+}
+
+.mapContainer .marker {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 3px;
-    font-size: 14px;
-    z-index: 1000;
+    transform: translate(-50%, -50%);
+        cursor: pointer;
+        pointer-events: auto;
 }

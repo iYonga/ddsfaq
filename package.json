@@ -14,10 +14,12 @@
     "@deck.gl/layers": "^9.1.5",
     "antd": "^5.24.3",
     "html-react-parser": "^5.2.2",
+    "leaflet": "^1.9.4",
     "maplibre-gl": "^5.2.0",
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
     "react-map-gl": "^8.0.1"
   }
 }

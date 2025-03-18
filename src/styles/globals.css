@@ -49,3 +49,6 @@ a {
 #button:active {
   background-color: #006d32 !important;
 }
+#input::placeholder {
+  color: white;
+}

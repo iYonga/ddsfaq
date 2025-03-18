@@ -1,0 +1,2668 @@
+{
+  "logs": [
+    {
+      "timestamp": "21:03:50.8596194",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "POLICE-STATION",
+      "X": -27887.0,
+      "Y": 2803.0,
+      "Z": 2589.0
+    },
+    {
+      "timestamp": "21:03:50.8599131",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "POLICE-STATION",
+      "X": -25720.0,
+      "Y": -47124.0,
+      "Z": 5912.0
+    },
+    {
+      "timestamp": "21:03:50.8604472",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "POLICE-STATION",
+      "X": 39942.0,
+      "Y": 35953.0,
+      "Z": 1782.0
+    },
+    {
+      "timestamp": "21:03:50.8606045",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "POLICE-STATION",
+      "X": 97102.0,
+      "Y": -29988.0,
+      "Z": 1093.0
+    },
+    {
+      "timestamp": "21:03:50.8607019",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 104041.0,
+      "Y": -35133.0,
+      "Z": 1731.0
+    },
+    {
+      "timestamp": "21:03:50.8607762",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 134910.0,
+      "Y": -15719.0,
+      "Z": 1234.0
+    },
+    {
+      "timestamp": "21:03:50.8608589",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 68050.0,
+      "Y": -35851.0,
+      "Z": 2363.0
+    },
+    {
+      "timestamp": "21:03:50.8610644",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 45698.0,
+      "Y": -48139.0,
+      "Z": 3225.0
+    },
+    {
+      "timestamp": "21:03:50.8611933",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 17805.0,
+      "Y": -11237.0,
+      "Z": 2153.0
+    },
+    {
+      "timestamp": "21:03:50.8613326",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 39985.0,
+      "Y": 13662.0,
+      "Z": 2203.0
+    },
+    {
+      "timestamp": "21:03:50.8614698",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": 43613.0,
+      "Y": 31135.0,
+      "Z": 2420.0
+    },
+    {
+      "timestamp": "21:03:50.8615811",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": -43757.0,
+      "Y": -44727.0,
+      "Z": 4251.0
+    },
+    {
+      "timestamp": "21:03:50.8616872",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": -26591.321,
+      "Y": 3714.116,
+      "Z": 2561.0
+    },
+    {
+      "timestamp": "21:03:50.8620598",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": -53393.0,
+      "Y": -20847.0,
+      "Z": 1708.0
+    },
+    {
+      "timestamp": "21:03:50.8622887",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-COKE-ENTER",
+      "X": -17551.39,
+      "Y": -15353.693,
+      "Z": 4000.0
+    },
+    {
+      "timestamp": "21:03:50.8624103",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-RAB",
+      "X": -9500.495,
+      "Y": -65493.803,
+      "Z": 2389.0
+    },
+    {
+      "timestamp": "21:03:50.8626007",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-STR-FUN",
+      "X": -21829.163,
+      "Y": -56478.56,
+      "Z": 1881.0
+    },
+    {
+      "timestamp": "21:03:50.8627030",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-DRUG-BLUE-METH",
+      "X": -34302.52,
+      "Y": -76085.381,
+      "Z": 1652.518
+    },
+    {
+      "timestamp": "21:03:50.8628506",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-VOL-RAVE",
+      "X": -38011.773,
+      "Y": -56211.883,
+      "Z": 1862.338
+    },
+    {
+      "timestamp": "21:03:50.8629606",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-VOL-SUBEQ",
+      "X": -29980.121,
+      "Y": -91044.167,
+      "Z": 956.129
+    },
+    {
+      "timestamp": "21:03:50.8630658",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-HARD",
+      "X": -41314.009,
+      "Y": -39906.94,
+      "Z": 4365.0
+    },
+    {
+      "timestamp": "21:03:50.8632445",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-LABEQ",
+      "X": -28156.526,
+      "Y": -42763.219,
+      "Z": 5964.974
+    },
+    {
+      "timestamp": "21:03:50.8633567",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-FURN",
+      "X": -26460.164,
+      "Y": -45590.7,
+      "Z": 6024.0
+    },
+    {
+      "timestamp": "21:03:50.8634590",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-LSD-PENI",
+      "X": 32500.0,
+      "Y": 25110.0,
+      "Z": 3460.0
+    },
+    {
+      "timestamp": "21:03:50.8635419",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-FARM",
+      "X": -21525.226,
+      "Y": -49416.178,
+      "Z": 5095.863
+    },
+    {
+      "timestamp": "21:03:50.8636836",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-JAM",
+      "X": -40572.042,
+      "Y": -41248.259,
+      "Z": 4332.0
+    },
+    {
+      "timestamp": "21:03:50.8637853",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-PAWN",
+      "X": -41492.754,
+      "Y": -44654.374,
+      "Z": 4340.0
+    },
+    {
+      "timestamp": "21:03:50.8638928",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-GENE",
+      "X": -29816.842,
+      "Y": -46955.058,
+      "Z": 5823.181
+    },
+    {
+      "timestamp": "21:03:50.8640235",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-VOL-HARD",
+      "X": -34148.744,
+      "Y": -53592.323,
+      "Z": 1297.608
+    },
+    {
+      "timestamp": "21:03:50.8641239",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-VOL-LABEQ",
+      "X": -38419.973,
+      "Y": -51551.681,
+      "Z": 1385.202
+    },
+    {
+      "timestamp": "21:03:50.8642083",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-LABEQ",
+      "X": -46707.979,
+      "Y": -15587.791,
+      "Z": 1866.0
+    },
+    {
+      "timestamp": "21:03:50.8642819",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-HARD",
+      "X": -41966.636,
+      "Y": -13495.464,
+      "Z": 1300.0
+    },
+    {
+      "timestamp": "21:03:50.8644222",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-BOAT",
+      "X": -38539.614,
+      "Y": -5741.868,
+      "Z": 1500.0
+    },
+    {
+      "timestamp": "21:03:50.8645385",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-GAS",
+      "X": -51766.505,
+      "Y": -8107.299,
+      "Z": 1008.199
+    },
+    {
+      "timestamp": "21:03:50.8646459",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-FURN",
+      "X": -37050.122,
+      "Y": -8895.644,
+      "Z": 1415.0
+    },
+    {
+      "timestamp": "21:03:50.8647309",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-CLOTH",
+      "X": -30249.249,
+      "Y": 1261.234,
+      "Z": 2553.301
+    },
+    {
+      "timestamp": "21:03:50.8648078",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-BIG-GENE",
+      "X": -29110.248,
+      "Y": 2245.606,
+      "Z": 2593.752
+    },
+    {
+      "timestamp": "21:03:50.8649330",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-PHARM",
+      "X": -31464.439,
+      "Y": 5609.892,
+      "Z": 2640.706
+    },
+    {
+      "timestamp": "21:03:50.8650316",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-FUN",
+      "X": -27098.019,
+      "Y": 6136.638,
+      "Z": 2640.0
+    },
+    {
+      "timestamp": "21:03:50.8651038",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-PAWN",
+      "X": -44558.62,
+      "Y": 18473.077,
+      "Z": 1515.0
+    },
+    {
+      "timestamp": "21:03:50.8651960",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-GENE",
+      "X": -40202.84,
+      "Y": 9243.824,
+      "Z": 1460.0
+    },
+    {
+      "timestamp": "21:03:50.8655375",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PORT-FUN2",
+      "X": -45038.021,
+      "Y": 17002.983,
+      "Z": 1134.341
+    },
+    {
+      "timestamp": "21:03:50.8656995",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "TOWN-HALL-PORT",
+      "X": -30863.833,
+      "Y": 5153.177,
+      "Z": 2570.0
+    },
+    {
+      "timestamp": "21:03:50.8659386",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "TOWN-HALL-CITY",
+      "X": -99596.465,
+      "Y": 16631.714,
+      "Z": 1480.0
+    },
+    {
+      "timestamp": "21:03:50.8662379",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-VOL-FIRE",
+      "X": -20900.009,
+      "Y": -58184.17,
+      "Z": 1747.55
+    },
+    {
+      "timestamp": "21:03:50.8663791",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-VOL-RAVE",
+      "X": -35971.228,
+      "Y": -57762.289,
+      "Z": 1310.0
+    },
+    {
+      "timestamp": "21:03:50.8664681",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-CITY-MAY-HILL",
+      "X": -105588.55,
+      "Y": 30287.252,
+      "Z": 2418.564
+    },
+    {
+      "timestamp": "21:03:50.8665852",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-JAM-FUN",
+      "X": -35984.611,
+      "Y": -35063.474,
+      "Z": 6706.531
+    },
+    {
+      "timestamp": "21:03:50.8666904",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-CLOTH",
+      "X": 93448.245,
+      "Y": -17090.307,
+      "Z": 1400.0
+    },
+    {
+      "timestamp": "21:03:50.8668286",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-BIG-GENE",
+      "X": 101360.804,
+      "Y": -32852.466,
+      "Z": 1810.0
+    },
+    {
+      "timestamp": "21:03:50.8669406",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-GAS",
+      "X": 76650.098,
+      "Y": -35804.124,
+      "Z": 1005.1
+    },
+    {
+      "timestamp": "21:03:50.8670291",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-CLOTH",
+      "X": 64334.049,
+      "Y": -37602.139,
+      "Z": 2758.0
+    },
+    {
+      "timestamp": "21:03:50.8671342",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-MECH",
+      "X": 41975.782,
+      "Y": 18622.587,
+      "Z": 2408.057
+    },
+    {
+      "timestamp": "21:03:50.8672518",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-CLOTH",
+      "X": 18795.901,
+      "Y": -8209.167,
+      "Z": 2179.122
+    },
+    {
+      "timestamp": "21:03:50.8673333",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-COCA-LEAVES",
+      "X": 22209.126,
+      "Y": -73474.229,
+      "Z": 1130.447
+    },
+    {
+      "timestamp": "21:03:50.8674001",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-VOL-FIRE2",
+      "X": -45848.302,
+      "Y": -51286.812,
+      "Z": 1019.219
+    },
+    {
+      "timestamp": "21:03:50.8674785",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX2-FIRE",
+      "X": 41619.213,
+      "Y": -30389.011,
+      "Z": 2955.464
+    },
+    {
+      "timestamp": "21:03:50.8676147",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX2-SHOP",
+      "X": 32506.923,
+      "Y": -34008.773,
+      "Z": 1965.481
+    },
+    {
+      "timestamp": "21:03:50.8677094",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX2-FIRE2",
+      "X": 41132.978,
+      "Y": -38182.02,
+      "Z": 4420.293
+    },
+    {
+      "timestamp": "21:03:50.8679380",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX2-BEACH",
+      "X": 26635.754,
+      "Y": -55990.341,
+      "Z": 1082.01
+    },
+    {
+      "timestamp": "21:03:50.8680542",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-JAM-HILL",
+      "X": -38554.793,
+      "Y": -34075.436,
+      "Z": 6659.254
+    },
+    {
+      "timestamp": "21:03:50.8682299",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-JAM-FIRE",
+      "X": -37086.188,
+      "Y": -40982.48,
+      "Z": 4157.456
+    },
+    {
+      "timestamp": "21:03:50.8683847",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-JAM-FIRE2",
+      "X": -36935.636,
+      "Y": -48660.806,
+      "Z": 4078.881
+    },
+    {
+      "timestamp": "21:03:50.8686038",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-COKE",
+      "X": -17337.068,
+      "Y": -13793.567,
+      "Z": 4062.716
+    },
+    {
+      "timestamp": "21:03:50.8687277",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-JAM-FIRE3",
+      "X": -33197.943,
+      "Y": -42562.361,
+      "Z": 6387.074
+    },
+    {
+      "timestamp": "21:03:50.8688385",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-POR-BEACH",
+      "X": -36930.897,
+      "Y": -3215.236,
+      "Z": 1008.012
+    },
+    {
+      "timestamp": "21:03:50.8689479",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-POR-FIRE",
+      "X": -48336.341,
+      "Y": 8235.223,
+      "Z": 1591.354
+    },
+    {
+      "timestamp": "21:03:50.8691269",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-POR-LUX",
+      "X": -46042.952,
+      "Y": 18047.274,
+      "Z": 1430.0
+    },
+    {
+      "timestamp": "21:03:50.8709994",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-POR-YARD",
+      "X": -37778.269,
+      "Y": 18419.722,
+      "Z": 2553.854
+    },
+    {
+      "timestamp": "21:03:50.8711760",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "GANG-MEX2",
+      "X": 50644.506,
+      "Y": -50297.727,
+      "Z": 4707.046
+    },
+    {
+      "timestamp": "21:03:50.8713115",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INFLU-CITY-FAV",
+      "X": -95637.256,
+      "Y": 4905.749,
+      "Z": 3830.0
+    },
+    {
+      "timestamp": "21:03:50.8714576",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-FIRE",
+      "X": 142811.053,
+      "Y": -47472.796,
+      "Z": 2144.664
+    },
+    {
+      "timestamp": "21:03:50.8716657",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-FIELD",
+      "X": 138336.338,
+      "Y": -17219.766,
+      "Z": 2015.594
+    },
+    {
+      "timestamp": "21:03:50.8718004",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-BAR",
+      "X": 123401.342,
+      "Y": -21899.019,
+      "Z": 1780.0
+    },
+    {
+      "timestamp": "21:03:50.8719083",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-FIRE2",
+      "X": 113597.63,
+      "Y": -16763.128,
+      "Z": 1503.008
+    },
+    {
+      "timestamp": "21:03:50.8721286",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-JUMP",
+      "X": 132387.578,
+      "Y": -30568.881,
+      "Z": 1950.026
+    },
+    {
+      "timestamp": "21:03:50.8722783",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "ARCH-WARE",
+      "X": 128458.733,
+      "Y": -10011.507,
+      "Z": 1139.003
+    },
+    {
+      "timestamp": "21:03:50.8724104",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX2-STASH",
+      "X": 45243.826,
+      "Y": -39403.062,
+      "Z": 3878.931
+    },
+    {
+      "timestamp": "21:03:50.8725014",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "ARCH-SAC",
+      "X": 115290.485,
+      "Y": -27205.669,
+      "Z": 2096.0
+    },
+    {
+      "timestamp": "21:03:50.8726322",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX1-WARE",
+      "X": 95199.475,
+      "Y": -23256.328,
+      "Z": 1312.602
+    },
+    {
+      "timestamp": "21:03:50.8728120",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX1-CHEM-WARE",
+      "X": 91203.189,
+      "Y": -20042.154,
+      "Z": 1320.0
+    },
+    {
+      "timestamp": "21:03:50.8729413",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX1-STORE",
+      "X": 61671.412,
+      "Y": -33205.612,
+      "Z": 2400.0
+    },
+    {
+      "timestamp": "21:03:50.8730632",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX2-WARE-METH",
+      "X": 35434.777,
+      "Y": -37908.118,
+      "Z": 3000.0
+    },
+    {
+      "timestamp": "21:03:50.8731981",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-ARCH-FIRE3",
+      "X": 101639.848,
+      "Y": -30318.635,
+      "Z": 1129.764
+    },
+    {
+      "timestamp": "21:03:50.8732978",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX1-FIRE",
+      "X": 86949.581,
+      "Y": -31572.177,
+      "Z": 1756.392
+    },
+    {
+      "timestamp": "21:03:50.8734886",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX1-HILL",
+      "X": 57639.828,
+      "Y": -32907.955,
+      "Z": 3235.154
+    },
+    {
+      "timestamp": "21:03:50.8736966",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PENI-WARE-PHENYL",
+      "X": 45236.285,
+      "Y": 24821.987,
+      "Z": 2870.0
+    },
+    {
+      "timestamp": "21:03:50.8737967",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SLAV-WARE-CHEM",
+      "X": 31036.871,
+      "Y": 6742.226,
+      "Z": 3450.0
+    },
+    {
+      "timestamp": "21:03:50.8739379",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-MEX1-BAR",
+      "X": 72368.814,
+      "Y": -42826.628,
+      "Z": 1078.139
+    },
+    {
+      "timestamp": "21:03:50.8741263",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX1-WARE-FARM2",
+      "X": 113601.38,
+      "Y": -72201.959,
+      "Z": 2665.0
+    },
+    {
+      "timestamp": "21:03:50.8742451",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEX1-WARE-FARM2",
+      "X": 77917.583,
+      "Y": -66071.205,
+      "Z": 2180.0
+    },
+    {
+      "timestamp": "21:03:50.8744135",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INFLU-PIRA",
+      "X": -43378.126,
+      "Y": -55113.535,
+      "Z": 1862.338
+    },
+    {
+      "timestamp": "21:03:50.8746069",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PENI-PHARM-STASH",
+      "X": -30761.2,
+      "Y": 6313.545,
+      "Z": 2599.877
+    },
+    {
+      "timestamp": "21:03:50.8747364",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "JAM",
+      "X": -28330.853,
+      "Y": -49729.261,
+      "Z": 5800.0
+    },
+    {
+      "timestamp": "21:03:50.8748231",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INFLU-RAB",
+      "X": 14853.287,
+      "Y": -78181.676,
+      "Z": 1679.963
+    },
+    {
+      "timestamp": "21:03:50.8749371",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "JP",
+      "X": 37885.525,
+      "Y": 46597.845,
+      "Z": 1070.0
+    },
+    {
+      "timestamp": "21:03:50.8750864",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-FARM2",
+      "X": 111927.087,
+      "Y": -70552.185,
+      "Z": 2746.497
+    },
+    {
+      "timestamp": "21:03:50.8751951",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-FARM",
+      "X": 100153.065,
+      "Y": -70277.92,
+      "Z": 3954.734
+    },
+    {
+      "timestamp": "21:03:50.8753355",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-FUN2",
+      "X": 65404.291,
+      "Y": -34012.333,
+      "Z": 1740.68
+    },
+    {
+      "timestamp": "21:03:50.8755581",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-MECH",
+      "X": 145239.839,
+      "Y": -33372.893,
+      "Z": 2099.487
+    },
+    {
+      "timestamp": "21:03:50.8756656",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-FUN",
+      "X": 122076.292,
+      "Y": -21314.474,
+      "Z": 1792.999
+    },
+    {
+      "timestamp": "21:03:50.8758038",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-FURN",
+      "X": 95243.247,
+      "Y": -17647.1,
+      "Z": 1434.508
+    },
+    {
+      "timestamp": "21:03:50.8760033",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-FUN",
+      "X": 73401.871,
+      "Y": -41739.484,
+      "Z": 1147.457
+    },
+    {
+      "timestamp": "21:03:50.8761233",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-GENE",
+      "X": 38432.345,
+      "Y": 19222.632,
+      "Z": 2335.0
+    },
+    {
+      "timestamp": "21:03:50.8762320",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-FUN",
+      "X": 14261.072,
+      "Y": -6030.363,
+      "Z": 2327.999
+    },
+    {
+      "timestamp": "21:03:50.8763985",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-PAWN",
+      "X": 32853.833,
+      "Y": 29488.335,
+      "Z": 2066.179
+    },
+    {
+      "timestamp": "21:03:50.8765247",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "AC",
+      "X": 49566.512,
+      "Y": 46626.653,
+      "Z": 3130.1
+    },
+    {
+      "timestamp": "21:03:50.8766487",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "AMER-COL",
+      "X": -53611.434,
+      "Y": -24782.558,
+      "Z": 1607.008
+    },
+    {
+      "timestamp": "21:03:50.8767557",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-PAWN",
+      "X": 24376.571,
+      "Y": -95.43,
+      "Z": 1421.193
+    },
+    {
+      "timestamp": "21:03:50.8768829",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX2-DRUG",
+      "X": 45944.029,
+      "Y": -56303.731,
+      "Z": 3684.519
+    },
+    {
+      "timestamp": "21:03:50.8769775",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX2-GENE",
+      "X": 32172.983,
+      "Y": -32478.878,
+      "Z": 2173.526
+    },
+    {
+      "timestamp": "21:03:50.8770792",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SWAM-LABEQ",
+      "X": 40577.332,
+      "Y": 3047.583,
+      "Z": 1752.176
+    },
+    {
+      "timestamp": "21:03:50.8771811",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SWAM-FARM",
+      "X": 44623.321,
+      "Y": -10397.924,
+      "Z": 1527.595
+    },
+    {
+      "timestamp": "21:03:50.8773022",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-GAS",
+      "X": 15882.534,
+      "Y": 22296.966,
+      "Z": 974.96
+    },
+    {
+      "timestamp": "21:03:50.8774134",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-CLOTH",
+      "X": 32228.842,
+      "Y": 29398.094,
+      "Z": 2091.255
+    },
+    {
+      "timestamp": "21:03:50.8774898",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-BIG-GENE",
+      "X": 33730.284,
+      "Y": 36307.437,
+      "Z": 2890.0
+    },
+    {
+      "timestamp": "21:03:50.8780434",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-PHARM",
+      "X": 35128.406,
+      "Y": 35185.448,
+      "Z": 2895.0
+    },
+    {
+      "timestamp": "21:03:50.8782129",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-FUN2",
+      "X": 49269.387,
+      "Y": 35511.507,
+      "Z": 1249.0
+    },
+    {
+      "timestamp": "21:03:50.8783235",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-FUN3",
+      "X": 39366.488,
+      "Y": 37240.101,
+      "Z": 1690.0
+    },
+    {
+      "timestamp": "21:03:50.8785090",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-FUN",
+      "X": 26746.535,
+      "Y": 37393.599,
+      "Z": 2953.949
+    },
+    {
+      "timestamp": "21:03:50.8786515",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-BUNK-GENE",
+      "X": 123191.507,
+      "Y": 16997.856,
+      "Z": 1630.255
+    },
+    {
+      "timestamp": "21:03:50.8787549",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX2-HARD",
+      "X": 44140.73,
+      "Y": -51789.542,
+      "Z": 3184.961
+    },
+    {
+      "timestamp": "21:03:50.8788596",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX2-PAWN",
+      "X": 43044.064,
+      "Y": -40675.785,
+      "Z": 3610.0
+    },
+    {
+      "timestamp": "21:03:50.8789698",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX2-FUN",
+      "X": 41658.718,
+      "Y": -41052.939,
+      "Z": 3580.0
+    },
+    {
+      "timestamp": "21:03:50.8791744",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-FUN",
+      "X": -108850.023,
+      "Y": 24977.116,
+      "Z": 1107.006
+    },
+    {
+      "timestamp": "21:03:50.8792678",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-BOAT",
+      "X": -107798.336,
+      "Y": 23485.933,
+      "Z": 1065.5
+    },
+    {
+      "timestamp": "21:03:50.8793706",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-CLOTH",
+      "X": -107236.893,
+      "Y": 22513.486,
+      "Z": 1080.701
+    },
+    {
+      "timestamp": "21:03:50.8794773",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-HARD",
+      "X": -105734.38,
+      "Y": 12368.162,
+      "Z": 1537.571
+    },
+    {
+      "timestamp": "21:03:50.8795910",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-FUN2",
+      "X": -105764.791,
+      "Y": 10920.537,
+      "Z": 1537.571
+    },
+    {
+      "timestamp": "21:03:50.8796928",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-FUN3",
+      "X": -103692.079,
+      "Y": 11924.56,
+      "Z": 1856.724
+    },
+    {
+      "timestamp": "21:03:50.8799302",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-GENE",
+      "X": -106606.514,
+      "Y": 25002.968,
+      "Z": 1770.001
+    },
+    {
+      "timestamp": "21:03:50.8800315",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-PAWN",
+      "X": -105448.966,
+      "Y": 25083.779,
+      "Z": 1770.0
+    },
+    {
+      "timestamp": "21:03:50.8801654",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-PHARM",
+      "X": -93626.684,
+      "Y": 19319.146,
+      "Z": 3007.711
+    },
+    {
+      "timestamp": "21:03:50.8802848",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-CLOTH2",
+      "X": -93453.901,
+      "Y": 17290.981,
+      "Z": 3007.711
+    },
+    {
+      "timestamp": "21:03:50.8804276",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-FURN",
+      "X": -94941.859,
+      "Y": 16760.686,
+      "Z": 3007.711
+    },
+    {
+      "timestamp": "21:03:50.8805783",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-BIG-GENE",
+      "X": -95676.324,
+      "Y": 16822.54,
+      "Z": 3021.373
+    },
+    {
+      "timestamp": "21:03:50.8806804",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-FAV-FUN2",
+      "X": -93805.434,
+      "Y": 5912.869,
+      "Z": 3020.0
+    },
+    {
+      "timestamp": "21:03:50.8807693",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-FAV-FUN",
+      "X": -91901.331,
+      "Y": 4821.704,
+      "Z": 4150.0
+    },
+    {
+      "timestamp": "21:03:50.8809286",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-FAV-HARD",
+      "X": -97770.686,
+      "Y": -5267.441,
+      "Z": 4971.761
+    },
+    {
+      "timestamp": "21:03:50.8810232",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-FAV-HARD",
+      "X": -97232.938,
+      "Y": -5700.791,
+      "Z": 4729.383
+    },
+    {
+      "timestamp": "21:03:50.8811577",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-MAY-GAS",
+      "X": -106715.911,
+      "Y": 4626.371,
+      "Z": 1348.163
+    },
+    {
+      "timestamp": "21:03:50.8812553",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-FAV-FUN",
+      "X": -95142.814,
+      "Y": -982.687,
+      "Z": 4400.598
+    },
+    {
+      "timestamp": "21:03:50.8813737",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-CITY-BUS-FUN",
+      "X": -117590.619,
+      "Y": 48758.752,
+      "Z": 4854.214
+    },
+    {
+      "timestamp": "21:03:50.8814649",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SLAV-WARE-SAT",
+      "X": 8620.0,
+      "Y": -4970.0,
+      "Z": 3410.0
+    },
+    {
+      "timestamp": "21:03:50.8815494",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "JAM-WARE-OPIUM",
+      "X": -43400.0,
+      "Y": -32880.0,
+      "Z": 4300.0
+    },
+    {
+      "timestamp": "21:03:50.8818130",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "VOL-WARE-SHROOMS",
+      "X": -46080.0,
+      "Y": -70880.0,
+      "Z": 1600.0
+    },
+    {
+      "timestamp": "21:03:50.8823972",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PORT-WARE-02",
+      "X": -44220.0,
+      "Y": -12230.0,
+      "Z": 1320.0
+    },
+    {
+      "timestamp": "21:03:50.8825167",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-CITY-MAY-FIRE",
+      "X": -108723.797,
+      "Y": 21375.982,
+      "Z": 1020.072
+    },
+    {
+      "timestamp": "21:03:50.8826641",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-CITY-FAV-FIRE",
+      "X": -112617.155,
+      "Y": 1101.311,
+      "Z": 1448.12
+    },
+    {
+      "timestamp": "21:03:50.8828044",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-CITY-FAV-ABAN",
+      "X": -105514.744,
+      "Y": -10.925,
+      "Z": 2700.0
+    },
+    {
+      "timestamp": "21:03:50.8830245",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PATRY-CITY-FAV-FIRE2",
+      "X": -95259.835,
+      "Y": -8310.386,
+      "Z": 5068.803
+    },
+    {
+      "timestamp": "21:03:50.8831635",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-CITY-MAY-FIRE2",
+      "X": -92520.86,
+      "Y": 11391.798,
+      "Z": 4035.119
+    },
+    {
+      "timestamp": "21:03:50.8832708",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SWAM-FIRE",
+      "X": 43549.326,
+      "Y": -164.808,
+      "Z": 1502.627
+    },
+    {
+      "timestamp": "21:03:50.8833805",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SWAM-ISLA",
+      "X": 39074.619,
+      "Y": -889.979,
+      "Z": 1452.535
+    },
+    {
+      "timestamp": "21:03:50.8835913",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SLAV-BEACH",
+      "X": 18395.373,
+      "Y": -272.511,
+      "Z": 1001.673
+    },
+    {
+      "timestamp": "21:03:50.8837002",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SLAV-BAR",
+      "X": 12427.71,
+      "Y": -5218.857,
+      "Z": 2315.0
+    },
+    {
+      "timestamp": "21:03:50.8838043",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SLAV-FIRE",
+      "X": 30376.245,
+      "Y": -61.526,
+      "Z": 3128.645
+    },
+    {
+      "timestamp": "21:03:50.8839468",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-PENI-BEACH",
+      "X": 49514.33,
+      "Y": 34464.73,
+      "Z": 1039.453
+    },
+    {
+      "timestamp": "21:03:50.8840554",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-PENI-BEACH2",
+      "X": 28913.48,
+      "Y": 44735.508,
+      "Z": 998.038
+    },
+    {
+      "timestamp": "21:03:50.8841451",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-PENI-FIRE",
+      "X": 40462.048,
+      "Y": 32067.154,
+      "Z": 1354.543
+    },
+    {
+      "timestamp": "21:03:50.8842769",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-PENI-BAR",
+      "X": 28135.736,
+      "Y": 38100.341,
+      "Z": 2910.0
+    },
+    {
+      "timestamp": "21:03:50.8843658",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PARTY-SLAV-GAS",
+      "X": 37839.061,
+      "Y": 13451.761,
+      "Z": 2246.853
+    },
+    {
+      "timestamp": "21:03:50.8844942",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-FURN",
+      "X": 19919.026,
+      "Y": -8381.805,
+      "Z": 2149.206
+    },
+    {
+      "timestamp": "21:03:50.8845938",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROD-ETHA",
+      "X": 45941.653,
+      "Y": -38057.167,
+      "Z": 3230.0
+    },
+    {
+      "timestamp": "21:03:50.8847193",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PENI-WARE-LSD",
+      "X": 48480.0,
+      "Y": 6200.0,
+      "Z": 1260.0
+    },
+    {
+      "timestamp": "21:03:50.8859573",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "CITY-MAY-WARE-FOOD-02",
+      "X": -104886.381,
+      "Y": 11239.398,
+      "Z": 1447.1
+    },
+    {
+      "timestamp": "21:03:50.8861551",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "CITY-MAY-WARE-ELEC-01",
+      "X": -112701.067,
+      "Y": 30909.964,
+      "Z": 1238.633
+    },
+    {
+      "timestamp": "21:03:50.8862643",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "CITY-FAV-WARE-ELEC-01",
+      "X": -107627.385,
+      "Y": -25831.936,
+      "Z": 1396.62
+    },
+    {
+      "timestamp": "21:03:50.8864109",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "CITY-FAV-WARE-ELEC-02",
+      "X": -105745.974,
+      "Y": -25831.936,
+      "Z": 1392.847
+    },
+    {
+      "timestamp": "21:03:50.8865901",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-DRUG",
+      "X": 141798.528,
+      "Y": -42534.872,
+      "Z": 2123.187
+    },
+    {
+      "timestamp": "21:03:50.8866800",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-GENE",
+      "X": 132765.0,
+      "Y": -22233.266,
+      "Z": 1240.0
+    },
+    {
+      "timestamp": "21:03:50.8868222",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-PAWN",
+      "X": 102983.498,
+      "Y": -34984.105,
+      "Z": 1775.0
+    },
+    {
+      "timestamp": "21:03:50.8869480",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-ARCH-GAS",
+      "X": 122056.908,
+      "Y": -37235.372,
+      "Z": 1075.0
+    },
+    {
+      "timestamp": "21:03:50.8870591",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-MEX1-GENE",
+      "X": 62687.501,
+      "Y": -33270.325,
+      "Z": 2445.0
+    },
+    {
+      "timestamp": "21:03:50.8871589",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-CHEM",
+      "X": 30514.999,
+      "Y": 4812.457,
+      "Z": 3405.0
+    },
+    {
+      "timestamp": "21:03:50.8873358",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-PENI-FURN",
+      "X": 44231.823,
+      "Y": 33143.52,
+      "Z": 2785.0
+    },
+    {
+      "timestamp": "21:03:50.8874349",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-EQ",
+      "X": 14284.411,
+      "Y": -2920.087,
+      "Z": 1187.843
+    },
+    {
+      "timestamp": "21:03:50.8875529",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "SHOP-SLAV-DRUG",
+      "X": 24075.0,
+      "Y": 5835.0,
+      "Z": 1560.958
+    },
+    {
+      "timestamp": "21:03:50.8876490",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PORT-WARE-03",
+      "X": -34628.961,
+      "Y": 7799.026,
+      "Z": 1540.0
+    },
+    {
+      "timestamp": "21:03:50.8877898",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "CITY-MAY-WARE-FOOD-01",
+      "X": -92157.04,
+      "Y": 14069.905,
+      "Z": 4090.0
+    },
+    {
+      "timestamp": "21:03:50.8878906",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MILI-KITCHEN",
+      "X": -19580.0,
+      "Y": 21070.0,
+      "Z": 2770.0
+    },
+    {
+      "timestamp": "21:03:50.8879636",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MILI-LAUNDRY",
+      "X": -23595.0,
+      "Y": 22240.0,
+      "Z": 2935.0
+    },
+    {
+      "timestamp": "21:03:50.8880774",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MILI-RING",
+      "X": -26950.0,
+      "Y": 25745.0,
+      "Z": 2110.0
+    },
+    {
+      "timestamp": "21:03:50.8883757",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MILI-GUARDS",
+      "X": -16175.0,
+      "Y": 23660.0,
+      "Z": 2110.0
+    },
+    {
+      "timestamp": "21:03:50.8885253",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MEDICAL-POINT",
+      "X": -16811.162,
+      "Y": 27116.383,
+      "Z": 2103.0
+    },
+    {
+      "timestamp": "21:03:50.8886534",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "MOD-T1-MARKET",
+      "X": 150659.719,
+      "Y": -29282.56,
+      "Z": 1048.092
+    },
+    {
+      "timestamp": "21:03:50.8887722",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG07B-TORPEDO-2",
+      "X": -12182.824,
+      "Y": 1115.996,
+      "Z": 1916.0
+    },
+    {
+      "timestamp": "21:03:50.8888528",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E10-ARCH-ENGINE-P1",
+      "X": 122070.059,
+      "Y": -37257.175,
+      "Z": 1136.99
+    },
+    {
+      "timestamp": "21:03:50.8891472",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E10-ARCH-ENGINE-P2",
+      "X": 119202.0,
+      "Y": 19971.0,
+      "Z": 949.0
+    },
+    {
+      "timestamp": "21:03:50.8892444",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M01-MAIN-SLAV-EXPANSION",
+      "X": 21175.282,
+      "Y": 5197.973,
+      "Z": 924.563
+    },
+    {
+      "timestamp": "21:03:50.8893224",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M23-MAIN-JAM-MEET-INFL",
+      "X": -28270.663,
+      "Y": -49427.009,
+      "Z": 5780.0
+    },
+    {
+      "timestamp": "21:03:50.8894347",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M22-MAIN-RAB-MEET-INFL",
+      "X": 14884.469,
+      "Y": -78130.801,
+      "Z": 1680.0
+    },
+    {
+      "timestamp": "21:03:50.8895788",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E17-ARCH-MEX1-DEALER-P5",
+      "X": 133622.138,
+      "Y": 9011.037,
+      "Z": 1616.37
+    },
+    {
+      "timestamp": "21:03:50.8896787",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P1",
+      "X": 103504.0,
+      "Y": -18709.0,
+      "Z": 3818.0
+    },
+    {
+      "timestamp": "21:03:50.8897777",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L00-MAIN-SLAV-KIRA",
+      "X": 12836.433,
+      "Y": -6250.643,
+      "Z": 2328.499
+    },
+    {
+      "timestamp": "21:03:50.8898786",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M03-MAIN-SLAV-LABEQ-P1",
+      "X": 14276.766,
+      "Y": -2920.818,
+      "Z": 1230.0
+    },
+    {
+      "timestamp": "21:03:50.8900264",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M32-MAIN-JAM-MEET-INFL",
+      "X": -29019.0,
+      "Y": -53131.0,
+      "Z": 5822.0
+    },
+    {
+      "timestamp": "21:03:50.8905009",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M06-MAIN-SLAV-PROD-SATIVA",
+      "X": 24010.0,
+      "Y": 6153.0,
+      "Z": 1486.839
+    },
+    {
+      "timestamp": "21:03:50.8906213",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG07A-TORPEDO-1",
+      "X": -29873.433,
+      "Y": -91007.588,
+      "Z": 950.0
+    },
+    {
+      "timestamp": "21:03:50.8907453",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG07B-TORPEDO-2",
+      "X": -29702.611,
+      "Y": -91039.805,
+      "Z": 950.0
+    },
+    {
+      "timestamp": "21:03:50.8908458",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M10-MAIN-MEX2-MEET-INFL-P2",
+      "X": 48603.618,
+      "Y": -55567.148,
+      "Z": 3725.0
+    },
+    {
+      "timestamp": "21:03:50.8909337",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M13-MAIN-MEX2-PROD-METH-P1",
+      "X": 46009.541,
+      "Y": -56237.363,
+      "Z": 3689.0
+    },
+    {
+      "timestamp": "21:03:50.8910246",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P2",
+      "X": 141953.0,
+      "Y": -14931.0,
+      "Z": 1922.0
+    },
+    {
+      "timestamp": "21:03:50.8911263",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M09-MAIN-SLAV-INFL-QUEST",
+      "X": -5139.652,
+      "Y": -6507.904,
+      "Z": 1794.0
+    },
+    {
+      "timestamp": "21:03:50.8912584",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M09-MAIN-SLAV-INFL-QUEST-2",
+      "X": -20812.0,
+      "Y": 25395.0,
+      "Z": 2251.0
+    },
+    {
+      "timestamp": "21:03:50.8913790",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M33-MAIN-PORT-MEET-INFL",
+      "X": -37327.982,
+      "Y": 2582.209,
+      "Z": 2560.0
+    },
+    {
+      "timestamp": "21:03:50.8914607",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M33-VOLCANO-MEET-INF",
+      "X": -43286.615,
+      "Y": -55119.268,
+      "Z": 1922.914
+    },
+    {
+      "timestamp": "21:03:50.8916598",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E00-ARCH-TALK-TO-MARCUS",
+      "X": 140415.714,
+      "Y": 19527.411,
+      "Z": 3132.0
+    },
+    {
+      "timestamp": "21:03:50.8918619",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P2",
+      "X": 148303.0,
+      "Y": -48065.0,
+      "Z": 1058.0
+    },
+    {
+      "timestamp": "21:03:50.8919682",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P2",
+      "X": 109593.0,
+      "Y": -14556.0,
+      "Z": 1317.0
+    },
+    {
+      "timestamp": "21:03:50.8920700",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P2",
+      "X": 114988.227,
+      "Y": -30185.851,
+      "Z": 1988.0
+    },
+    {
+      "timestamp": "21:03:50.8922242",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E15-ARCH-FUN-SHOPS",
+      "X": 121519.839,
+      "Y": -21272.513,
+      "Z": 1800.0
+    },
+    {
+      "timestamp": "21:03:50.8923390",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E05-ARCH-MEET-INFL",
+      "X": 144412.6,
+      "Y": -21225.405,
+      "Z": 1195.888
+    },
+    {
+      "timestamp": "21:03:50.8924503",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E12-ARCH-PROD-INDICA",
+      "X": 141823.259,
+      "Y": -42400.489,
+      "Z": 2389.187
+    },
+    {
+      "timestamp": "21:03:50.8925396",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E13-ARCH-SPEC-CLIENT-P1",
+      "X": 111289.215,
+      "Y": -13452.961,
+      "Z": 1571.621
+    },
+    {
+      "timestamp": "21:03:50.8926879",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E11-ARCH-HIDEOUTS-P3",
+      "X": 95224.772,
+      "Y": -17450.899,
+      "Z": 1490.319
+    },
+    {
+      "timestamp": "21:03:50.8928003",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E16-ARCH-MEX1-INFL-P2",
+      "X": 63658.577,
+      "Y": -45934.285,
+      "Z": 2200.0
+    },
+    {
+      "timestamp": "21:03:50.8929334",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M24-MAIN-FIND-BRO-P2",
+      "X": -26191.905,
+      "Y": -27716.282,
+      "Z": 5679.185
+    },
+    {
+      "timestamp": "21:03:50.8931455",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L04-MAIN-MEET-AMER-COL-P1",
+      "X": -32083.815,
+      "Y": 1954.444,
+      "Z": 2805.85
+    },
+    {
+      "timestamp": "21:03:50.8932551",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L04-MAIN-MEET-AMER-COL-P1",
+      "X": 37948.284,
+      "Y": 34124.429,
+      "Z": 2168.831
+    },
+    {
+      "timestamp": "21:03:50.8933402",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L02-CITY-PASS-P1",
+      "X": -30868.96,
+      "Y": 5108.814,
+      "Z": 2570.0
+    },
+    {
+      "timestamp": "21:03:50.8934777",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-EXTRA-JOB-P1",
+      "X": 130718.522,
+      "Y": 26872.141,
+      "Z": 1063.515
+    },
+    {
+      "timestamp": "21:03:50.8935840",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L10-CITY-CITIZEN-P2",
+      "X": -99491.517,
+      "Y": 16078.78,
+      "Z": 1480.0
+    },
+    {
+      "timestamp": "21:03:50.8936959",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L10-CITY-CITIZEN-P1",
+      "X": -102339.495,
+      "Y": 11187.756,
+      "Z": 1860.87
+    },
+    {
+      "timestamp": "21:03:50.8937862",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M16-MAIN-MEX2-UPGR-SHOP",
+      "X": 44148.818,
+      "Y": -51780.237,
+      "Z": 3195.898
+    },
+    {
+      "timestamp": "21:03:50.8939305",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E07-PENIN-MEET-ACCO-P2",
+      "X": 49572.95,
+      "Y": 46662.139,
+      "Z": 3130.1
+    },
+    {
+      "timestamp": "21:03:50.8942632",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E07-PENIN-MEET-ACCO-P3",
+      "X": 51013.057,
+      "Y": 44657.024,
+      "Z": 2712.603
+    },
+    {
+      "timestamp": "21:03:50.8947324",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E07-PENIN-MEET-ACCO-P1",
+      "X": 148049.65,
+      "Y": -19690.731,
+      "Z": 944.593
+    },
+    {
+      "timestamp": "21:03:50.8948588",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L09-PROD-COCA-LEAVES",
+      "X": 20788.833,
+      "Y": -72781.102,
+      "Z": 1128.54
+    },
+    {
+      "timestamp": "21:03:50.8949878",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M13-MAIN-MEX2-PROD-METH-P3",
+      "X": 37185.636,
+      "Y": -36889.703,
+      "Z": 2728.511
+    },
+    {
+      "timestamp": "21:03:50.8950853",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L07-LEARN-COKE-P2",
+      "X": -16485.494,
+      "Y": -24609.64,
+      "Z": 4078.584
+    },
+    {
+      "timestamp": "21:03:50.8951738",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E18-ARCH-CLOTH-SHOP",
+      "X": 94027.33,
+      "Y": -17350.577,
+      "Z": 1466.76
+    },
+    {
+      "timestamp": "21:03:50.8952815",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M14-MEX2-METH-LAB",
+      "X": 35431.906,
+      "Y": -37953.907,
+      "Z": 3040.425
+    },
+    {
+      "timestamp": "21:03:50.8953766",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M04-MAIN-SLAV-EXPANSION-P3",
+      "X": 41975.767,
+      "Y": 18607.91,
+      "Z": 2408.056
+    },
+    {
+      "timestamp": "21:03:50.8954933",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M09-MAIN-PENI-LSD-P3",
+      "X": 32500.0,
+      "Y": 25100.0,
+      "Z": 3460.0
+    },
+    {
+      "timestamp": "21:03:50.8955895",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M09-MAIN-PENI-LSD-P2",
+      "X": 32630.0,
+      "Y": 27510.0,
+      "Z": 2300.0
+    },
+    {
+      "timestamp": "21:03:50.8956822",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E10-ARCH-MECH",
+      "X": 145527.574,
+      "Y": -33156.122,
+      "Z": 2035.143
+    },
+    {
+      "timestamp": "21:03:50.8958247",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M15-MAIN-MEX2-CAR",
+      "X": 37970.439,
+      "Y": -33036.63,
+      "Z": 2001.833
+    },
+    {
+      "timestamp": "21:03:50.8959526",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M07-MAIN-SLAV-DISTR",
+      "X": 43229.609,
+      "Y": -45981.459,
+      "Z": 4263.746
+    },
+    {
+      "timestamp": "21:03:50.8960432",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M07-MAIN-SLAV-DISTR",
+      "X": 30795.241,
+      "Y": 2003.928,
+      "Z": 3121.056
+    },
+    {
+      "timestamp": "21:03:50.8961238",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M07-MAIN-SLAV-DISTR",
+      "X": 68994.319,
+      "Y": -37599.706,
+      "Z": 2405.802
+    },
+    {
+      "timestamp": "21:03:50.8962299",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L07-LEARN-COKE-P1",
+      "X": -38293.13,
+      "Y": 942.452,
+      "Z": 3154.389
+    },
+    {
+      "timestamp": "21:03:50.8966089",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L04-MAIN-MEET-AMER-COL-P3",
+      "X": -46499.882,
+      "Y": -15751.642,
+      "Z": 1762.518
+    },
+    {
+      "timestamp": "21:03:50.8967240",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L04-MAIN-MEET-AMER-COL",
+      "X": -53546.01,
+      "Y": -24770.408,
+      "Z": 1630.691
+    },
+    {
+      "timestamp": "21:03:50.8968502",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M34-MAIN-MEET-ITEM-COLL",
+      "X": 34737.381,
+      "Y": -53012.925,
+      "Z": 1521.838
+    },
+    {
+      "timestamp": "21:03:50.8969382",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E08-ARCH-USE-BOSS-DESK",
+      "X": 143693.63,
+      "Y": -21098.937,
+      "Z": 1205.538
+    },
+    {
+      "timestamp": "21:03:50.8970670",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M00-MAIN-SLAV-FIND-KIRA",
+      "X": 23957.341,
+      "Y": -2580.541,
+      "Z": 1578.823
+    },
+    {
+      "timestamp": "21:03:50.8971850",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E03-ARCH-GROW-PLANT-P1",
+      "X": 132915.131,
+      "Y": -22409.825,
+      "Z": 1299.221
+    },
+    {
+      "timestamp": "21:03:50.8972836",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E05-ARCH-INFL-BRIEFCASE-DEPOSIT",
+      "X": 102813.839,
+      "Y": -35107.991,
+      "Z": 1778.101
+    },
+    {
+      "timestamp": "21:03:50.8973734",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E23-ARCH-MEX1-LAUNDER-P2",
+      "X": 32859.185,
+      "Y": 29512.516,
+      "Z": 2066.179
+    },
+    {
+      "timestamp": "21:03:50.8975958",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": 24565.033,
+      "Y": -134.805,
+      "Z": 1421.193
+    },
+    {
+      "timestamp": "21:03:50.8977119",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E03-ARCH-GROW-PLANT",
+      "X": 139593.034,
+      "Y": 19217.019,
+      "Z": 3130.265
+    },
+    {
+      "timestamp": "21:03:50.8978876",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M08-PENIN-JANUSZ",
+      "X": 37912.889,
+      "Y": 46604.048,
+      "Z": 1070.0
+    },
+    {
+      "timestamp": "21:03:50.8980453",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M07-MAIN-PENI-DISTR",
+      "X": 28243.295,
+      "Y": 37068.867,
+      "Z": 2902.657
+    },
+    {
+      "timestamp": "21:03:50.8981719",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E24-ARCH-MEX1-KIRA-QUEST-P1",
+      "X": 64395.164,
+      "Y": -33974.333,
+      "Z": 1544.634
+    },
+    {
+      "timestamp": "21:03:50.8983489",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L07-PROD-VOL-P2",
+      "X": -34282.327,
+      "Y": -76044.63,
+      "Z": 1651.156
+    },
+    {
+      "timestamp": "21:03:50.8984799",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E21-ARCH-EXPANSION",
+      "X": 44481.131,
+      "Y": -46881.812,
+      "Z": 4427.038
+    },
+    {
+      "timestamp": "21:03:50.8985609",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E21-ARCH-ETHANOL-P2",
+      "X": 45944.748,
+      "Y": -38058.525,
+      "Z": 3230.0
+    },
+    {
+      "timestamp": "21:03:50.8986550",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M10-MAIN-MEX2-MEET-INFL-P1",
+      "X": 50660.272,
+      "Y": -50279.928,
+      "Z": 4707.257
+    },
+    {
+      "timestamp": "21:03:50.8987723",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M27-MAIN-RAB-HERBALIST",
+      "X": -9463.111,
+      "Y": -65418.76,
+      "Z": 2451.102
+    },
+    {
+      "timestamp": "21:03:50.8989335",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M28-MAIN-JAM-BAKER",
+      "X": -40606.745,
+      "Y": -41213.892,
+      "Z": 4319.507
+    },
+    {
+      "timestamp": "21:03:50.8990475",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M24-MAIN-FIND-BRO-P1",
+      "X": -34245.609,
+      "Y": -39608.845,
+      "Z": 5723.796
+    },
+    {
+      "timestamp": "21:03:50.8991509",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-UNPACKING",
+      "X": 140158.476,
+      "Y": 19011.913,
+      "Z": 3130.0
+    },
+    {
+      "timestamp": "21:03:50.8992664",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M08-WATTO-P2",
+      "X": 40597.591,
+      "Y": 3125.578,
+      "Z": 1792.926
+    },
+    {
+      "timestamp": "21:03:50.8993890",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-EXTRA-JOB-P0",
+      "X": 123113.454,
+      "Y": 16910.937,
+      "Z": 1527.996
+    },
+    {
+      "timestamp": "21:03:50.8994853",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-EXTRA-JOB-P1",
+      "X": 138738.522,
+      "Y": 26242.141,
+      "Z": 1063.515
+    },
+    {
+      "timestamp": "21:03:50.8995718",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-EXTRA-JOB-P1",
+      "X": 114208.522,
+      "Y": 8122.062,
+      "Z": 1063.515
+    },
+    {
+      "timestamp": "21:03:50.8996826",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG02-MEX-CARTEL-CONT",
+      "X": -100225.0,
+      "Y": -28815.0,
+      "Z": 1160.0
+    },
+    {
+      "timestamp": "21:03:50.8997832",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG03-MEX-CARTEL-CONT-P1",
+      "X": -96365.0,
+      "Y": -30585.0,
+      "Z": 1030.0
+    },
+    {
+      "timestamp": "21:03:50.9012478",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG06-MEX-CARTEL-REPORT-AMER",
+      "X": -99970.0,
+      "Y": -30260.0,
+      "Z": 1075.0
+    },
+    {
+      "timestamp": "21:03:50.9014245",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "EG06-MEX-CARTEL-REPORT-AMER",
+      "X": -99740.0,
+      "Y": -30280.0,
+      "Z": 1090.0
+    },
+    {
+      "timestamp": "21:03:50.9015353",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "LEAF-ORDER-GET",
+      "X": 38040.0,
+      "Y": 48435.0,
+      "Z": 1060.0
+    },
+    {
+      "timestamp": "21:03:50.9016239",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E05-ARCH-RANDOM-CLIENTS",
+      "X": 133208.471,
+      "Y": -30205.752,
+      "Z": 2011.891
+    },
+    {
+      "timestamp": "21:03:50.9017373",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E22-ARCH-MEX1-BREAK-IN-P2",
+      "X": 77900.0,
+      "Y": -69755.0,
+      "Z": 2170.0
+    },
+    {
+      "timestamp": "21:03:50.9018935",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E02-ARCH-HARVEST-INDICA",
+      "X": 139763.436,
+      "Y": 19020.192,
+      "Z": 3179.127
+    },
+    {
+      "timestamp": "21:03:50.9020097",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "PROLOGUE-CHECK-LAB",
+      "X": 140030.714,
+      "Y": 19542.411,
+      "Z": 3377.0
+    },
+    {
+      "timestamp": "21:03:50.9020984",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M20-MAIN-SLAV-BABOOSHKA",
+      "X": 12575.0,
+      "Y": -6525.0,
+      "Z": 2630.0
+    },
+    {
+      "timestamp": "21:03:50.9022265",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L10-CITY-FAV",
+      "X": -95620.0,
+      "Y": 4900.0,
+      "Z": 3830.0
+    },
+    {
+      "timestamp": "21:03:50.9023460",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L10-CITY-CITIZEN-P1",
+      "X": -99920.0,
+      "Y": 16100.0,
+      "Z": 1480.0
+    },
+    {
+      "timestamp": "21:03:50.9024293",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L11-CITY-MAY",
+      "X": -100130.0,
+      "Y": 17350.0,
+      "Z": 1480.0
+    },
+    {
+      "timestamp": "21:03:50.9029660",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "L15-CITY-MAY-QUEST",
+      "X": -98100.0,
+      "Y": 790.0,
+      "Z": 3360.0
+    },
+    {
+      "timestamp": "21:03:50.9030765",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INMA01-INTRO",
+      "X": -15905.0,
+      "Y": 23547.93,
+      "Z": 2128.305
+    },
+    {
+      "timestamp": "21:03:50.9032082",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INMA02-MILI",
+      "X": -16403.37,
+      "Y": 23555.894,
+      "Z": 2124.039
+    },
+    {
+      "timestamp": "21:03:50.9032955",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INMA03-COOK",
+      "X": -19413.332,
+      "Y": 20730.657,
+      "Z": 2881.415
+    },
+    {
+      "timestamp": "21:03:50.9034041",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INMA05-BANDIT",
+      "X": -24055.0,
+      "Y": 26565.0,
+      "Z": 2100.0
+    },
+    {
+      "timestamp": "21:03:50.9035578",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "INMA04-LAUNDRY",
+      "X": -23195.0,
+      "Y": 22670.0,
+      "Z": 2910.593
+    },
+    {
+      "timestamp": "21:03:50.9036821",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "DEMO-ARCH-MEX1-INFL",
+      "X": 115768.379,
+      "Y": 14355.854,
+      "Z": 2023.025
+    },
+    {
+      "timestamp": "21:03:50.9037818",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": 140348.837,
+      "Y": 19606.242,
+      "Z": -1488.722
+    },
+    {
+      "timestamp": "21:03:50.9039488",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E01-ARCH-BUY-EQ-P2",
+      "X": 132665.0,
+      "Y": 23425.0,
+      "Z": 2020.0
+    },
+    {
+      "timestamp": "21:03:50.9040830",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "M24-MAIN-FIND-BRO-P4a",
+      "X": -33501.032,
+      "Y": -26418.899,
+      "Z": 4813.295
+    },
+    {
+      "timestamp": "21:03:50.9041848",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "BCE_MEETSHOP_1",
+      "X": 150659.719,
+      "Y": -29282.56,
+      "Z": 1048.092
+    },
+    {
+      "timestamp": "21:03:50.9043089",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "E18-ARCH-INFL-NEGO-MEETING-P2",
+      "X": 144385.0,
+      "Y": -21215.0,
+      "Z": 1190.0
+    },
+    {
+      "timestamp": "21:03:50.9044369",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": -87302.0,
+      "Y": -42066.0,
+      "Z": 1245.864
+    },
+    {
+      "timestamp": "21:03:50.9045279",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": 104455.0,
+      "Y": -53445.0,
+      "Z": 1025.0
+    },
+    {
+      "timestamp": "21:03:50.9046103",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": 795.969,
+      "Y": -77419.974,
+      "Z": 2238.0
+    },
+    {
+      "timestamp": "21:03:50.9046764",
+      "source": "Lua",
+      "level": "DEBUGGING_P",
+      "tag": "None",
+      "X": 47540.0,
+      "Y": 50545.0,
+      "Z": 1000.0
+    }
+  ]
+}
