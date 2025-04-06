@@ -228,7 +228,7 @@ const Search = () => {
                   {shopObj.items.map(item => {
                     const stock =
                       chosenLevel === 0
-                        ? item.ItemDefaultStock
+                        ? item.ItemMaxStockPerLevel[0]
                         : item.ItemMaxStockPerLevel[chosenLevel];
 
                     const discount =

@@ -215,6 +215,7 @@ const ShopPricesPage = () => {
                               onClick={e => e.preventDefault()}
                               style={{
                                 height: "2.5rem",
+                                width: "7rem",
                               }}
                             ></Button>
                           </span>
@@ -245,7 +246,7 @@ const ShopPricesPage = () => {
 
                     const stock =
                       chosenLevel === 0
-                        ? item.ItemDefaultStock
+                        ? item.ItemMaxStockPerLevel[0]
                         : item.ItemMaxStockPerLevel[chosenLevel];
 
                     const discount =
@@ -322,7 +323,7 @@ const ShopPricesPage = () => {
                           >
                             x
                             {chosenLevel == 0
-                              ? item.ItemDefaultStock
+                              ? item.ItemMaxStockPerLevel[0]
                               : item.ItemMaxStockPerLevel[chosenLevel]}
                           </p>
 
