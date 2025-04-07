@@ -100,7 +100,7 @@ const data = [
     marijuana: 150,
     amphetamine: 300,
     opium: 200,
-    lsd: 150,
+    shrooms: 150,
   },
   {
     region: "Volcano Island",
