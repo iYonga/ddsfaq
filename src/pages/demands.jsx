@@ -6,7 +6,6 @@ export default function Home() {
   const router = useRouter();
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      {/* Title Section */}
       <Head>
         <title>Drug Demands | DDS2FAQ</title>
       </Head>
@@ -180,7 +179,6 @@ const DrugDemandsTable = () => {
         <tbody>
           {data.map((row, idx) => (
             <tr key={idx}>
-              {/* Region cell: keep it dark gray to stand out */}
               <td
                 style={{
                   ...getCellStyle(true),
