@@ -17,13 +17,20 @@ const index = () => {
         textAlign: "center",
       }}
     >
-      <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
+      <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>{" "}
       <Button
         label="Shop Prices"
         trigger={() => {
           router.push("/shop-prices");
         }}
       />
+      {/*       <Button
+        label="🗺️ Interactive Map"
+        trigger={() => {
+          router.push("/map");
+        }}
+      />
+       */}
       <Button
         label="Drug Demands by Region"
         trigger={() => {
@@ -51,8 +58,7 @@ const index = () => {
           window.open(url, "_blank");
         }}
       />
-
-      <h5>by Yonga | Up to date as of DDS2 v1.0.13</h5>
+      <h5>by Yonga | Up to date as of DDS2 v1.1 + Casino DLC</h5>
     </div>
   );
 };

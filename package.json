@@ -9,17 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "^1.23.0",
-    "@deck.gl/core": "^9.1.5",
-    "@deck.gl/layers": "^9.1.5",
-    "antd": "^5.24.3",
-    "html-react-parser": "^5.2.2",
+    "@ant-design/cssinjs": "^1.24.0",
+    "@deck.gl/core": "^9.1.14",
+    "@deck.gl/layers": "^9.1.14",
+    "antd": "^5.27.3",
+    "html-react-parser": "^5.2.6",
     "leaflet": "^1.9.4",
-    "maplibre-gl": "^5.2.0",
+    "maplibre-gl": "^5.7.1",
     "next": "15.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-leaflet": "^5.0.0",
-    "react-map-gl": "^8.0.1"
+    "react-map-gl": "^8.0.4"
   }
 }

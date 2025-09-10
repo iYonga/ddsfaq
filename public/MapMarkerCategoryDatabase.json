@@ -1,0 +1,548 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapMarkerCategoryDatabase",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MapMarkerCategory'",
+        "ObjectPath": "/Script/DrugDealerSimulator2"
+      }
+    },
+    "Rows": {
+      "LOCATION": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Point'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Point.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "PLAYER": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'OtherPlayerMarker'",
+          "ObjectPath": "/Game/GUI/Images/Icons/OtherPlayerMarker.0"
+        },
+        "ColorCoding": {
+          "R": 0.087762,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "53FF00"
+        }
+      },
+      "INFLUENCER": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Influencer'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Influencer.0"
+        },
+        "ColorCoding": {
+          "R": 0.879623,
+          "G": 0.046665,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "F13D3D"
+        }
+      },
+      "INFLUENCER-MEETING": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_InfluencerMeeting'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_InfluencerMeeting.0"
+        },
+        "ColorCoding": {
+          "R": 0.879623,
+          "G": 0.046665,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "F13D3D"
+        }
+      },
+      "HIDEOUT": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Hideout'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Hideout.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "SHOP": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_ShopRegular'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_ShopRegular.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "BREAKIN": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_BreakinArea'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_BreakinArea.0"
+        },
+        "ColorCoding": {
+          "R": 0.879623,
+          "G": 0.046665,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "F13D3D"
+        }
+      },
+      "PRODUCER": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_ShopShady'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_ShopShady.0"
+        },
+        "ColorCoding": {
+          "R": 0.879623,
+          "G": 0.046665,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "F13D3D"
+        }
+      },
+      "BUS-STOP": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_BusStop'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_BusStop.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "BOAT-STOP": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Pier'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Pier.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "SHOP-FUN": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Restaurant'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Restaurant.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "SHOP-PAWN": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_PawnShop'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_PawnShop.0"
+        },
+        "ColorCoding": {
+          "R": 0.049707,
+          "G": 0.822786,
+          "B": 0.162029,
+          "A": 1.0,
+          "Hex": "3FEA70"
+        }
+      },
+      "CLIENT-SPAWN": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Client'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Client.0"
+        },
+        "ColorCoding": {
+          "R": 0.049707,
+          "G": 0.822786,
+          "B": 0.162029,
+          "A": 1.0,
+          "Hex": "3FEA70"
+        }
+      },
+      "CLIENT": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Client'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Client.0"
+        },
+        "ColorCoding": {
+          "R": 0.049707,
+          "G": 0.822786,
+          "B": 0.162029,
+          "A": 1.0,
+          "Hex": "3FEA70"
+        }
+      },
+      "PHONEBOOTH": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_PhoneBooth'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_PhoneBooth.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "QUEST": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Story'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Story.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "PLAYER-OTHER": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'OtherPlayerMarker'",
+          "ObjectPath": "/Game/GUI/Images/Icons/OtherPlayerMarker.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "CARTEL-CAR": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Car'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Car.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "ACCOUNTANT": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Influencer'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Influencer.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "CARTEL-BOAT": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Boat'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Boat.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "CUSTOM": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'EnviroSenseMarkerIcon'",
+          "ObjectPath": "/Game/GUI/Images/Icons/EnviroSenseMarkerIcon.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 0.038562,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF3700"
+        }
+      },
+      "CARTEL-MOTORCYCLE": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Motorcycle'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Motorcycle.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "DEALER": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Dealer'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Dealer.0"
+        },
+        "ColorCoding": {
+          "R": 0.020289,
+          "G": 0.391573,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "27A8E8"
+        }
+      },
+      "PARKING": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Parking'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Parking.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "NPC": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Influencer'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Influencer.0"
+        },
+        "ColorCoding": {
+          "R": 0.375335,
+          "G": 0.088469,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "A554E8"
+        }
+      },
+      "PARTY": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Party'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Party.0"
+        },
+        "ColorCoding": {
+          "R": 0.358938,
+          "G": 0.822786,
+          "B": 0.698391,
+          "A": 1.0,
+          "Hex": "A2EADA"
+        }
+      },
+      "POINT-OF-INTEREST": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'PointOfInterest'",
+          "ObjectPath": "/Game/GUI/Images/Icons/PointOfInterest.0"
+        },
+        "ColorCoding": {
+          "R": 0.338542,
+          "G": 0.338542,
+          "B": 0.338542,
+          "A": 1.0,
+          "Hex": "9D9D9D"
+        }
+      },
+      "MILI-POINT": {
+        "CategoryName": {
+          "CultureInvariantString": null
+        },
+        "CategoryShortDescription": {
+          "CultureInvariantString": null
+        },
+        "CategoryIcon": {
+          "ObjectName": "Texture2D'Marker_Point'",
+          "ObjectPath": "/Game/GUI/Images/MapMarkers/Marker_Point.0"
+        },
+        "ColorCoding": {
+          "R": 1.0,
+          "G": 0.042,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF3A00"
+        }
+      }
+    }
+  }
+]

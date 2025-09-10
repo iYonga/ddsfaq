@@ -180,19 +180,35 @@ const ShopPricesPage = () => {
                         width: "70%",
                       }}
                     />
-                    {shopObj.data.PriceDiscountPerLevel &&
-                      shopObj.data.PriceDiscountPerLevel.length > 0 && (
-                        <Dropdown
-                          overlay={
-                            <Menu
-                              style={{
-                                overflowY: "auto",
-                                backgroundColor: "#0B0B0B",
-                                color: "white",
-                              }}
-                            >
-                              {shopObj.data.PriceDiscountPerLevel.map(
-                                (discount, index) => (
+                    {(shopObj.data.PriceDiscountPerLevel?.length > 1 ||
+                      shopObj.items.some(
+                        item => item.ItemMaxStockPerLevel?.length > 1,
+                      )) && (
+                      <Dropdown
+                        overlay={
+                          <Menu
+                            style={{
+                              overflowY: "auto",
+                              backgroundColor: "#0B0B0B",
+                              color: "white",
+                            }}
+                          >
+                            {(() => {
+                              // Level sayısını belirle: PriceDiscountPerLevel varsa onu kullan, yoksa ItemMaxStockPerLevel'dan al
+                              const levelCount =
+                                shopObj.data.PriceDiscountPerLevel?.length > 0
+                                  ? shopObj.data.PriceDiscountPerLevel.length
+                                  : Math.max(
+                                      ...shopObj.items.map(
+                                        item =>
+                                          item.ItemMaxStockPerLevel?.length ||
+                                          1,
+                                      ),
+                                    );
+
+                              return Array.from(
+                                { length: levelCount },
+                                (_, index) => (
                                   <Menu.Item
                                     key={index}
                                     onClick={() => {
@@ -205,22 +221,23 @@ const ShopPricesPage = () => {
                                     Level {index}
                                   </Menu.Item>
                                 ),
-                              )}
-                            </Menu>
-                          }
-                        >
-                          <span>
-                            <Button
-                              label={`Level: ${chosenLevel}`}
-                              onClick={e => e.preventDefault()}
-                              style={{
-                                height: "2.5rem",
-                                width: "7rem",
-                              }}
-                            ></Button>
-                          </span>
-                        </Dropdown>
-                      )}
+                              );
+                            })()}
+                          </Menu>
+                        }
+                      >
+                        <span>
+                          <Button
+                            label={`Level: ${chosenLevel}`}
+                            onClick={e => e.preventDefault()}
+                            style={{
+                              height: "2.5rem",
+                              width: "7rem",
+                            }}
+                          ></Button>
+                        </span>
+                      </Dropdown>
+                    )}
                   </span>
                 </h3>
 
@@ -246,17 +263,18 @@ const ShopPricesPage = () => {
 
                     const stock =
                       chosenLevel === 0
-                        ? item.ItemMaxStockPerLevel[0]
-                        : item.ItemMaxStockPerLevel[chosenLevel];
+                        ? item.ItemMaxStockPerLevel?.[0] || 1
+                        : item.ItemMaxStockPerLevel?.[chosenLevel] || 1;
 
                     const discount =
                       chosenLevel > 0 &&
                       shopObj.data.PriceDiscountPerLevel?.length > chosenLevel
-                        ? shopObj.data.PriceDiscountPerLevel[chosenLevel]
+                        ? shopObj.data.PriceDiscountPerLevel[chosenLevel] || 0
                         : 0;
 
+                    const price = item.price || 0;
                     const finalPrice = formatPrice(
-                      stock * (item.price * (1 - discount)),
+                      stock * (price * (1 - discount)),
                     );
 
                     return (
@@ -310,6 +328,10 @@ const ShopPricesPage = () => {
                             src={`/icons/${iconFilename}.png`}
                             alt={item.name}
                             style={{ maxWidth: "70%", maxHeight: "70%" }}
+                            onError={e => {
+                              e.target.onerror = null;
+                              e.target.src = "/icons/question.png";
+                            }}
                           />
 
                           {/* Max stock */}
@@ -323,8 +345,8 @@ const ShopPricesPage = () => {
                           >
                             x
                             {chosenLevel == 0
-                              ? item.ItemMaxStockPerLevel[0]
-                              : item.ItemMaxStockPerLevel[chosenLevel]}
+                              ? item.ItemMaxStockPerLevel?.[0] || 1
+                              : item.ItemMaxStockPerLevel?.[chosenLevel] || 1}
                           </p>
 
                           {/* Fiyat */}
@@ -339,15 +361,15 @@ const ShopPricesPage = () => {
                           >
                             B{" "}
                             {formatPrice(
-                              shopObj.data.PriceDiscountPerLevel &&
-                                chosenLevel > 0 &&
-                                shopObj.data.PriceDiscountPerLevel.length > 0
-                                ? item.price -
-                                    item.price *
-                                      shopObj.data.PriceDiscountPerLevel[
+                              chosenLevel > 0 &&
+                                shopObj.data.PriceDiscountPerLevel?.length >
+                                  chosenLevel
+                                ? (item.price || 0) -
+                                    (item.price || 0) *
+                                      (shopObj.data.PriceDiscountPerLevel[
                                         chosenLevel
-                                      ]
-                                : item.price,
+                                      ] || 0)
+                                : item.price || 0,
                             )}
                           </p>
                         </div>

@@ -26,6 +26,7 @@ const index = () => {
     "Volcano Island",
     "Bahía de Oro - Downtown",
     "Bahía de Oro - Favela",
+    "Casino",
   ];
   return (
     <div
