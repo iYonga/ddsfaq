@@ -43,6 +43,37 @@ const index = () => {
     >
       <Head>
         <title>Shop Prices | DDS2FAQ</title>
+        <meta
+          name="description"
+          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
+        />
+        <meta
+          name="keywords"
+          content="Drug Dealer Simulator 2, DDS2, shop prices, regions, items, stock levels, game guide"
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Shop Prices | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
+        />
+        <meta property="og:url" content="https://dds.yonga.dev/shop-prices" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Shop Prices | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/shop-prices" />
       </Head>
       <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
       <h2>Shop Prices</h2>

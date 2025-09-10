@@ -61,6 +61,54 @@ const ShopPricesPage = () => {
     >
       <Head>
         <title>{region} Shops | DDS2FAQ</title>
+        <meta
+          name="description"
+          content={`Shop prices and items for ${region} in Drug Dealer Simulator 2. Interactive FAQ with detailed pricing information.`}
+        />
+        <meta
+          name="keywords"
+          content="Drug Dealer Simulator 2, DDS2, shop prices, game guide, FAQ, interactive"
+        />
+        <meta name="author" content="DDSFAQ" />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content={`${region} Shops | Drug Dealer Simulator 2 FAQ`}
+        />
+        <meta
+          property="og:description"
+          content={`Browse shop prices and items for ${region} in Drug Dealer Simulator 2. Complete interactive FAQ guide.`}
+        />
+        <meta property="og:image" content="https://dds.yonga.dev/cover.png" />
+        <meta property="og:image:width" content="3840" />
+        <meta property="og:image:height" content="2160" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="DDSFAQ" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`${region} Shops | Drug Dealer Simulator 2 FAQ`}
+        />
+        <meta
+          name="twitter:description"
+          content={`Browse shop prices and items for ${region} in Drug Dealer Simulator 2. Complete interactive FAQ guide.`}
+        />
+        <meta name="twitter:image" content="https://dds.yonga.dev/cover.png" />
+
+        {/* Additional Meta Tags */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#0B0B0B" />
+        <link
+          rel="canonical"
+          href={`https://dds.yonga.dev/shop-prices/${region?.replaceAll(
+            " ",
+            "_",
+          )}`}
+        />
       </Head>
       <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Shop Prices | {region}</h4>

@@ -1,65 +1,98 @@
 import React from "react";
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const index = () => {
   const router = useRouter();
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        padding: "1rem",
-        flexDirection: "column",
-        gap: "1rem",
-        textAlign: "center",
-      }}
-    >
-      <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>{" "}
-      <Button
-        label="Shop Prices"
-        trigger={() => {
-          router.push("/shop-prices");
+    <>
+      <Head>
+        <title>DDSFAQ - Drug Dealer Simulator 2 Interactive FAQ</title>
+        <meta
+          name="description"
+          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+        />
+
+        {/* OpenGraph Meta Tags for Home Page */}
+        <meta
+          property="og:title"
+          content="DDSFAQ - Drug Dealer Simulator 2 Interactive FAQ"
+        />
+        <meta
+          property="og:description"
+          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+        />
+        <meta property="og:url" content="https://dds.yonga.dev" />
+
+        {/* Twitter Card Meta Tags for Home Page */}
+        <meta
+          name="twitter:title"
+          content="DDSFAQ - Drug Dealer Simulator 2 Interactive FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev" />
+      </Head>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+          padding: "1rem",
+          flexDirection: "column",
+          gap: "1rem",
+          textAlign: "center",
         }}
-      />
-      {/*       <Button
+      >
+        <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>{" "}
+        <Button
+          label="Shop Prices"
+          trigger={() => {
+            router.push("/shop-prices");
+          }}
+        />
+        {/*       <Button
         label="🗺️ Interactive Map"
         trigger={() => {
           router.push("/map");
         }}
       />
        */}
-      <Button
-        label="Drug Demands by Region"
-        trigger={() => {
-          router.push("/demands");
-        }}
-      />
-      <Button
-        label="Common Questions"
-        trigger={() => {
-          router.push("/common-questions");
-        }}
-      />
-      <Button
-        label="Common Bugs & Fixes"
-        trigger={() => {
-          router.push("/common-bugs");
-        }}
-      />
-      <Button
-        label="All Links"
-        trigger={() => {
-          var url =
-            "https://docs.google.com/document/d/1J-RtTgDRv6Qipjm3BoPLdx9C4uAoFxV4f94PqxGD3SQ";
-          // open in new tab
-          window.open(url, "_blank");
-        }}
-      />
-      <h5>by Yonga | Up to date as of DDS2 v1.1 + Casino DLC</h5>
-    </div>
+        <Button
+          label="Drug Demands by Region"
+          trigger={() => {
+            router.push("/demands");
+          }}
+        />
+        <Button
+          label="Common Questions"
+          trigger={() => {
+            router.push("/common-questions");
+          }}
+        />
+        <Button
+          label="Common Bugs & Fixes"
+          trigger={() => {
+            router.push("/common-bugs");
+          }}
+        />
+        <Button
+          label="All Links"
+          trigger={() => {
+            var url =
+              "https://docs.google.com/document/d/1J-RtTgDRv6Qipjm3BoPLdx9C4uAoFxV4f94PqxGD3SQ";
+            // open in new tab
+            window.open(url, "_blank");
+          }}
+        />
+        <h5>by Yonga | Up to date as of DDS2 v1.1 + Casino DLC</h5>
+      </div>
+    </>
   );
 };
 
