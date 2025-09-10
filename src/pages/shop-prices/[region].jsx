@@ -60,7 +60,7 @@ const ShopPricesPage = () => {
       }}
     >
       <Head>
-        <title>{region} Shops | DDS2FAQ</title>
+        <title>{region} Shop Prices | DDSFAQ</title>
         <meta
           name="description"
           content={`Shop prices and items for ${region} in Drug Dealer Simulator 2. Interactive FAQ with detailed pricing information.`}

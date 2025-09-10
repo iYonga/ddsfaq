@@ -5,25 +5,20 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 const MyDocument = () => (
   <Html lang="en">
     <Head>
-      {/* Basic Meta Tags */}
-      <title>DDSFAQ - Drug Dealer Simulator 2 Interactive FAQ</title>
+      {/* Basic Meta Tags - NO title/description here, pages override them */}
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="author" content="DDSFAQ" />
       <meta name="robots" content="index, follow" />
       <meta name="theme-color" content="#0B0B0B" />
 
-      {/* Default Meta Tags */}
-      <meta
-        name="description"
-        content="DDSFAQ - Interactive FAQ and guide for Drug Dealer Simulator 2. Browse shop prices, interactive maps, and comprehensive game information."
-      />
+      {/* Global Keywords */}
       <meta
         name="keywords"
         content="Drug Dealer Simulator 2, DDS2, FAQ, interactive guide, shop prices, game guide, simulator"
       />
 
-      {/* OpenGraph Meta Tags */}
+      {/* OpenGraph Meta Tags - Only global ones */}
       <meta property="og:site_name" content="DDSFAQ" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="https://dds.yonga.dev/cover.png" />
@@ -34,7 +29,7 @@ const MyDocument = () => (
         content="Drug Dealer Simulator 2 Interactive FAQ"
       />
 
-      {/* Twitter Card Meta Tags */}
+      {/* Twitter Card Meta Tags - Only global ones */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://dds.yonga.dev/cover.png" />
       <meta

@@ -42,7 +42,7 @@ const index = () => {
       }}
     >
       <Head>
-        <title>Shop Prices | DDS2FAQ</title>
+        <title>Shop Prices | DDSFAQ</title>
         <meta
           name="description"
           content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."

@@ -11,7 +11,7 @@ const index = () => {
         <title>DDSFAQ - Drug Dealer Simulator 2 Interactive FAQ</title>
         <meta
           name="description"
-          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+          content="The ultimate interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive maps, and comprehensive game information."
         />
 
         {/* OpenGraph Meta Tags for Home Page */}
@@ -21,7 +21,7 @@ const index = () => {
         />
         <meta
           property="og:description"
-          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+          content="The ultimate interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive maps, and comprehensive game information."
         />
         <meta property="og:url" content="https://dds.yonga.dev" />
 
@@ -32,7 +32,7 @@ const index = () => {
         />
         <meta
           name="twitter:description"
-          content="The interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive map, and comprehensive game information."
+          content="The ultimate interactive FAQ and guide for Drug Dealer Simulator 2. Find shop prices, interactive maps, and comprehensive game information."
         />
 
         <link rel="canonical" href="https://dds.yonga.dev" />
