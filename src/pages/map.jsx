@@ -261,7 +261,34 @@ const MapComponent = () => {
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       <Head>
-        <title>Interactive Map | DDS2FAQ</title>
+        <title>Interactive Map | DDSFAQ</title>
+        <meta
+          name="description"
+          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Interactive Map | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
+        />
+        <meta property="og:url" content="https://dds.yonga.dev/map" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Interactive Map | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/map" />
       </Head>
       {/* Header Controls */}
       <div

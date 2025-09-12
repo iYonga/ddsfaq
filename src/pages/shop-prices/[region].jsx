@@ -8,10 +8,8 @@ import { Menu } from "antd";
 import Input from "@/components/pickles/Input";
 import Head from "next/head";
 
-const ShopPricesPage = () => {
+const ShopPricesPage = ({ region, regionData }) => {
   const router = useRouter();
-  var { region } = router.query;
-  region = region && region.replaceAll("_", " ");
   const [expandedShops, setExpandedShops] = useState([]);
   const [chosenLevel, setChosenLevel] = useState(0);
   const [search, setSearch] = useState("");
@@ -21,12 +19,13 @@ const ShopPricesPage = () => {
 
   // region değiştiğinde, expandedShops'ı ilk dükkan ile başlat
   useEffect(() => {
-    if (region && shops[region]) {
+    if (region && regionData) {
       // Örneğin ilk dükkanı otomatik olarak aç
-      const firstShop = Object.keys(shops[region])[0];
+      const firstShop = Object.keys(regionData)[0];
       setExpandedShops([firstShop]);
     }
-  }, [region]);
+  }, [region, regionData]);
+
   useEffect(() => {
     setChosenLevel(0);
   }, [expandedShops]);
@@ -39,12 +38,21 @@ const ShopPricesPage = () => {
     setInitialWidth(paneRef.current.scrollWidth);
   };
 
-  if (!region || !shops[region]) {
+  if (!region || !regionData) {
     return (
-      <div style={{ padding: "1rem", textAlign: "center" }}>
-        <h2>Region not found or no data!</h2>
-        <Button label="Back" trigger={() => router.push("/shop-prices")} />
-      </div>
+      <>
+        <Head>
+          <title>Region Not Found | DDSFAQ</title>
+          <meta
+            name="description"
+            content="The requested region was not found. Please select a valid region from the shop prices list."
+          />
+        </Head>
+        <div style={{ padding: "1rem", textAlign: "center" }}>
+          <h2>Region not found or no data!</h2>
+          <Button label="Back" trigger={() => router.push("/shop-prices")} />
+        </div>
+      </>
     );
   }
 
@@ -60,7 +68,7 @@ const ShopPricesPage = () => {
       }}
     >
       <Head>
-        <title>{region} Shop Prices | DDSFAQ</title>
+        <title>{region} Prices | DDSFAQ</title>
         <meta
           name="description"
           content={`Shop prices and items for ${region} in Drug Dealer Simulator 2. Interactive FAQ with detailed pricing information.`}
@@ -74,7 +82,7 @@ const ShopPricesPage = () => {
         {/* OpenGraph Meta Tags */}
         <meta
           property="og:title"
-          content={`${region} Shops | Drug Dealer Simulator 2 FAQ`}
+          content={`${region} Prices | Drug Dealer Simulator 2 FAQ`}
         />
         <meta
           property="og:description"
@@ -90,7 +98,7 @@ const ShopPricesPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content={`${region} Shops | Drug Dealer Simulator 2 FAQ`}
+          content={`${region} Prices | Drug Dealer Simulator 2 FAQ`}
         />
         <meta
           name="twitter:description"
@@ -125,7 +133,7 @@ const ShopPricesPage = () => {
             trigger={() => router.push("/shop-prices")}
           />
 
-          {Object.keys(shops[region]).map(shopName => (
+          {Object.keys(regionData).map(shopName => (
             <Button
               key={shopName}
               label={shopName}
@@ -148,7 +156,7 @@ const ShopPricesPage = () => {
           }}
           ref={paneRef}
         >
-          {Object.entries(shops[region]).map(([shopName, shopObj]) => {
+          {Object.entries(regionData).map(([shopName, shopObj]) => {
             // Dükkan expandedShops'ta yoksa hiç renderlama
             if (!expandedShops.includes(shopName)) return null;
 
@@ -433,5 +441,41 @@ const ShopPricesPage = () => {
     </div>
   );
 };
+
+// Static Site Generation için gerekli
+export async function getStaticPaths() {
+  // Tüm region'ları al
+  const regionKeys = Object.keys(shops);
+
+  const paths = regionKeys.map(region => ({
+    params: {
+      region: region.replaceAll(" ", "_"), // URL için underscore kullan
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false, // 404 göster eğer region bulunamazsa
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const regionParam = params.region;
+  const region = regionParam.replaceAll("_", " "); // Underscore'u space'e çevir
+
+  // Region'ın shops'ta olup olmadığını kontrol et
+  if (!shops[region]) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      region,
+      regionData: shops[region],
+    },
+  };
+}
 
 export default ShopPricesPage;

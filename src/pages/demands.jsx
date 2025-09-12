@@ -7,7 +7,34 @@ export default function Home() {
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
       <Head>
-        <title>Drug Demands | DDS2FAQ</title>
+        <title>Drug Demands | DDSFAQ</title>
+        <meta
+          name="description"
+          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Drug Demands | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
+        />
+        <meta property="og:url" content="https://dds.yonga.dev/demands" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Drug Demands | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/demands" />
       </Head>
       <header
         style={{

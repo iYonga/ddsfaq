@@ -69,7 +69,37 @@ const Search = () => {
       }}
     >
       <Head>
-        <title>Search Shops | DDS2FAQ</title>
+        <title>Search Items | DDSFAQ</title>
+        <meta
+          name="description"
+          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Search Items | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
+        />
+        <meta
+          property="og:url"
+          content="https://dds.yonga.dev/shop-prices/search"
+        />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Search Items | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/shop-prices/search" />
       </Head>
       <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Search Items</h4>

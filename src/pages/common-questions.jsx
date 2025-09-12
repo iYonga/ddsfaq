@@ -21,7 +21,37 @@ export default function MyDoc() {
       }}
     >
       <Head>
-        <title>Common Questions | DDS2FAQ</title>
+        <title>Common Questions | DDSFAQ</title>
+        <meta
+          name="description"
+          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Common Questions | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
+        />
+        <meta
+          property="og:url"
+          content="https://dds.yonga.dev/common-questions"
+        />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Common Questions | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/common-questions" />
       </Head>
       <header
         style={{

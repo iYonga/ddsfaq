@@ -21,7 +21,34 @@ export default function MyDoc() {
       }}
     >
       <Head>
-        <title>Common Bugs & Fixes | DDS2FAQ</title>
+        <title>Common Bugs & Fixes | DDSFAQ</title>
+        <meta
+          name="description"
+          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
+        />
+
+        {/* OpenGraph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Common Bugs & Fixes | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          property="og:description"
+          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
+        />
+        <meta property="og:url" content="https://dds.yonga.dev/common-bugs" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta
+          name="twitter:title"
+          content="Common Bugs & Fixes | Drug Dealer Simulator 2 FAQ"
+        />
+        <meta
+          name="twitter:description"
+          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
+        />
+
+        <link rel="canonical" href="https://dds.yonga.dev/common-bugs" />
       </Head>
       <header
         style={{
