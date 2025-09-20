@@ -6,42 +6,31 @@ import FAQCard from "@/components/pickles/FAQCard";
 import AlphabetNav from "@/components/pickles/AlphabetNav";
 import SEO from "@/components/SEO";
 
-export default function FAQPage() {
+export default function FAQPage({ game: initialGame, initialFaqData }) {
   const router = useRouter();
-  const { game } = router.query;
-  const [faqData, setFaqData] = useState([]);
+  const { game: routerGame } = router.query;
+  const game = initialGame || routerGame;
+  const [faqData, setFaqData] = useState(initialFaqData || []);
   const [searchTerm, setSearchTerm] = useState("");
   const [activeLetter, setActiveLetter] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Function to clean citation markers
   const cleanText = (text) => {
     return text.replace(/\[\d+\]/g, '');
   };
 
-  // Load FAQ data based on game
+  // Clean FAQ data on mount
   useEffect(() => {
-    if (game) {
-      setIsLoading(true);
-      const loadData = async () => {
-        try {
-          const response = await require(`@/resources/${game}.json`);
-          const cleanedData = response.map(item => ({
-            ...item,
-            question: cleanText(item.question),
-            answer: cleanText(item.answer)
-          }));
-          setFaqData(cleanedData);
-        } catch (error) {
-          console.error("Error loading FAQ data:", error);
-          setFaqData([]);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-      loadData();
+    if (initialFaqData && initialFaqData.length > 0) {
+      const cleanedData = initialFaqData.map(item => ({
+        ...item,
+        question: cleanText(item.question),
+        answer: cleanText(item.answer)
+      }));
+      setFaqData(cleanedData);
     }
-  }, [game]);
+  }, [initialFaqData]);
 
   // Group FAQ data by first letter and filter by search
   const { groupedData, availableLetters, filteredData } = useMemo(() => {
@@ -82,13 +71,13 @@ export default function FAQPage() {
     }
   };
 
-  const gameTitle = game === "dds1" ? "Drug Dealer Simulator 1" : "Drug Dealer Simulator 2";
-  const gameSubtitle = game === "dds1" ? "DDS1" : "DDS2";
+  const gameTitle = initialGame === "dds1" ? "Drug Dealer Simulator 1" : "Drug Dealer Simulator 2";
+  const gameSubtitle = initialGame === "dds1" ? "DDS1" : "DDS2";
 
   // SEO props
   const seoProps = {
     title: `${gameTitle} Interactive FAQ | DDSFAQ`,
-    description: `Browse ${filteredData.length} comprehensive ${gameTitle} questions and answers with dynamic search, alphabetical navigation, and card-based interface. Find gameplay help, strategies, troubleshooting, and detailed walkthroughs for ${gameSubtitle}.`,
+    description: `Browse comprehensive ${gameTitle} questions and answers with dynamic search, alphabetical navigation, and card-based interface. Find gameplay help, strategies, troubleshooting, and detailed walkthroughs for ${gameSubtitle}.`,
     keywords: `${gameTitle.toLowerCase()}, ${gameSubtitle.toLowerCase()}, FAQ, interactive guide, game help, walkthrough, troubleshooting, game strategies, drug dealer simulator`,
     breadcrumbs: [
       {
@@ -101,17 +90,17 @@ export default function FAQPage() {
       },
       {
         name: `${gameTitle} FAQ`,
-        url: `https://dds.yonga.dev/faq/${game}`
+        url: `https://dds.yonga.dev/faq/${initialGame}`
       }
     ],
-    faqData: filteredData.slice(0, 10), // First 10 FAQs for structured data
+    faqData: faqData.slice(0, 10), // First 10 FAQs for structured data
     structuredData: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "name": `${gameTitle} Interactive FAQ`,
-      "description": `Comprehensive FAQ and guide for ${gameTitle} with ${filteredData.length} questions and answers`,
-      "url": `https://dds.yonga.dev/faq/${game}`,
-      "mainEntity": filteredData.slice(0, 10).map((faq, index) => ({
+      "description": `Comprehensive FAQ and guide for ${gameTitle} with questions and answers`,
+      "url": `https://dds.yonga.dev/faq/${initialGame}`,
+      "mainEntity": faqData.slice(0, 10).map((faq, index) => ({
         "@type": "Question",
         "name": faq.question,
         "acceptedAnswer": {
@@ -140,7 +129,7 @@ export default function FAQPage() {
     );
   }
 
-  if (!game || (game !== "dds1" && game !== "dds2")) {
+  if (!initialGame || (initialGame !== "dds1" && initialGame !== "dds2")) {
     return (
       <div
         style={{
@@ -242,9 +231,9 @@ export default function FAQPage() {
               style={{
                 padding: "0.4rem 0.8rem",
                 fontSize: "0.8rem",
-                backgroundColor: game === "dds1" ? "#FFCC00" : "#2a2a2a",
-                color: game === "dds1" ? "#000" : "#fff",
-                border: game === "dds1" ? "1px solid #FFCC00" : "1px solid #666",
+                backgroundColor: initialGame === "dds1" ? "#FFCC00" : "#2a2a2a",
+                color: initialGame === "dds1" ? "#000" : "#fff",
+                border: initialGame === "dds1" ? "1px solid #FFCC00" : "1px solid #666",
                 minWidth: "60px",
               }}
             />
@@ -264,9 +253,9 @@ export default function FAQPage() {
               style={{
                 padding: "0.4rem 0.8rem",
                 fontSize: "0.8rem",
-                backgroundColor: game === "dds2" ? "#FFCC00" : "#2a2a2a",
-                color: game === "dds2" ? "#000" : "#fff",
-                border: game === "dds2" ? "1px solid #FFCC00" : "1px solid #666",
+                backgroundColor: initialGame === "dds2" ? "#FFCC00" : "#2a2a2a",
+                color: initialGame === "dds2" ? "#000" : "#fff",
+                border: initialGame === "dds2" ? "1px solid #FFCC00" : "1px solid #666",
                 minWidth: "60px",
               }}
             />
@@ -414,4 +403,36 @@ export default function FAQPage() {
       )}
     </div>
   );
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { game: 'dds1' } },
+      { params: { game: 'dds2' } }
+    ],
+    fallback: false
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const { game } = params;
+
+  try {
+    const faqData = require(`@/resources/${game}.json`);
+
+    return {
+      props: {
+        game,
+        initialFaqData: faqData
+      }
+    };
+  } catch (error) {
+    return {
+      props: {
+        game,
+        initialFaqData: []
+      }
+    };
+  }
 }

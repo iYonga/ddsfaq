@@ -89,11 +89,10 @@ const SEO = ({
 
   return (
     <Head>
-      {/* Basic Meta Tags */}
+      {/* Basic Meta Tags - Override document defaults */}
       <title>{finalTitle}</title>
       <meta name="description" content={finalDescription} />
       <meta name="keywords" content={finalKeywords} />
-      <meta name="author" content="DDSFAQ" />
       <meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow"} />
 
       {/* Canonical URL */}
