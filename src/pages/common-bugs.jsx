@@ -3,6 +3,7 @@ import React from "react";
 import Head from "next/head";
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
+import SEO from "@/components/SEO";
 
 export default function MyDoc() {
   const router = useRouter();
@@ -20,36 +21,31 @@ export default function MyDoc() {
         flexDirection: "column",
       }}
     >
-      <Head>
-        <title>Common Bugs & Fixes | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Common Bugs & Fixes | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
-        />
-        <meta property="og:url" content="https://dds.yonga.dev/common-bugs" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Common Bugs & Fixes | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/common-bugs" />
-      </Head>
+      <SEO
+        title="Common Bugs & Fixes | DDSFAQ"
+        description="Common bugs and fixes for Drug Dealer Simulator 2. Find solutions to known issues and troubleshooting tips."
+        keywords="common bugs, Drug Dealer Simulator 2, DDS2, bug fixes, troubleshooting, game issues, known problems, solutions, technical issues, gameplay bugs"
+        canonical="https://dds.yonga.dev/common-bugs"
+        breadcrumbs={[
+          {
+            name: "Home",
+            url: "https://dds.yonga.dev"
+          },
+          {
+            name: "Common Bugs & Fixes",
+            url: "https://dds.yonga.dev/common-bugs"
+          }
+        ]}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "TechArticle",
+          "name": "Drug Dealer Simulator 2 Common Bugs & Fixes",
+          "description": "Comprehensive guide to common bugs and fixes for Drug Dealer Simulator 2",
+          "url": "https://dds.yonga.dev/common-bugs",
+          "proficiencyLevel": "Beginner",
+          "genre": "Game Troubleshooting"
+        }}
+      />
       <header
         style={{
           textAlign: "center",

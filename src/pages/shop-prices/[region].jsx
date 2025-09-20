@@ -6,7 +6,7 @@ import Button from "@/components/pickles/Button";
 import { Popover, Dropdown } from "antd";
 import { Menu } from "antd";
 import Input from "@/components/pickles/Input";
-import Head from "next/head";
+import SEO from "@/components/SEO";
 
 const ShopPricesPage = ({ region, regionData }) => {
   const router = useRouter();
@@ -41,13 +41,12 @@ const ShopPricesPage = ({ region, regionData }) => {
   if (!region || !regionData) {
     return (
       <>
-        <Head>
-          <title>Region Not Found | DDSFAQ</title>
-          <meta
-            name="description"
-            content="The requested region was not found. Please select a valid region from the shop prices list."
-          />
-        </Head>
+        <SEO
+          title="Region Not Found | DDSFAQ"
+          description="The requested region was not found. Please select a valid region from the shop prices list."
+          keywords="region not found, shop prices, Drug Dealer Simulator 2, DDS2, error page"
+          noIndex={true}
+        />
         <div style={{ padding: "1rem", textAlign: "center" }}>
           <h2>Region not found or no data!</h2>
           <Button label="Back" trigger={() => router.push("/shop-prices")} />
@@ -67,57 +66,38 @@ const ShopPricesPage = ({ region, regionData }) => {
         padding: "1rem",
       }}
     >
-      <Head>
-        <title>{region} Prices | DDSFAQ</title>
-        <meta
-          name="description"
-          content={`Shop prices and items for ${region} in Drug Dealer Simulator 2. Interactive FAQ with detailed pricing information.`}
-        />
-        <meta
-          name="keywords"
-          content="Drug Dealer Simulator 2, DDS2, shop prices, game guide, FAQ, interactive"
-        />
-        <meta name="author" content="DDSFAQ" />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content={`${region} Prices | Drug Dealer Simulator 2 FAQ`}
-        />
-        <meta
-          property="og:description"
-          content={`Browse shop prices and items for ${region} in Drug Dealer Simulator 2. Complete interactive FAQ guide.`}
-        />
-        <meta property="og:image" content="https://dds.yonga.dev/cover.png" />
-        <meta property="og:image:width" content="3840" />
-        <meta property="og:image:height" content="2160" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="DDSFAQ" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={`${region} Prices | Drug Dealer Simulator 2 FAQ`}
-        />
-        <meta
-          name="twitter:description"
-          content={`Browse shop prices and items for ${region} in Drug Dealer Simulator 2. Complete interactive FAQ guide.`}
-        />
-        <meta name="twitter:image" content="https://dds.yonga.dev/cover.png" />
-
-        {/* Additional Meta Tags */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta name="theme-color" content="#0B0B0B" />
-        <link
-          rel="canonical"
-          href={`https://dds.yonga.dev/shop-prices/${region?.replaceAll(
-            " ",
-            "_",
-          )}`}
-        />
-      </Head>
+      <SEO
+        title={`${region} Prices | DDSFAQ`}
+        description={`Shop prices and items for ${region} in Drug Dealer Simulator 2. Interactive FAQ with detailed pricing information.`}
+        keywords={`${region.toLowerCase()} shop prices, Drug Dealer Simulator 2, DDS2, shop items, pricing guide, game economy, item costs, business strategy`}
+        canonical={`https://dds.yonga.dev/shop-prices/${region?.replaceAll(" ", "_")}`}
+        breadcrumbs={[
+          {
+            name: "Home",
+            url: "https://dds.yonga.dev"
+          },
+          {
+            name: "Shop Prices",
+            url: "https://dds.yonga.dev/shop-prices"
+          },
+          {
+            name: `${region} Prices`,
+            url: `https://dds.yonga.dev/shop-prices/${region?.replaceAll(" ", "_")}`
+          }
+        ]}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": `${region} Shop Prices - Drug Dealer Simulator 2`,
+          "description": `Complete shop price guide for ${region} region in Drug Dealer Simulator 2`,
+          "url": `https://dds.yonga.dev/shop-prices/${region?.replaceAll(" ", "_")}`,
+          "mainEntity": {
+            "@type": "ItemList",
+            "name": `${region} Region Shops and Items`,
+            "description": `List of all shops and their available items in ${region} region`
+          }
+        }}
+      />
       <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Shop Prices | {region}</h4>
 
@@ -210,7 +190,7 @@ const ShopPricesPage = ({ region, regionData }) => {
                               color: "red",
                             }}
                           >
-                            CAN'T
+                            CAN&apos;T
                           </span>{" "}
                           pay with your bank account,{" "}
                         </>

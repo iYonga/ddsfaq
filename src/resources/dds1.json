@@ -1,0 +1,512 @@
+[
+  {
+    "question": "DDS1 Drug Mixer URL",
+    "answer": "https://shady-community-new.vercel.app/dds1/mixer",
+    "source": "Base.txt"
+  },
+  {
+    "question": "What is the endgame update?",
+    "answer": "This Update is the biggest package to be shipped to the game so far. Bringing in a whole new Storyline with different objectives for players to complete (including an Ending), Laboratories (aka Labs) which can be used to produce most drugs after Eddie leaves the Ghetto, Villas (aka Estates) which are immune to DEA Raids, Freaking Achiements!!!, and finally multiple balance changes & countless Bug Fixes.",
+    "source": "Base.txt"
+  },
+  {
+    "question": "Endgame update guide?",
+    "answer": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885790535",
+    "source": "Base.txt"
+  },
+  {
+    "question": "What is the Psychedelics Gang?",
+    "answer": "The Psychedelics Gang is a gang that makes psychedelic drugs (LSD, DMT & Mushrooms) but they suck at distribution. You get the quest to work for this gang to unlock their 3 drugs for dealing. Their Hideout is located in Stink, the building with the \"Science, b**ch!\" blue graffiti on the wall.",
+    "source": "Base.txt"
+  },
+  {
+    "question": "How to unlock the Psychedelics Gang? Guide",
+    "answer": "https://steamcommunity.com/sharedfiles/filedetails/?id=2675277179",
+    "source": "Base.txt"
+  },
+  {
+    "question": "DDS Best Weed Planting Locations and Best Seeds",
+    "answer": "https://steamcommunity.com/sharedfiles/filedetails/?id=2754695782",
+    "source": "Base.txt"
+  },
+  {
+    "question": "Important game stats",
+    "answer": "https://steamcommunity.com/sharedfiles/filedetails/?id=2985144216",
+    "source": "Base.txt"
+  },
+  {
+    "question": "How do I unlock the ability to buy new hideouts?",
+    "answer": "You can start purchasing hideouts once you reach level 7 and unlock the contact Mike Byers on ShadyComm[1]. At that point Mike will sell you additional hideouts (safehouses) in various neighborhoods for a price.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What are the benefits of owning additional hideouts?",
+    "answer": "Hideouts serve as extra safehouses and offer bonuses in their area. They let you save your game (if the hideout has a bed) and provide more storage/lab space. Many hideouts also boost your dealing in that area – for example, they can increase client and dealer capacity, sales rates, respect gain, and experience gain locally[2]. (These benefits are listed in the hideout’s stats, e.g. a hideout might show +20% sales boost, +15% respect boost, etc.)[3]",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I save the game at all my hideouts?",
+    "answer": "Only certain hideouts allow saving. If a hideout is listed with “Yes” under the Save column, it means it has a bed or couch where you can save[2]. For example, the main apartment and most indoor apartments allow saving, whereas small storage garages (marked “No” under Save) do not have a manual save point.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I access Sector B (the second area) for the first time?",
+    "answer": "Sector B is initially walled off by police checkpoints, but you can find alternate ways in. One way is through a construction worker’s tunnel: go southwest of your starting apartment to a fenced area with a construction worker and pay him $100 to use an old tunnel into Sector B (and another $100 to leave)[4]. Another official route is via an underground sewer entrance near the police station in Sector A[5]. These routes let you slip into Sector B before the police checkpoints are opened via story progress.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Are there alternative routes to enter Sector B without using the police checkpoint?",
+    "answer": "Yes. In addition to the tunnel route (construction worker)[4], there’s a sewer entrance in Sector A that leads into Sector B[5]. Players have also used creative methods like throwing their backpack over the wall and then passing through the checkpoint empty-handed, then retrieving the bag on the other side[6] (though this is a bit tricky). These methods let you circumvent the Sector A→B checkpoint early.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "When and how do I unlock Sector C (Downtown)?",
+    "answer": "Sector C becomes available later in the game. You must first unlock the Downtown area of Sector B (through story progression and high respect there). After that, around player level 25, you’ll get a call introducing Sector C[7]. The cartel arranges paperwork for you to become a “resident,” and you even get a free starter hideout in Sector C, allowing you to legally pass the tunnel checkpoint (as a resident with papers)[8].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What are the ways to actually enter Sector C once it’s unlocked?",
+    "answer": "There are three ways into Sector C. 1) Through the main tunnel checkpoint – as a legal resident you can pass, but you will be searched, and during curfew hours this gate is closed (and now there are cameras that will alert police)[9]. 2) Through the Factory South gate (the Stink–Sector C gate) – you need to buy a Factory Gate Key from a new NPC inside Sector C (Alexy, costs $1,000 for 10 uses) to use that back gate[10]. 3) Through the sewers – there is a one-way sewer path from Sector B into Sector C: disable an electrical box near the technical tunnels in north Desert area, then enter the manhole near the nightclub and go through the now-open sewer gate, which dumps you out inside Sector C[11]. These alternate entries let you avoid the main checkpoint entirely.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I smuggle drugs into Sector C past the checkpoint?",
+    "answer": "The Sector C checkpoint is very strict – you can’t toss a bag over that wall because of the way it’s designed[12][13]. Instead, you must use other methods. You can sneak drugs in by using the sewer route or the Factory South gate (as mentioned, using the key to avoid searches)[14][15]. Additionally, the game introduces a “smuggling” option: through certain services (like the laundry shop or a smuggler contact), you can send a package to the Sector C local store for pickup[13]. In short, bypass the main gate – either physically via alternate routes or by covert delivery mechanisms.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What drugs can you sell in Drug Dealer Simulator 1?",
+    "answer": "The game features a variety of drugs: Marijuana (weed), Amphetamine (speed), Ecstasy (MDMA), Crystal Meth, Cocaine, Heroin, as well as some psychedelics like LSD, Magic Mushrooms, and DMT[16][17]. (Fentanyl also exists, but it’s typically used as a mix ingredient rather than sold pure.) You unlock these progressively as you advance in the game.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I unlock new drug types as I progress through the game?",
+    "answer": "New drugs become available either through leveling up or specific quests. Most core drugs (weed, amp, ecstasy, meth, coke, heroin) are introduced by Eddie as your dealer level and respect increase[18]. Psychedelics (LSD, mushrooms, DMT) are unlocked later via a special quest line (the Psychedelics Gang) rather than via Eddie[19][20]. In general, as you gain respect and complete story tasks, Eddie will offer more varieties, and certain questlines will introduce the rest.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I get access to LSD, mushrooms, and DMT?",
+    "answer": "These come from the Psychedelics Gang quest line. Once you reach roughly level 17, a side storyline opens where you work with a new gang that deals in psychedelics[20]. Completing that series of quests will unlock LSD, magic mushrooms, and DMT for you to order. This gang also allows bulk weed sales (but at a low fixed price) as part of their deals[20]. So, unlike other drugs which come via Eddie, you gain LSD, shrooms, DMT by doing the Psychedelics Gang missions.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "At what player level can I start growing marijuana?",
+    "answer": "You can unlock indoor weed growing at level 15[21]. At level 15, a task or prompt will introduce you to cannabis cultivation. You’ll then be able to buy the necessary equipment (pots, lamps, etc.) and seeds to start your own grow op at a hideout.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I grow weed, and where do I get cannabis seeds?",
+    "answer": "Once weed growing is unlocked (around level 15), you’ll meet a new contact, Barney, who acts as the seed supplier[22]. To grow, you need an indoor setup: a flower pot with soil, a UV lamp for light, a water source, and ideally an air filter to reduce the smell[23]. Place a pot in a hideout, plant an indoor cannabis seed (from Barney) in the soil, water it, and keep the UV light on it. After a few in-game days, the plant will yield harvestable weed. You can then dry and package the product for sale or use.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why won't the game let me plant my cannabis seeds in my hideout?",
+    "answer": "First, make sure you are using the indoor variety of seeds (outdoor seeds won’t plant in pots). Also, only certain hideouts support planting. Try using just one pot and one seed to test, and move the pot around the room if it’s not working. If it still refuses, it might be a known bug – a few hideouts/garages are glitchy and simply won’t allow planting[24]. In those cases, you’ll unfortunately have to use a different hideout for growing, as that particular location is bugged for planting[25].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I grow cannabis outdoors, or only inside hideouts?",
+    "answer": "The game primarily supports indoor growing with the equipment (hence “indoor seeds”). However, it is possible to grow outdoors if you have a secure area. Some players use hideouts that have outdoor space (like a villa or yard) to place pots outside. Outdoor plants actually take a bit longer – about 5 full in-game days to mature (versus roughly 3–4 days for indoor)[26] – but yield the same amount. The key is that it’s still your hideout area; you can’t just plant in a random public spot. So yes, outdoor growing can be done if you own a hideout with open-air space, but you’ll need to wait slightly longer for harvests[26].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What is Fentanyl used for in the game?",
+    "answer": "Fentanyl is not typically sold by itself to clients; instead, it’s used as a mixing ingredient. It’s a powerful opioid that you can mix in small amounts into other drugs (like heroin) to increase potency. The game treats Fentanyl as an additive – very few, if any, clients ask for pure Fentanyl. Its primary use is to spice up your product recipes (for example, to make a heroin mix more potent or addictive). Be cautious: Fentanyl is extremely strong and toxic, so while it can boost a mix’s strength, it also greatly raises overdose risk[27].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I manufacture drugs myself instead of buying from Eddie?",
+    "answer": "Eventually, yes. In the late game you gain the ability to produce your own drugs through “labs.” Once the Endgame sequence starts (after Eddie leaves), you will unlock drug lab equipment that lets you create pure product on your own[28]. For instance, you can start producing crystal meth, coke, etc., without buying from Eddie, by using chemical lab setups at your hideouts. Early on, though, before labs are available, you must get product from Eddie or quests.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "When do drug labs become available for producing my own product?",
+    "answer": "Drug labs become available as part of the Endgame content. After you hit the requirements to start Endgame (level 36+, Sector C unlocked, etc.), Eddie will vanish and you’ll gain access to lab equipment shortly thereafter[29]. In practice, this means by the time you’re doing the final story missions, you’ll be able to set up full labs to cook drugs (allowing you to manufacture things like meth or cocaine in bulk). Prior to that point, you’re limited to cutting/mixing the drugs you buy from Eddie rather than creating them from scratch.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I start getting dealers (instead of just normal clients)?",
+    "answer": "As you expand, some of your satisfied clients will offer to become dealers for you. This typically happens once a client’s trust and addiction level are high. For example, if a client becomes a heavy user (addicted) and you have good standing with them, they might message you asking to work for you as a dealer[30]. You can then agree and they turn into a dealer who buys larger quantities. There isn’t a specific “level” to unlock dealers; it’s tied to client relationship – keep delivering on time and maybe give samples to build trust. Eventually, a loyal client will say they “know some people” and volunteer to deal for you.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What are the advantages of having dealers rather than direct clients?",
+    "answer": "In the long run, dealers are far more lucrative. A regular client only ever buys small personal amounts (usually max ~10g), but a dealer will purchase larger bulk quantities (10–40+ grams) to redistribute[31]. Dealers also generate recurring income – they take product now and pay you later, effectively handling many small sales on your behalf. This means less running around for you and more money per transaction. Moreover, dealing with dealers gives bigger boosts: you gain more respect and experience per deal, since you get XP when you deliver product and again when you collect the cash[32]. The only downside is dealers pay on consignment (you front the drugs and collect money later), whereas clients pay cash up front.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do dealers pay me upfront or do they pay later?",
+    "answer": "Dealers do not pay immediately. When you supply a dealer, it’s like a consignment deal – you give them the product, then after they sell it to their customers, they’ll have the cash for you. You’ll get a notification or prompt to collect your money later on. In other words, dealers take the drugs now and you pick up the payment after some time (usually the next day or so in-game)[31]. Regular clients, by contrast, always pay on the spot.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What’s the largest quantity a regular client will order?",
+    "answer": "Normal clients have relatively small personal orders. Typically, the maximum a client asks for is about 10 grams of a drug at once[33]. They usually start with very small amounts (1–3g) and can work up to larger personal buys, but even a heavy-using client won’t usually exceed roughly 8–10g in a single order. Anything beyond that is usually the realm of dealers or gang transactions.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How much product can a dealer request at once?",
+    "answer": "That depends on the dealer’s level and your progression, but dealers will order significantly more than clients. Early on, a new dealer might order 10–20 grams at a time, but as they level up and trust grows, they can request larger batches (30g, 50g, etc.). In fact, a high-level dealer can order up to 200 grams in one go as a single order[34]. (By design, the maximum a dealer will ever ask for is about 200g, though reaching that requires the dealer to be at max level and your operation to be well-developed.)",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can my dealers get arrested by the police?",
+    "answer": "Yes. Starting from the Uptown Kings update, your dealers can indeed be busted by the police during their own dealing activities[35]. The chance of a dealer getting caught is influenced by your overall exposition level (how “hot” things are), the dealer’s own level, and a bit of luck[36]. If a dealer does get arrested, don’t panic – it’s not permanent (see below).",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "If a dealer gets arrested, how long do they stay in jail?",
+    "answer": "Dealers who are busted will serve a bit of time but eventually return. Typically, a busted dealer spends about 3 in-game days in jail before they’re released on their own[36]. The jail time can vary slightly depending on the “severity” of what they were caught with (and perhaps some RNG), but it’s on the order of a few days. You won’t lose the dealer permanently; after their sentence (around 3 days) they’ll come back and resume dealing.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Is there a way to bail a dealer out of jail?",
+    "answer": "Yes – if one of your dealers is in jail and you don’t want to wait, you have the option to pay bail to get them out early[37]. The bail payment is done via your bank balance (clean money). The game will notify you of the cost, and you can choose to pay to immediately release the dealer. If you’d rather not spend the cash, you can simply wait the few days for them to be freed automatically.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do dealers gain experience or level up over time?",
+    "answer": "They do now. Dealers will earn experience every time you do business with them (each time you deliver product or collect cash) and can level up to level 10 maximum[38]. As they level, their order sizes can increase. There’s also a small chance on any order that they’ll “crit” – meaning they might double their usual order amount spontaneously (even clients have a low chance of this). A high-level dealer ordering with a lucky crit can request nearly 300g in one go, which is far above what low-level dealers ask for[38].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What happens when a dealer levels up?",
+    "answer": "A higher-level dealer will handle more product and make you more money. Specifically, as a dealer’s level rises, they tend to order larger quantities (and possibly more frequently). At max level (level 10), a dealer can order very high amounts – players have seen individual orders close to 300 g when RNG favors it[39]. Leveling up also presumably makes them a bit more resilient (though they can still be arrested). Essentially, a level 1 dealer might order 15 g, whereas a level 10 dealer could order 2× or more of that at a time, dramatically boosting your profits.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why can’t I interact with one of my dealers anymore?",
+    "answer": "There’s a known bug that can cause a dealer to become unresponsive. This often happens if you saved the game while you had active orders waiting or a dealer in the middle of a deal. The dealer can get “stuck” in the world and you’ll be unable to talk to them[40]. Unfortunately, when this bug triggers, the only fix in the base game is to reload an earlier save from before it occurred[40].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I avoid the dealer interaction bug going forward?",
+    "answer": "The best prevention is careful saving habits. The community recommends not saving while you have active deliveries pending. Ideally, save before you accept any orders, and then wait to save again until after you’ve delivered everything and collected cash[41]. In other words, try to clear your queue of deals before you hit Save. Following this routine (and not saving during a deal) will minimize the chance of bugging out a dealer. If it’s too late and you have no pre-bug save, there is an unofficial mod that can fix a glitched dealer, but it’s better to prevent it in the first place[41].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do my dealers handle sales to customers on their own?",
+    "answer": "Yes. Once a client becomes your dealer, they take over dealing in their area. They will sell to their own set of customers (you don’t see those transactions) and then periodically come to you with new wholesale orders and profits. Essentially, they act like you would – selling bags on the street – but it’s automated. You supply them in bulk, and later collect the cash. This setup means you’re not running every small 1g sale; the dealer does that, and you only deal with larger transfers[42]. It greatly cuts down the micromanagement once you have a stable of dealers.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What equipment do I need to start mixing and producing drugs?",
+    "answer": "To mix drugs or create new blends, you’ll need a workstation with mixing equipment. At minimum, get a mixing tray (for dry mixing powders). If you plan to do liquid-based recipes (like turning powder into crystal), you’ll need liquid mixing tools: e.g. a large flask or mixing container and some acetone as a solvent[43]. For any solid ingredients that aren’t already powder, have a mortar and pestle or coffee grinder to mill them down into powder form[44]. And if you create any liquid solutions, you must have a drying device – either a small drug dryer or a large lab drying oven – to evaporate the liquid and retrieve crystals[45]. Essentially, a complete lab setup might include: grinding tool, mixing vessel (tray/flask), maybe an electric mixer for larger batches, and a drying oven.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do liquid mixers work, and how do I use acetone in recipes?",
+    "answer": "Liquid mixers allow you to combine substances in liquid form. For example, to make crystal meth, you would dissolve meth powder in a liquid solvent and then dry it to crystals. In game, a flask or liquid mixing tray is used along with a solvent like acetone[43]. You put your solid drug (say, amphetamine) into the flask, pour in acetone, and the acetone will dissolve the powder into a liquid solution. This lets you mix drugs that normally wouldn’t blend as powder. After mixing, you’ll need to evaporate the solvent (using a dryer) to get the finished product. In short: acetone is used to dissolve solids so you can mix them, and liquid mixers are the equipment that facilitate that process[43].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I dry liquid mixes (like to produce crystal drugs)?",
+    "answer": "You’ll need a drying appliance. Once you have a liquid mixture (for example, a meth solution in acetone), you can’t sell it as a liquid. You must pour that solution onto a drying tray or into a lab dryer. The game’s drying equipment (small dryer, large lab dryer, or lab crystallizer) will evaporate all the solvent, leaving behind the crystallized solid drug[45]. For instance, if you mixed amphetamine with acetone and perhaps other additives, drying it will yield crystal meth that you can bag and sell. Remember that until a liquid mix is dried, it’s unusable. Always finish the process with a dryer so you get a powdered/crystal form of the drug[45].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I grind up pills or crystals into powder for mixing?",
+    "answer": "Use the milling equipment. The game provides a simple mortar and pestle for free (which you can use to manually grind things like ecstasy pills or crystal meth chunks into fine powder)[44]. There’s also an electric coffee mill you can buy for faster grinding of larger quantities[46]. All solid ingredients need to be in powder form to mix evenly – for example, if you want to mix Viagra into cocaine, you must grind the Viagra pill into powder first. Simply place the item in the mortar or mill, and it will convert it into a powdered sub-item that you can then add to mixes.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I avoid killing my clients with an overly strong mix?",
+    "answer": "The main cause of client overdose is high toxicity in your product. Every drug and cutting agent has a toxicity value; if the combined toxicity of what a client takes exceeds their tolerance, they overdose[47]. To avoid this, do not overdo poisonous additives. For example, mixing too much fentanyl or too many painkillers can spike toxicity. Also, extremely high potency (strength) can cause addicts to use too much and OD[48]. The safest strategy is to keep the base drug proportion fairly high (so the effect is mostly from the drug, not from toxic adulterants) and avoid mixing multiple highly toxic ingredients together. In practical terms: don’t sell totally uncut pure heroin to a new user, but also don’t cut heroin with something deadly like pure acetone or ibuprofen in large amount. Balance purity and safety.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What’s a safe way to cut drugs to maintain potency but reduce overdose risk?",
+    "answer": "A good rule of thumb many players use is to keep your mixes around 70% or more pure drug[49]. Use neutral “filler” substances that have no toxicity. The most popular is baking soda – it’s basically harmless (zero toxicity)[50], so it dilutes the mix without increasing risk. For example, if you have a potent batch for addicted clients, you might mix 10 g of the drug with ~3 g of baking soda. This lowers the strength a bit, but makes overdoses much less likely[51]. Also avoid stacking too many toxic additives together; if you want to make a mix more addictive, prefer something like sugar or caffeine over ibuprofen or rat poison (washing powder), which are very toxic[27]. In short: use safe fillers (baking soda, sugar) especially for addicted clients, and keep the portion of the active drug relatively high so they still get effect without a lethal dose[52].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What are additives like baking soda or Viagra used for in mixing?",
+    "answer": "These are additives to modify your product’s properties. Some are fillers – e.g. baking soda, sugar, salt – which have low toxicity and basically dilute the drug (stretching your supply safely)[50]. Others are enhancers or hooking agents – for example, Viagra can be mixed into ecstasy to boost its perceived effects (party pills), and ibuprofen or paracetamol can simulate a heroin “cut” that adds to addictiveness (at the cost of high toxicity)[27]. Each ingredient has stats: Toxicity, Strength, Addictiveness, etc. Using them will add those traits to your mix. So you’d use fillers to lower purity and cost (while keeping overdose risk low), or use potent additives to increase strength/addictiveness (with caution). Fentanyl, notably, is an extremely strong additive for opiates – it makes the mix far more potent but also far more deadly if mis-dosed[27]. Always check the properties of an ingredient in the mix table and use them strategically.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Where can I buy chemical ingredients and additives for drug mixing?",
+    "answer": "There are a few different shops: Gas Station (Sector A) – sells common chemicals like acetone, baking soda, washing powder, salt, sugar, etc., along with miscellaneous items. Local Shop in Sector C – similarly stocks basic chemicals (once Sector C is unlocked)[53]. Jamie’s Drugstore (Sector B) – this pharmacy sells the more advanced additives: things like ibuprofen, paracetamol, Viagra, and Nebilanex (a chemical)[54]. The drugstore also sells some higher-end lab equipment. So for your everyday mixers, check the gas station or corner store; for pharmaceuticals and special chems, hit the Sector B pharmacy.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What is the exposition factor in this game?",
+    "answer": "“Exposition” is basically your heat level – how much the authorities are aware of and watching your activities. It’s a dynamic value that goes up when you deal drugs visibly and goes down when you lay low. The game explicitly uses exposition to trigger big police events: if your exposition gets too high, bad things start happening (like your dealers getting busted or even a DEA raid)[55][36]. In simpler terms, exposition is a measure of how loud and risky your dealing has been recently.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why is it important to keep my exposition low?",
+    "answer": "Because high exposition brings serious trouble. The police AI reacts to your exposition level – at very high expo, you’ll notice more frequent patrols and random checkpoints. Critically, having high exposition can cause special events: your dealers are more likely to be arrested, and the DEA can conduct raids on your hideouts if you stay hot for too long[35][56]. Essentially, high expo = you’re on the feds’ radar. To avoid losing product or dealers to law enforcement, it’s important to manage and reduce your exposition when it spikes.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I lower my police exposure or “heat” level?",
+    "answer": "The best way is to lay low for a while and avoid doing suspicious activities, especially during the day. Exposition gradually decreases over time if you’re not constantly dealing. A tried-and-true tactic is to do deals more during the night (when there are fewer patrols) – working “during police hours” in-game actually helps keep expo low or reduce it[57]. Also avoid getting spotted or searched by cops; each chase or arrest massively boosts exposure. If your expo is high, consider hiding in a safehouse and using the time skip (“T” to wait) to burn off a couple days. The game’s expo system averages over the last 3 days of activity[58], so a few quiet days will significantly drop your meter. In short: stop dealing so openly, stick to nights, and wait it out safely until the heat dies down[59].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "At what point will the DEA start raiding my operations?",
+    "answer": "The DEA raids aren’t random – they trigger once your exposition passes a certain threshold. Generally, if your expo goes above 40%, you’re at risk[56]. The higher beyond that, the greater the chance of a raid event. So when you see that “exposition” bar creeping past 40%, that’s the danger zone where DEA vans might appear, surveillance increases, and they could raid a hideout. It’s not an immediate guarantee at 41%, but staying high greatly raises the probability[56]. If you keep operating at max expo (“Come at me, cops!” level), expect a raid sooner or later.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I prevent or avoid DEA raids on my hideouts?",
+    "answer": "The key is to manage your exposition level. Keeping your expo low is the only sure way to prevent raids[56][59]. Be smart about dealing: do more business at night, avoid police detection, and don’t stash huge amounts of drugs in one place when your heat is high. If your exposition starts spiking, take a break from active dealing until it falls. Also, spreading out your operations can mitigate loss – for example, use multiple hideouts to store product, so even if one gets hit, you don’t lose everything. But fundamentally, if you never let your heat get into the red zone, the DEA won’t raid you. Raids “as usual” will only happen if you’ve been too hot for too long[57].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "I found my hideout emptied and locked by the police – what happened?",
+    "answer": "That means you got raided by the DEA. A DEA raid can occur even if you weren’t present at the hideout. The agents will break in (usually off-screen) and confiscate all the drugs and possibly cash there, and they’ll seal the hideout (the door will be locked, and your stuff gone)[60]. It’s basically a bust. Unfortunately, anything they took is gone for good. After some time passes, you’ll have the option to buy that hideout again from Mike on ShadyComm and reopen it[61]. Treat a raid as a hard lesson: you were too hot (exposition too high) and need to cool down your dealings to avoid repeat incidents.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What are “police hours” (the curfew), and what happens if I’m out during them?",
+    "answer": "“Police hours” refer to the night curfew in the game. During late night (roughly midnight to early morning), the ghetto is under curfew and cops will stop anyone outside. If the police catch you out on the street during curfew, they will arrest you on sight even if you aren’t carrying anything illegal[62][63]. Essentially, after a certain hour, being outdoors is itself a crime. You’ll know police hours are active when you hear the announcement and see hardly any civilians outside. If you must move around at night, stay out of sight or use hidden routes (like sewers) because if a patrol sees you during curfew, it’s jail time.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do police checkpoints between sectors work, and can I get past them with drugs?",
+    "answer": "At each sector boundary (like the wall between Sector A and B, or entering Sector C), there’s a police checkpoint gate. During daytime (when they’re open), if you pass through the normal way, an officer will search you for drugs[12]. If you have anything illicit on you or in your backpack, you’ll be busted. However, players have found ways to bypass this. One common trick is to throw your backpack over the wall/fence, then walk through the checkpoint with nothing on you, and then pick your bag up on the other side[12]. Depending on bag size, you might need to jump to toss it over[64]. Alternatively, you can avoid checkpoints entirely by using underground sewer passages or climbing parkour routes that go around the checkpoint[65]. So yes, you can get past with drugs, but not by walking through normally – you have to be creative.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Is there a trick to smuggle drugs past a sector checkpoint without getting caught?",
+    "answer": "Yes – throw your backpack over the barrier. This is the tried-and-true method. For example, at the Sector A→B checkpoint, you can stand back and literally toss your duffel bag or backpack over the wall, then stroll through the checkpoint clean, and retrieve your stash on the other side[12]. It might take a few tries (larger bags need a running jump to clear the fence)[66]. Using the sewer tunnels is another way, effectively bypassing the checkpoint entirely[65]. Just note that these methods carry some risk – if a cop sees you chucking a bag, you’ll still get in trouble. But if done stealthily, it lets you move product across sectors without the checkpoint search catching you.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I smuggle drugs into Sector C given its strict checkpoint?",
+    "answer": "Sector C is trickier – the usual toss-bag method won’t work there because of how that checkpoint is set up (high walls, cameras, etc.)[13]. Instead, you should use alternate smuggling methods. One is to use the sewer path or the back Factory gate (with a key) to enter C without going through the main gate at all, as mentioned earlier. Another is to use the laundry business or smuggler service: essentially, once you have the money laundering shop, you can use it to covertly send a package over to Sector C’s pawn shop or local store[67]. This in-game mechanic simulates hiring someone to move product for you across the wall. So to summarize: avoid the main checkpoint – go under it (sewers), around it (side gate), or send goods via an NPC service.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What happens if I get arrested by the police?",
+    "answer": "If you are arrested, the immediate effects are: you lose all the drugs on your person, you will be taken back to a safe spot (the police station) and then released after a short time, and you’ll also get an exposition spike. Any cash you were carrying typically remains with you (they care about the drugs, not your legal money). On the highest difficulty (“Plata o Plomo”), arrest has an extra punishment: you will lose your equipped backpack entirely[68] (since on that mode, the cops confiscate your bag). Arrest can happen from being caught during curfew, being tackled after a chase, or failing a search while holding drugs[68]. After arrest, you basically have to continue without whatever drugs (or bag) you lost, and potentially deal with increased police heat.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do I lose my gear or money when I’m arrested?",
+    "answer": "You lose any illegal items on you – all drugs will be confiscated. Money generally isn’t taken (except possibly suspicious stacks of cash on the highest difficulties, though the game doesn’t explicitly remove cash). If you’re playing on Plata o Plomo difficulty, being arrested will also make you lose your backpack itself[68], which can be a big hit if it was a large expensive bag. Equipment like keys or spray paint usually remain, and on normal difficulties your backpack remains too. The main thing is say goodbye to whatever narcotics you were carrying – those are gone forever once the cops catch you.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can the police ever ignore the drugs I have on me during a search?",
+    "answer": "By default, if you’re searched and have drugs, you’re toast. However, there is a player skill upgrade that gives a small chance that a cop will overlook contraband. If you invest in the Stealth skill tree, one of the perks is a percentage chance that when a policeman searches you, he “doesn’t find” the drugs[69]. At max level it’s not a guarantee but it improves your odds of a lucky break. Outside of that skill, the only time police might ignore drugs is if it’s a very tiny amount on Easy mode (some anecdotal reports, but not reliable). Generally, without the skill, if you have drugs and get searched, you will be arrested.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How long will clients wait for their order before they get upset or leave?",
+    "answer": "Clients will wait roughly 3 in-game hours for you to deliver after they place an order[70]. If you exceed that window, the client will assume you’re not coming and the deal is off – you’ll likely lose some trust/respect with them for the missed sale. In practical terms, if someone texted you at 9:00, they’ll wait until about 12:00. The game’s hint for efficiency is to schedule clients in batches within that 3-hour window so you can hit many at once[71].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do I need to accept every single order request from clients?",
+    "answer": "No, you’re not obligated to accept every order. It’s perfectly fine to ignore or decline some client orders, especially if you’re too busy or low on product. There isn’t a huge penalty for missing an order here or there – you might miss out on a bit of respect or the client might not be as happy, but it won’t ruin your game. In fact, experienced players often let some requests time out if they have “other s*** to do and don’t wanna bother” at that moment[72]. It’s better to skip an order than to accept it and fail to deliver. Just be aware that consistently ignoring a client will eventually reduce their trust.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What’s a good strategy to handle multiple deliveries at once?",
+    "answer": "A great technique is to group your deliveries by area and time. For example, set all your client meet-ups in one neighborhood around the same hour, so you can do them in one trip. One player suggests scheduling all morning orders in a single area (say all your West Old Town clients around 9:00). Because clients wait ~3 hours, you can meet several in that span, often they’ll even cluster in the same spots[73]. Then set the next batch in another area for the afternoon (e.g. all orders in the Stink/Kennel at 15:00). By doing this, you minimize running back and forth. Essentially: deliver in waves, area by area. Also use quicktravel where possible (like the bus stops) to jump between far zones. This approach saves a ton of time and you’ll fulfill more orders before they expire[71].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I increase my respect in a neighborhood quickly?",
+    "answer": "Two main things raise area respect fast: spray graffiti and give out free sample drugs. Going around the area and putting up your spray tags visibly boosts your rep there (it signals your presence)[74]. Also, handing out sample packages to random potential clients in that zone will convert them into customers and raise respect. Of course, consistently selling product in the area also grows respect over time. But if you want a quick boost from zero, do a spray run and toss some samples at the clubs/parties or to people on the street. Hideouts also help – owning a hideout in the area will passively boost respect gain and slow respect decay[75]. So the fastest recipe: advertising (graffiti + samples) plus a burst of sales.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What does having high respect in an area do for me?",
+    "answer": "High respect brings multiple benefits. Firstly, it unlocks new neighborhoods – you often need a certain respect level to expand into an adjacent zone[76]. It also attracts better and more clients (wealthier clients with bigger orders will start contacting you when your rep is high). High respect lets you sell at higher prices per gram in that area, because people trust your product more[74]. Additionally, orders come in faster – as your name is known, you’ll get more frequent calls. In short, maxing out respect in a sector means you dominate that turf: maximum client demand, the ability to recruit a local dealer, and premium pricing.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why is my area respect dropping over time?",
+    "answer": "Respect in each area will decay gradually if you’re not active there[75]. Think of it like maintaining street cred – if you don’t keep dealing or showing presence, the locals start forgetting you. The game implements this by slowly reducing the respect percentage in a given neighborhood each day if you haven’t done sales or graffiti there recently. Owning a hideout in the area can reduce the decay rate (also some hideouts have a “RespectBoost” stat that helps)[3]. But inevitably, if you ignore an area for a long time, respect will fall from 100% downwards. To combat this, occasionally do some deals or spray paints in that zone to keep your rep up.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can clients overdose on the drugs I sell them?",
+    "answer": "Yes, it is possible for clients to overdose (OD) if the product is too strong or toxic for them. Each customer has an overdose threshold. If your mix’s combined potency/addictiveness encourages them to take more than they can handle, or the toxicity is beyond their limit, they will overdose and likely die[47][48]. This typically happens if you sell very pure, powerful stuff (e.g. pure crystal meth or heroin) to a relatively new or low-tolerance client, or if you use poisonous cuts in your product. The result of an overdose is you lose that client (and it might slightly scare off others for a time). It’s generally good business (and morally…less bad) to avoid killing your customers – hence the need to cut ultra-pure drugs for safety as discussed.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What happens if a client overdoses?",
+    "answer": "Mechanically, an overdosed client will die and disappear. You won’t get orders from them anymore (obviously), and you could lose some respect in the area due to the incident. There’s also no payment for that sale – if it was mid-deal, it ends there. The game doesn’t depict legal consequences for you specifically from an OD (beyond an exposition increase possibly if authorities notice), but story-wise it’s not good to kill your customer base. Essentially, an OD removes that client from your client list permanently. To avoid such outcomes, you may want to tone down the purity or amount for clients who seem at risk of OD.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "When does the money laundering (legal business) feature unlock?",
+    "answer": "The money laundering (legal business) system is unlocked after you start accumulating a lot of cash and deposit it. In practice, it triggers once you deposit around $2,500 into your bank and then earn about $1,000 profit on top of that[77]. This usually happens in the game around level 8 or so. At that point, Eddie will call you about “washing money,” and you’ll get access to setting up a legal front business. If you just keep stacking dirty money in the ATM, eventually the game forces this event (you’ll hit a point where you can’t deposit more until you launder). So, roughly: after a few big sales when your bank account swells past a few grand, you’ll unlock laundering.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I start laundering my drug money?",
+    "answer": "Once the feature is unlocked (via Eddie’s call), you use your laptop (ShadyComm) to invest in a legal business. Initially, you’ll have a small, shabby bar available as your front. You put some of your cash into it (this is essentially converting dirty money into the business). The business will then generate “clean” revenue for you each day. At first it’s a small amount – e.g. around $2,000 daily – at about a 48% return rate[78][79]. This means if you launder $1,000 of dirty cash, you’ll get $480 back as legal money through the bar over time. The key steps: go to bank on laptop > Money Laundering tab > choose how much to invest (dirty cash) > over each day, collect the clean income. As you grow the business, you can launder larger amounts more efficiently.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How does the legal business (money laundering) system work?",
+    "answer": "It’s basically a front company that converts your dirty drug dollars into legitimate income. When you start, you own a level 0 small bar that can clean only a limited amount at a low rate[78][79]. For example, level 0 returns ~48% of the money you put in. Each in-game day, the business produces some daily revenue (clean cash) which you can collect (this revenue is your laundered money coming back). You can upgrade the business by investing more funds and leveling it up (each upgrade costs some clean cash and requires you to be a certain player level)[80][81]. Upgrading increases the daily revenue and sometimes the return percentage. Essentially, you sink dirty money in, and over time you get a portion of it back as clean money. The higher the business level, the more money you can wash and the closer the return rate gets to 65% (max)[82][83].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What percentage of my dirty money do I get to keep when laundering?",
+    "answer": "It starts under half and maxes out at about two-thirds. At level 0, your front business returns about 48% of the cash you launder[79]. As you upgrade (levels 1, 2, 3... etc.), the return rate improves in steps. By around business level 3–4, it hits ~53%[84]. It stays around 60% through mid-level upgrades. The highest business levels (level 12+) can give about 65% return[85]. So the maximum clean cut you can achieve is roughly 65 cents on the dollar – meaning if you launder $10,000, you ultimately get $6,500 back clean at top efficiency. The rest is essentially “laundering fees”/loss.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How can I increase the amount of money I clean through laundering?",
+    "answer": "Upgrade your business. Each upgrade level increases how much cash it can handle and often the efficiency. Upgrades usually require you to be at a certain player level and cost some of your clean cash to purchase[80][86]. For example, at player level 8 you can buy an upgrade for a few hundred dollars that might improve daily revenue from $2,000 to $2,500[79][87]. Keep reinvesting part of your clean earnings into the business upgrades. As the business levels up (to the bar with pool table, then with kitchen, karaoke, rooms, etc.), the daily revenue climbs and the return rate edges up to 53%, 60%, 65%, and so on[81][83]. In short, to launder more money faster, grow your front – put money into leveling it up whenever possible.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What’s the highest laundering return rate I can achieve?",
+    "answer": "At the moment, about 65% is the max return rate on laundering[85]. This occurs at business level 11–12 and above, when your front has evolved into a big enterprise (e.g. a casino/hotel). For instance, a level 12 business (Casino with event center) returns 65% and has a daily revenue of $15,000[83]. Even if you fully max it out beyond that, it caps at roughly 65% – meaning no matter what, laundering isn’t free; you will always lose about 35% of the money in the washing process. (By comparison, at level 0 you were losing 52%, so it’s a big improvement.)",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "I deposited a lot of cash and now I can’t deposit more – what should I do?",
+    "answer": "This is the game’s way of telling you it’s time to launder your money. After you deposit a certain amount of dirty cash into the bank (around $3k-$5k range), the bank/authorities flag it and Eddie will call about laundering[88][89]. Once that happens, you actually lose the option to keep depositing freely – you’ll get a message like “I don’t have a business” if you try to deposit too much after that[90]. The solution is to use the money laundering system: invest in the legal front and start cleaning the cash. After you’ve laundered and upgraded, you can deposit more as clean money. Essentially, the game won’t let you stash infinite dirty cash in the bank; you must funnel it through your business once you hit the trigger[77]. So if you suddenly can’t deposit, go to your laptop’s laundering tab and put that cash into laundering.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What is Pitcoin (PTC) and how do I use it?",
+    "answer": "Pitcoin is an in-game cryptocurrency you can purchase through ShadyComm (the dark web market). It’s mainly used for certain transactions like paying Eddie remotely for shipments. To use Pitcoin, you buy it with money from your bank account on the laptop (there’s a “Pitcoin wallet” section). Important: Only buy Pitcoin with clean money. If you try to purchase Pitcoin using dirty cash (before laundering it), the game currently has an issue where those Pitcoins will disappear later[91][92]. It’s implied that the government might be seizing unclean funds – a dev jokingly hinted “the government doesn’t like drug money” in crypto[92]. So make sure you launder your money, then convert some to Pitcoin. Once you have Pitcoin, it will show in your wallet and can be used when prompted (for example, some online orders or certain services will deduct from your Pitcoin balance). Always keep an eye on that balance – if it resets to 0, it likely means the cash used wasn’t laundered[92][93].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why did the Pitcoins I bought disappear from my account?",
+    "answer": "This is a known problem if you bought Pitcoin with “dirty” money. You need to use clean, laundered cash to buy Pitcoin, otherwise there’s a bug/feature where after a while your Pitcoin balance goes to 0[91][92]. It’s as if the illicit money got traced and confiscated. Many players encountered this: they spent, say, $1,000 of drug cash on Pitcoin, and next time they check, their Pitcoin wallet is empty. The devs acknowledged this and looked into it[94]. The workaround is to only use legit funds for Pitcoin purchases. Unfortunately, if your Pitcoins already vanished, you won’t get them back. Going forward, launder your money first, then convert to Pitcoin, and the balance should remain stable.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I unlock the big cartel drug deals (gang orders)?",
+    "answer": "The major gang contacts become available a bit later in the game (mid-to-late game). You need to have unlocked Downtown (Sector B) and reached around level 20+ for Eddie to hook you up with a cartel[95]. When you meet the requirements, Eddie will call you and basically say a gang is interested in working with you. Depending on your exposition at that time (high or low), you’ll be introduced to either La Ballena or Keiji (the two cartel bosses)[96]. After that introduction, you can start receiving large “gang order” jobs from them periodically. Essentially: expand into Sector B, do story tasks, level up past 20, and you’ll get the call to start doing business with the big gangs.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why did I get contacted by Keiji’s gang instead of La Ballena’s (or vice versa)?",
+    "answer": "Which gang you get first depends on your exposition level when the cartel storyline triggers[96]. If your police exposure was relatively low at the time (you kept things quiet), you’ll be introduced to La Ballena – the cocaine gang (they prefer discreet dealers). If your exposure was high (you were running hot and not hiding from cops), you’ll get Keiji’s introduction – the meth gang[96]. The game makes them mutually exclusive initially: you either go the meth route or coke route first. Don’t worry, you can work with the other later, but that first assignment is determined by how “loud” you’ve been. So, high heat = Keiji, low heat = La Ballena[97].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What do the Keiji and La Ballena gangs want me to sell?",
+    "answer": "Keiji’s gang is often called the “Meth gang” – as the name implies, they primarily purchase large amounts of crystal meth from you[98]. La Ballena’s gang is the “Coke gang,” focused on cocaine exports[99]. In gameplay, once unlocked, La Ballena will periodically order bulk cocaine, and Keiji will order bulk methamphetamine. Each gang has fixed prices they pay (which are higher than street, but lower than retail since it’s wholesale). For example, La Ballena pays about $39 per gram of cocaine, often wanting 50 g packages[100]. Keiji pays around $11 per gram of meth, but might order a larger number of smaller bags[100]. Additionally, the Psychedelics gang (a third faction) will buy unlimited quantities of marijuana at $4/g and also let you sell them LSD, mushrooms, DMT once those are unlocked[20].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How often do the cartel gangs place orders?",
+    "answer": "Not very often – gang orders have a long cooldown. Initially, after you finish one gang job, the next one will become available 10 in-game days later (which is about 10 real-life hours)[101]. As you do more and increase your reputation with that gang, the interval can shorten a bit – down to a minimum of 7 in-game days at very high gang rep[101]. So, roughly, you might get maybe 1 gang order per in-game week. They are intentionally infrequent (the devs nerfed their frequency). So if you haven’t seen a new order in a while, it’s likely just on timer. You can pass time in a hideout (sleep/wait) to speed it up. Just note: gangs should be viewed as a bonus income, not constant business[102] – your regular dealers and clients will be making money daily, whereas gangs come knocking only once in a while.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I collect my payment from the gang deliveries?",
+    "answer": "In earlier versions you met a gang member and picked up a suitcase of cash, but not anymore. Now, after you complete a gang delivery, your earnings will be sent to a designated cash deposit box in Sector B[103]. Specifically, there’s a drop point near the Sector B pharmacy marked on your map where the gang money accumulates for you[104]. After the gang has sold the product you provided, you just go to that deposit location and retrieve your cash (it will show how much is ready for pickup). This system replaced the old hand-off, so you won’t see someone or get a suitcase – just check the deposit spot a short time after a completed order.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Does reaching max reputation with a gang give any bonus?",
+    "answer": "Not really. You can increase your standing with a gang (which might slightly reduce order cooldowns as mentioned), but getting to the maximum (500 rep) doesn’t unlock extra content. The developers noted that hitting 500 gang rep does not progress the story or award anything special[105]. In fact, any in-game text that seemed to promise a bonus at 500 was leftover from older plans and isn’t actualized. Gangs are meant as supplementary income, so beyond a point there’s no big benefit to grinding reputation – you won’t, say, become a kingpin or end the game differently by maxing it[106].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why hasn’t the next cartel job or envelope appeared yet?",
+    "answer": "Gang orders have a fixed delay. After you finish a gang delivery and collect the money, there’s about a 10-hour real-time wait before the next order[101]. In-game that’s roughly 10 days. As your gang rep grows, this wait can reduce to ~7 hours (7 days in-game) at best[101]. So if you’re expecting another job, be patient – it might just not be time yet. A good tip is to wait at least 4–5 in-game hours after turning in the last package before even looking for a new task[107]. If nothing shows up after the expected period, make sure you’ve completed any storyline requirements (some gang jobs won’t start if you haven’t hit the level or story trigger yet). But usually, it’s just the cooldown – gangs don’t order constantly by design[102].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What triggers the Endgame storyline to begin?",
+    "answer": "The Endgame sequence kicks off once you meet a set of conditions: reach at least level 36, have Sector C unlocked, and have completed the Psychedelics gang quest (i.e. unlocked LSD/shrooms)[108]. Another prerequisite is that you shouldn’t owe Eddie any starter debt (and Eddie must not be waiting by his apartment for you). Also, use your laptop between 9am-5pm (there was a quirky condition about opening ShadyComm in daytime)[108][109]. When all criteria are met, a special event happens – you’ll hear loud gunshots in-game, and Eddie will call you in a panic[110]. That phone call is the start of Endgame. Essentially, by this stage you’re a big enough kingpin that the final chapter of the story is triggered.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why did Eddie leave and stop selling me drugs?",
+    "answer": "This is part of the story Endgame. When Endgame starts, Eddie makes that frantic call and then flees the ghetto to save himself[110]. After that point, Eddie no longer supplies you – your laptop’s ordering function from Eddie is cut off[111]. The storyline implies the cartel or authorities are closing in, so Eddie bails. This is why you suddenly can’t re-up from him anymore. It forces you to rely on your stockpiles, labs, or the new contacts going forward. In short, Eddie’s disappearance is a scripted plot event; it means you’ve entered the final phase of the game.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What should I do once the Endgame mission starts?",
+    "answer": "The game will give you a set of tasks like “Investigate site X.” Right after Eddie’s call and the gunshots, you’ll get three locations marked to investigate[111]. Go to each of those spots (they’re usually places where something went down – you might find clues). After checking all three sites, you’ll be directed to meet a new contact: Eddie’s friend David Greene in Sector B[112]. David will essentially take over as a mission giver for Endgame. So, to summarize: when Endgame begins, investigate the three marked sites, then go talk to David.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What do the Endgame quests involve doing?",
+    "answer": "Endgame tasks are more story-heavy. Once you link up with David Greene in Sector B, he will assign you a mission to hack four antenna towers around the map[113]. These antennas are located in different areas: one in Sector A Stink, one in Sector A Kennel, one in Sector B (the Cemetery), and one in Sector C Factory South[114]. You need to go to each antenna (they’ll be marked) and use a hacking tool on them. Each time you hack an antenna, David will text you some intel he gathered[112]. Without spoiling too much, you’re basically gathering info on the “Colombians” (the cartel threat). After the antennas, there will be a few more culminating missions. The Endgame doesn’t have you dealing drugs – it’s more about surviving and completing these special objectives to wrap up the story.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I complete the antenna hacking objectives in Endgame?",
+    "answer": "You’ll need a hacking tool (which David provides or directs you to) to hack the antennas. When you approach each marked antenna, interact with it to start the hacking mini-process. Be careful: some antennas might be guarded or in hostile areas. For example, one is in the cemetery (Sector B) which could have gang enemies, and one is in Factory South (Sector C) which might be behind a locked gate or camera[114]. Make sure you have lockpicks or keys if needed (the Factory South one is actually the same area as the Sector C smuggler gate). After hacking all four, David will contact you to proceed with the next step. Essentially, go down the list: hack Stink antenna, Kennel antenna, Cemetery antenna, Factory South antenna – then follow the next instruction David sends.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I keep playing after finishing the main story?",
+    "answer": "Yes. Drug Dealer Simulator 1 allows free play after the main story ends. Once you complete the Endgame missions, the game doesn’t force a “Game Over.” You can continue running your drug empire indefinitely in sandbox mode – building up money, expanding turf, managing dealers, etc. The only difference is Eddie is gone, so you’ll be relying on your own production and the gangs for product. Many players continue to level up well past the story (level 50, 60, 100…) and optimize their operation. So you can absolutely keep dealing and growing your business post-story – the simulation goes on.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Are there vehicles I can use to make deliveries faster?",
+    "answer": "Yes, later in the game you get access to some transportation. There’s a motorboat that lets you travel to and from the islands (like Sector B’s Archipelago area) – though using it costs fuel money, and some players find it not worth heavy use. More practically, you can purchase a motorcycle (moped) once it becomes available. The bike is very useful for quick getaways and moving across the map faster, and it has a small storage compartment too. It’s recommended to get the motorcycle as soon as you can afford it[72]. Eventually, you can upgrade to a van/Jeep for even more capacity. Until you have those, utilize the public bus stops to fast-travel around sectors. But yes, investing in a vehicle will significantly speed up your delivery runs – for example, a moped for city routes, and the boat only when necessary for island travel[115][116].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Is it possible to turn off rival gang attacks or police raids?",
+    "answer": "By default, on normal difficulty, you don’t actually have rival gangs attacking you (that feature is mainly on the hardest difficulty or if you enable it). On Plata o Plomo difficulty, rival gang members (“thugs”) can ambush you or raid your stashes. If you find that more frustrating than fun, you can effectively disable it by maxing out your Street Cred skill to level 4 and then toggling the “gang density” down in the options[117]. Some players mention turning off enemies entirely once they prove themselves, since dealing with constant shootouts and raids can be tedious[117]. Police DEA raids can’t be toggled off, but as discussed, you can avoid them by keeping exposition low. So in summary: normal mode has no active rival attacks; on higher difficulty you can either fight them or use game settings (after reaching high respect) to tone it down.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "What does the “Plata o Plomo” difficulty change in gameplay?",
+    "answer": "“Plata o Plomo” is the hard mode (the name is Spanish for “Silver or Lead,” implying bribe or bullet). In this mode, a few things change: 1) If you get arrested, you lose your backpack and everything in it (a significant penalty)[68]. 2) Rival gang presence is turned on – meaning thugs might try to rob you or attack your safehouses unless you manage them. 3) Police are tougher and more frequent; you have to be much more careful. Essentially it’s a realism/hardcore mode. Many players find it quite challenging because an unlucky arrest can wipe out gear. But it’s the mode where you can truly test your empire-running skills under pressure. If it becomes too much, you can lower some settings (like enemy gang aggression) once your skills allow it[117].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do trash bins serve any use besides throwing away items?",
+    "answer": "Trash bins actually have a couple of mechanics. Yes, you can use any trash bin as a disposal – if you toss items in, they’ll be destroyed when the trash is emptied at 7 AM daily[118]. Additionally, trash cans can be looted for useful items. Over time (each day by midday), random garbage and sometimes valuables spawn in dumpsters[119]. You might find bottles, small cash bundles, even spray paint or backpacks occasionally in the trash[120]. It’s worth digging through dumpsters occasionally (especially if you’re low on cash) – just remember, anything you leave in them will vanish when the trash truck comes at morning.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "I found cash or jewelry in the trash – how do I convert that to usable money?",
+    "answer": "Any money or valuables you find lying around (e.g. rolls of cash from looting, stolen items) are considered “dirty” and can’t be directly spent in shops. The game requires you to launder those as well. Specifically, valuables picked from trash are tagged to be sold only through your laundering business[121]. So, take those items and deposit them into your money laundering interface on the laptop – they’ll be converted to clean money via your front business. Think of it like you’re pawning or fencing the goods through your bar. You’ll then receive the funds as part of your daily legal income. So if you pull, say, $300 in loose change from dumpsters, you must launder it (it will show up as launderable dirty cash) to actually use it.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I move or sell my lab equipment and furniture?",
+    "answer": "Yes, after the Uptown Kings update a Hideout Inventory system was added. You can open the furniture/equipment interface in a hideout and choose to sell unwanted items for about 50% of their purchase price[122]. This is handy for getting rid of excess gear or making space. You can also ship items to another hideout: select the piece and choose a destination hideout (you’ll pay a delivery fee from your bank for the transport)[122]. The only place you can’t send items is the main apartment (starting location). This system makes reorganizing labs much easier – you don’t have to manually carry everything. So feel free to consolidate equipment in one big hideout or sell off stuff you no longer need (like old small dryers or extra furniture).",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Why can’t I find suitcases in the shop anymore?",
+    "answer": "The cash briefcases were removed in a late update. Originally, suitcases were used to collect gang money, but since gang payments moved to a deposit system, the devs decided suitcases were obsolete. In the Uptown Kings update they explicitly removed suitcases from all shops, so you can’t buy them now[123]. If you had one before, you keep it, but in a new game they’re not obtainable. Now that you don’t physically carry million-dollar cash handoffs (it goes to the bank drop), there wasn’t a real gameplay need for big suitcases. You’ll just use duffel bags or backpacks for moving product, and pick up cash directly from the deposit.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do hideouts give any bonuses to my dealing business?",
+    "answer": "Yes. Aside from providing save points and storage, most hideouts have bonus effects in the neighborhood. In the hideout list you’ll see columns like SalesBoost, RespectBoost, ExpBoost[2]. For example, a hideout might have “SalesBoost 20, RespectBoost 15” – that means while operating in that area you get 20% more client sales (higher demand) and gain respect 15% faster[3]. Some hideouts increase how many clients or dealers you can service in that region too (the “Clients” and “Dealers” columns show if they add extra slots)[3]. Having a hideout in a region also slows down respect decay there. So, owning property isn’t just cosmetic – it tangibly improves your drug empire in that vicinity. The best hideouts have high boosts making it easier to dominate that zone.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I upgrade or improve my starting apartment?",
+    "answer": "No – the main apartment in Old Town is fixed and cannot be upgraded (it’s pretty much a mediocre hideout you get for free)[124]. It has a long staircase and limited space, and as noted in the community, “no upgradability”[125]. If you want better facilities, you’ll need to buy new hideouts. Those can often be furnished more extensively. But your first apartment will always remain a basic safehouse. Many players eventually move their base of operations to a larger hideout (like a warehouse or a villa) once they can afford it, and just keep the main apartment as a backup save spot.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "How do I unlock the Bad Asia area?",
+    "answer": "“Bad Asia” is a neighborhood in Sector B that only becomes accessible through the Keiji (meth gang) storyline. To unlock Bad Asia, you need to end up working with Keiji’s gang. As mentioned, that requires having high exposition when the gang selection happens (so you get the meth gang)[98]. Once you’re in with Keiji, part of that quest line will open Bad Asia for you. If you partnered with La Ballena instead, Bad Asia stays locked in that playthrough. In short: Bad Asia is unlocked via the Keiji gang between levels 20–26 when Eddie contacts you, provided your expo was high (leading to the meth gang scenario)[96].",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Can I expand my production outdoors?",
+    "answer": "Yes, if you acquire a hideout that has outdoor space, you can set up operations outside. For example, some of the large hideouts or villas (like the one near the furniture store, sometimes referred to by players as Lanzo’s villa) have sizeable yards. You can place lab equipment or a lot of weed pots out there under the open sky[126]. Outdoor grows benefit from not needing UV lamps (the sun is your lamp), but remember to still water and tend plants. One player noted they fit large amphetamine lab setups and dozens of weed pots in the villa’s backyard with no issue[126]. The main consideration is security – outdoor setups might produce smell that travels, so having an air filter or choosing a secluded hideout helps. But the game doesn’t penalize you heavily for outdoor labs aside from that. It’s a great way to scale up production when you have the space.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Is outdoor drug production better than indoor?",
+    "answer": "It has pros and cons. Outdoors, you’re not constrained by hideout interior size – you can often fit many more pots or barrels, and you don’t need to buy UV lamps for weed (sunlight works). However, outdoor plants grow a bit slower (~5 days) than indoor (~3 days)[26], presumably because of day/night cycles. Also, outdoor setups can generate more police attention if they’re in a visible area (though if it’s a fenced hideout, it’s usually fine). Indoors, you control the environment with lamps and filters, and growth might be slightly faster, but you’re limited by room space and electricity. Many players use a combination: a big villa’s backyard for mass production once it’s safe to do so. As long as you manage the smell/exposition, outdoor can massively boost your output simply by volume of stuff you can place.",
+    "source": "Base2.txt"
+  },
+  {
+    "question": "Do dealers ever refuse to pay or betray me?",
+    "answer": "In DDS1, your dealers are actually pretty loyal as long as they exist. They do not randomly betray you or skim product (that mechanic isn’t implemented). The only way you “lose” a dealer’s money is if they get arrested before paying up (in which case the cash might be seized as evidence). But dealers themselves won’t intentionally short you – when you go to collect, they always hand over what they owe. So, you don’t need to worry about disloyal dealers ripping you off in this game. Focus more on keeping them out of jail and supplied, and they’ll reliably funnel you profits.",
+    "source": "Base2.txt"
+  }
+]

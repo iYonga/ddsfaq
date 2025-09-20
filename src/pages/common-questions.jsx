@@ -3,9 +3,27 @@ import React from "react";
 import Head from "next/head";
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
+import SEO from "@/components/SEO";
 
 export default function MyDoc() {
   const router = useRouter();
+
+  const seoProps = {
+    title: "Common Questions | DDSFAQ",
+    description: "Comprehensive frequently asked questions and answers for Drug Dealer Simulator 2. Get quick solutions to common gameplay problems, mechanics, strategies, and troubleshooting. Your complete resource for DDS2 help.",
+    keywords: "common questions, Drug Dealer Simulator 2, DDS2, FAQ, gameplay help, troubleshooting, game mechanics, walkthrough, strategy",
+    breadcrumbs: [
+      {
+        name: "Home",
+        url: "https://dds.yonga.dev"
+      },
+      {
+        name: "Common Questions",
+        url: "https://dds.yonga.dev/common-questions"
+      }
+    ]
+  };
+
   return (
     <div
       style={{
@@ -20,39 +38,7 @@ export default function MyDoc() {
         flexDirection: "column",
       }}
     >
-      <Head>
-        <title>Common Questions | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Common Questions | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
-        />
-        <meta
-          property="og:url"
-          content="https://dds.yonga.dev/common-questions"
-        />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Common Questions | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Frequently asked questions and answers about Drug Dealer Simulator 2. Get quick answers to common gameplay questions."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/common-questions" />
-      </Head>
+      <SEO {...seoProps} />
       <header
         style={{
           textAlign: "center",

@@ -1,41 +1,39 @@
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
-import Head from "next/head";
+import SEO from "@/components/SEO";
 
 export default function Home() {
   const router = useRouter();
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      <Head>
-        <title>Drug Demands | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Drug Demands | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
-        />
-        <meta property="og:url" content="https://dds.yonga.dev/demands" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Drug Demands | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/demands" />
-      </Head>
+      <SEO
+        title="Drug Demands | DDSFAQ"
+        description="Drug demand information and pricing data for Drug Dealer Simulator 2. Track market demands and optimize your business strategy."
+        keywords="drug demands, Drug Dealer Simulator 2, DDS2, market demands, pricing data, business strategy, economy, drug prices, market analysis"
+        canonical="https://dds.yonga.dev/demands"
+        breadcrumbs={[
+          {
+            name: "Home",
+            url: "https://dds.yonga.dev"
+          },
+          {
+            name: "Drug Demands",
+            url: "https://dds.yonga.dev/demands"
+          }
+        ]}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Table",
+          "name": "Drug Dealer Simulator 2 Market Demands",
+          "description": "Comprehensive table showing drug demands across all regions in Drug Dealer Simulator 2",
+          "url": "https://dds.yonga.dev/demands",
+          "about": {
+            "@type": "Thing",
+            "name": "Drug Dealer Simulator 2 Economy",
+            "description": "Market demand system and economy mechanics"
+          }
+        }}
+      />
       <header
         style={{
           textAlign: "center",
@@ -67,7 +65,7 @@ export default function Home() {
         }}
       >
         These values are not equal to how much you have to give. This is only a
-        comparison. Small Island's demands cannot be affected. They are fixed.
+        comparison. Small Island&apos;s demands cannot be affected. They are fixed.
       </h4>
       <DrugDemandsTable />
     </div>

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import Head from "next/head";
 import { useRouter } from "next/router";
+import SEO from "@/components/SEO";
 import mapObj from "@/resources/map.json";
 import styles from "@/styles/GameMap.module.css";
 import Button from "@/components/pickles/Button";
@@ -260,36 +260,34 @@ const MapComponent = () => {
 
   return (
     <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
-      <Head>
-        <title>Interactive Map | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Interactive Map | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
-        />
-        <meta property="og:url" content="https://dds.yonga.dev/map" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Interactive Map | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/map" />
-      </Head>
+      <SEO
+        title="Interactive Map | DDSFAQ"
+        description="Interactive map for Drug Dealer Simulator 2. Explore all locations, points of interest, and navigate the game world easily."
+        keywords="interactive map, Drug Dealer Simulator 2, DDS2, game map, locations, points of interest, navigation, game world, exploration"
+        canonical="https://dds.yonga.dev/map"
+        breadcrumbs={[
+          {
+            name: "Home",
+            url: "https://dds.yonga.dev"
+          },
+          {
+            name: "Interactive Map",
+            url: "https://dds.yonga.dev/map"
+          }
+        ]}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Map",
+          "name": "Drug Dealer Simulator 2 Interactive Map",
+          "description": "Interactive map showing all locations, points of interest, and navigation for Drug Dealer Simulator 2",
+          "url": "https://dds.yonga.dev/map",
+          "about": {
+            "@type": "Thing",
+            "name": "Drug Dealer Simulator 2 Game World",
+            "description": "Complete interactive map with location markers and navigation"
+          }
+        }}
+      />
       {/* Header Controls */}
       <div
         style={{

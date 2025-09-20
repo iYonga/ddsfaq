@@ -1,0 +1,517 @@
+[
+  {
+    "question": "Some tooltips are displayed in Polish. What should I do?",
+    "answer": "The development team is Polish, which means some minor tooltips might temporarily appear in Polish. This shouldn't significantly impact gameplay and will be resolved after more critical bugs are addressed.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "My game keeps crashing. How can I fix this?",
+    "answer": "First, verify that your computer meets the hardware requirements listed on the game's Steam page. If your hardware meets these requirements, try lowering your graphics settings. If crashes continue, launch the game using the DX11 launch option. If none of the above solutions work, close unnecessary background applications and ensure your graphics drivers are fully updated.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Fatal Error Band-Aid workaround?",
+    "answer": "Press the “⊞ Windows Key” and “R” at the same time to open “Run”. Copy and paste the following: %localappdata%\\DrugDealerSimulator2\\Saved\\Config\\Windows\\GameUserSettings.ini Scroll down to find your frame rate setting (or match your desktop frame rate), adjust accordingly, and save the changes. Example: Change this: FrameRateLimit=0.000000 To this: FrameRateLimit=60.000000",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "I experience crashes after completing Benita's quests. What should I do?",
+    "answer": "Until a patch resolves this issue, the safest approach is to save your game in a secure location and restart afterward.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Is there a known bug with Benita’s questline?",
+    "answer": "Yes. Avoid killing Benita's brother, Ramón, as this triggers a significant bug that will lock you out of accessing Dueño and Colina.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Why are police pursuing me even when I’m stationary?",
+    "answer": "Police AI currently has a known bug causing them to chase you occasionally even if you're not moving. There's no known fix at the moment, but it will be addressed in future updates.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Game models occasionally fail to load. What should I do?",
+    "answer": "If models fail to load correctly, do NOT save your game, as this can permanently damage your save file. Instead, reload your last save to prevent any issues.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Keybinds cannot be reassigned. How can I reset?",
+    "answer": "To reset your settings, delete the following file: %localappdata%\\DrugDealerSimulator2\\Saved\\SaveGames\\UserSettings.sav Then restart the game. Linux users should navigate through Proton files to find and delete the same file.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "I can’t park in Callejon Cottage next to the raft. What’s wrong?",
+    "answer": "This is currently a known bug. You need to have the required reputation in Dueño del Mar for it to work properly.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Bald Workers?",
+    "answer": "lol",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Mods aren’t working correctly. What should I do?",
+    "answer": "Mods are currently bugged and require a fix available via Nexus Mods. Use them at your own risk.",
+    "source": "CommonBugs.txt"
+  },
+  {
+    "question": "Dealer is placed on spot, has drugs but not producing money",
+    "answer": "If you have any pending orders from the clients you assigned to him, you first need to deny/fulfill those orders.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to get more Dealers?",
+    "answer": "Try talking to influencers about dealers in meetings or check out notice boards all around the map.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Why Does My Influencer Not Give Me Money Anymore Like in the Demo?",
+    "answer": "Influencers giving money was removed since it did not make any sense at all. Now they just create demand for the drug you gave them in the respective island they are assigned to.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Where do I find Soda for cookies?",
+    "answer": "You can find it all around the map, including General Stores in: Callejon, Jungle.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Says I Need Level 0 Street Cred to Talk to Some People",
+    "answer": "There is currently a bug where you start off with -1 street cred. Go fight a thug and your street cred will go back to 0.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "I gave dealer drugs, placed him on a spot, and he is still red?",
+    "answer": "The dealer might be running low on drugs or needs a different type of drug depending on the island's demand (weed, amp, meth, cocaine, opium, etc.).",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How do I get my money to go into my wealth?",
+    "answer": "You need to deposit money into a Pawn Shop. Go to any Pawn Shop marked on the map and drag the money into the rack.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Can the Devs Add Guns?",
+    "answer": "(Open request, no answer yet.)",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to Use Dead Drops?",
+    "answer": "Go to a dead drop location, press the middle mouse button, open it, place your dope inside, and click on the dealer you want to give it to. Both must be on the same island.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How Do I Get Better Lab Equipment?",
+    "answer": "Do the storyline until you reach Slavs Bay and complete the handyman quest.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How Do I Unlock X (distributors, drugs, etc.)?",
+    "answer": "Most things are unlocked by following the storyline.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Why Can't I make Amp?",
+    "answer": "You need to buy a pot and place it on the stove. Ensure correct ingredients. Potassium cannot be bought early game; use another recipe until later.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Phenylethylamine???",
+    "answer": "Either buy from Marcus or a pharmacy, or extract/steal from a warehouse (available later).",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to wear jewelry (Watches, Chains, Etc)?",
+    "answer": "Drag it into the jewelry slot.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Influencers 101",
+    "answer": "Influencers raise demand for drugs. They control respective areas, take a percentage of sales, unlock missions, and allow negotiation for lower cuts after leveling. They’re primarily for creating demand, not direct money.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Employees 101",
+    "answer": "Employees come from leveled influencers, notice boards, or street cred. They can work at dealer cabinets, lab desks, and distributor desks.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Distributor Desk 101",
+    "answer": "Distributes drugs to dealers, collects earnings, needs an employee, works in 500m radius, and takes product from hideout storage.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Lab Technician Desk 101",
+    "answer": "Doubles crafting stack limits, costs 30k/day, requires an employee.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Can’t interact with Moonshiner",
+    "answer": "Find the pawn shop nearby and question the NPC for info, then you can interact.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Where are saves located?",
+    "answer": "C:\\Users\\[YourUsername]\\AppData\\Local\\DrugDealerSimulator2\\Saved\\SaveGames\\Cartels",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Linux Users tips?",
+    "answer": "Works with Proton. First runs are slower. Use flatpak Steam, DX11 launch, locate Proton files for saves.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Fatal Error Band-Aid",
+    "answer": "%localappdata%\\DrugDealerSimulator2\\Saved\\Config\\Windows\\GameUserSettings.ini → Change FrameRateLimit=0.000000 to your monitor refresh rate (e.g., 60.000000).",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Game saves disappeared from Load Game UI",
+    "answer": "Backup cartel folder, delete from AppData, create new cartel with exact same name, paste backup files except CartelDefaults.sav, reload.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Game crash | LowLevelFatalError | Oodle decompression error",
+    "answer": "Common on Intel 13th/14th gen CPUs. Disable overclocking in BIOS or lower Performance Core multiplier via Intel XTU. Full guide: https://www.radgametools.com/oodleintel.htm",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Slav Stashes passive income",
+    "answer": "Large: $60/5s ($43,200/h), cost $350k → pays off in ~8h. Small: $25/5s ($18,000/h), cost $170k → pays off in ~9.5h.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "In co-op, guests don’t see quests on phone UI",
+    "answer": "Complete any available quest. After that, UI resets and guests see correctly.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Story quest shows as not fixed",
+    "answer": "Not retroactive. You must reload a save from before the quest started.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Multiplayer / Co-op issues?",
+    "answer": "Make sure all players have updated game, same mods (or none), and legit version. If private island cannot be purchased, try uninstalling mods.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Benita’s mission blocked?",
+    "answer": "Edge cases: - Jean killed by gangster/police blocks quest. - Player death in cave fight makes Jean spawn stuck. Solution: Follow mission strictly, avoid distractions, don’t kill Jean.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to create a new co-op session?",
+    "answer": "Select \"New cartel,\" check \"Allow joining,\" invite friends from character select or pause menu. Friends must be online on Steam.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to switch from solo to co-op?",
+    "answer": "Save, return to menu, click \"Continue,\" enable \"Allow joining,\" then invite friends in pause menu.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "How to Unlock LSD?",
+    "answer": "Gain level 2 rep in Paraiso Peninsular. Andrea calls. Ask locals, wait till night, find snoring hobo, steal notebook.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Why Can’t I Gain Citizenship in Dueño del Mar?",
+    "answer": "You need a hideout with \"Is Apartment\" tag. Warehouses don’t work.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Why Can’t I Interact With Colina/Dueño Influencer?",
+    "answer": "If you haven’t completed both Benita questlines or Ramón died, access is blocked.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Why don’t I gain more demand when giving drugs to influencers?",
+    "answer": "The grey bar shows max demand possible. You cannot increase beyond that.",
+    "source": "CommonQuestions.txt"
+  },
+  {
+    "question": "Is Drug Dealer Simulator 2 available on Linux or Steam Deck?",
+    "answer": "Yes, Drug Dealer Simulator 2 is available on Linux and Steam Deck through Steam's Proton compatibility layer. Make sure to enable Proton in your Steam settings for the best experience.",
+    "source": "LinuxAndSteamDeck.txt"
+  },
+  {
+    "question": "My game is laggy on Linux or Steam Deck",
+    "answer": "The Flatpak version of steam tends to be more solid and works better. Outside of that, follow the intsructions in the Common Bugs and Fixes page. Directx 11 seems to be the most common option to fix low frames.",
+    "source": "LinuxAndSteamDeck.txt"
+  },
+  {
+    "question": "Where are my Save Games on Linux or Steam Deck?",
+    "answer": "your-steam-directory/steamapps/compatdata/682990/pfx/drive_c/users/steamuser/AppData/Local/DrugDealerSimulator/Saved/Serialized",
+    "source": "LinuxAndSteamDeck.txt"
+  },
+  {
+    "question": "Can I mod on Linux or Steam Deck?",
+    "answer": "Yes! You just follow the directions while using the linux version of the programs you need. (Probably, I haven’t actually tested it, so it may not be as stable)",
+    "source": "LinuxAndSteamDeck.txt"
+  },
+  {
+    "question": "How can I play more easily with a controller on Linux or Steam Deck?",
+    "answer": "On the steam deck, you will have to manually map the controller using the controller settings menu. On Desktop, go into Controller Configurator. See below",
+    "source": "LinuxAndSteamDeck.txt"
+  },
+  {
+    "question": "Platform and Release",
+    "answer": "DDS2 is a first-person immersive crime sim for PC (Steam), released on June 20, 2024.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Core Loop (High-Level)",
+    "answer": "Cook, portion, and distribute drugs; set up/upgrade hideouts and labs; hire and promote staff; expand across islands while dodging rivals and law enforcement.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Co-op Player Count",
+    "answer": "Sessions support up to 3 players (host + 2). Enable “Allow joining” on your save, then invite Steam friends from character select or the pause menu.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Switching Solo → Co-op",
+    "answer": "Save, return to main menu, choose Continue, tick “Allow joining,” load the save, then invite friends anytime in-game.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Map & Content Scale",
+    "answer": "9 islands, 40+ hideouts, 200+ quests, 10+ weapons; the map is ~6× bigger than DDS1 and the main quest is ~30 hours.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Movement & Traversal",
+    "answer": "Run, parkour obstacles, ride boats, use cars and bus-stop fast travel, and interact with environment characters/objects.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Day/Night Role Split",
+    "answer": "Day: meet customers and sell. Night: plan/produce, and burglarize warehouses with proper tools.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Goal of Progression",
+    "answer": "Build a cartel: establish hideouts/labs, hire technicians, dealers, distributors, and expand to new islands.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Inventory Overview",
+    "answer": "Quick slots (1–9), personal inventory, backpack/appearance, character stats, key items; hideout stash is separate from your on-person items.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "“Crafters” Definition",
+    "answer": "Placeable production objects (e.g., growbox, dryer, lab tray) used to make drugs. You can buy better versions and improve them.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Hiring & Roles",
+    "answer": "Place workstations in hideouts to assign employees as dealers or distributors; each uses dedicated furniture (dealer cabinet, distributor desk).",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Turning an Employee into a Dealer",
+    "answer": "Put the employee in a dealer’s cabinet in a chosen hideout, assign customers, and place the dealer at a street spot (find a shoe-pair marker) in a region with a locker. Supply via dead drops in that region.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Turning an Employee into a Distributor",
+    "answer": "Place them on a distributor’s desk. They manage dealers/distribution; visit to stock them with drugs and collect money. They keep their cut.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Clients → Regulars",
+    "answer": "Find clients by exploring; they wave to get attention. Sell to them by day; satisfied clients can become reliable regulars.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Expanding Demand",
+    "answer": "Discover customers in new territories to raise demand for specific drugs in those areas.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Law Enforcement—Suspicion Ladder",
+    "answer": "Illegal acts raise suspicion: you can become a suspect, person of interest, or wanted. High suspicion increases DEA raid chances on hideouts.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Getting Busted",
+    "answer": "If defeated by police, you lose drugs and weapons and get sent to the nearest police station.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Work Camp (When Caught by DEA)",
+    "answer": "You’re sent to the Work Camp. Earn “good behavior” cards by chores (washing clothes, baking bread) to get out. You can even serve smuggled-in customers there.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Lab Tray—What It Does",
+    "answer": "Unpack ingredients from items, view hideout substances, package products into set sizes, and see your quick-slot items. Separate panels show personal inventory vs. hideout stash.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Marijuana Production—Step-by-Step",
+    "answer": "Buy indica seeds, fertilizer, water → unpack via lab tray → put seeds in handy space → craft “Indica plant” with growbox → take plant to hybrid dryer to craft “Cannabis Indica” → package on lab tray.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "“Production Chains” Reference",
+    "answer": "The Journal’s “Production chains” tab lists required tools/steps for each drug.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Getting Started—Step 1",
+    "answer": "Deliver Helen’s package to Marcus in the bunker after your boat ride.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Getting Started—Step 2",
+    "answer": "Use the lab tray to portion/package marijuana into requested sizes, then sell to marked clients on the minimap.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Getting Started—Step 3",
+    "answer": "Buy fertilizer on a neighboring island, unpack with lab tray, use growbox to grow marijuana, then dry it on the dryer.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Getting Started—Step 4",
+    "answer": "Visit Llanzo (after Marcus prompts you). Change clothes for buffs, sell Marcus’s gems to Helen, talk to Llanzo to learn business flow and receive a spare room.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Clothes Have Buffs",
+    "answer": "Use the wardrobe—different outfits grant different gameplay bonuses.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Boats & Islands",
+    "answer": "Boats connect the archipelago; you’ll use them often for travel, especially early deliveries and reaching shops like the weed/fertilizer stores.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Improving Stores & Discounts",
+    "answer": "High regional reputation unlocks store discounts; some stores unlock only after achieving certain Street Cred levels.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Influencers—What They Do",
+    "answer": "Meet influencers in bars/restaurants to create a drug “offer,” attract returning clients, and increase reputation. Costs are auto-paid from your bank balance.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Dead Drops for Dealers",
+    "answer": "To supply a dealer, leave drugs in any dead drop within the same region they operate. Collect their money later; they keep a share.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Hideout Shopping Checklist",
+    "answer": "Check for running water and telephone line access before committing to a hideout; these affect production/logistics.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Reputation Checkpoints",
+    "answer": "Build a boss desk in your hideout or talk to the local influencer to see local reputation.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Bank Balance Reminder",
+    "answer": "Keep some money in the bank—ongoing costs for influencers, employees, and hideouts auto-deduct from it.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Night Bonfires = Customers",
+    "answer": "At night, bonfires attract groups; many potential clients gather around them.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Customers Only Call by Day",
+    "answer": "Customer contact and sales occur during the day. Use nights for production or burglary.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Rival & Militia Interactions",
+    "answer": "You can avoid, fight, or sometimes bomb rivals/militia; open-world combat tools grow as you progress.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Weather Effects",
+    "answer": "Expect different weather types, including tropical storms, which can affect visibility/movement and pacing.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Secret Inventory Slots",
+    "answer": "Store precious items in secret slots to reduce the chance they get confiscated during searches.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Where to Place Dealers",
+    "answer": "Look for the pair-of-shoes marker to identify viable dealer placement spots on the street.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Warehouse Burglaries",
+    "answer": "Nighttime enables warehouse break-ins if you bring the right burglary tools.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Cars and Fast Travel",
+    "answer": "Besides boats, you can use cars for ground travel and bus-stop fast travel between hubs.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Hiring Costs & Automation",
+    "answer": "Employees (dealers/distributors) receive a share of sales; your bank funds running costs automatically—maintain liquidity.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Journal as Knowledge Hub",
+    "answer": "Track production chains, quests, and required gear via the Journal; it’s the authoritative in-game reference.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "First Sales Packaging Tip",
+    "answer": "Match requested package sizes precisely on the lab tray before meeting clients to avoid on-site repackaging.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Early Progression Path",
+    "answer": "Deliver to Marcus → package/sell marijuana → grow/dry more → meet Llanzo → claim spare room → scale with staff and new hideouts.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Store Price Optimization",
+    "answer": "Prices vary; buy items where they’re cheapest—regional reputation improves store discounts.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Staff Hierarchy",
+    "answer": "Dealers handle regulars and street demand; distributors manage multiple dealers and regional stock/money hand-offs.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Police Outcome Summary",
+    "answer": "Normal busts = lose drugs/weapons, jail processing at station. DEA capture = Work Camp with chore-based release; contraband needed to serve camp clients.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Hardware Requirements (Min)",
+    "answer": "Win10 64-bit; i5-8400/Ryzen 3 3200G; 16 GB RAM; GTX 1650/RX 570; DX11/12; 30 GB storage; SSD recommended.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Hardware Requirements (Rec.)",
+    "answer": "Win10 64-bit; i5-10600K/Ryzen 5 3600; 16 GB RAM; RTX 2060/RX 5700; DX12; 30 GB storage; SSD recommended.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Big-Picture Elevator Pitch",
+    "answer": "“We make it, you play it.” A small Polish studio (Byterunners) builds an open-world crime sim about rising from outlaw to cartel boss on Isla Sombra.",
+    "source": "PlayersGuide.txt"
+  },
+  {
+    "question": "Top 10 Quick Tips (Condensed)",
+    "answer": "Use secret slots for valuables; shoe markers for dealer spots; meet influencers in bars; create drug offers; check bonfires at night; verify hideout utilities; keep bank cash for auto-payments; buy where cheaper; level Street Cred to unlock stores; check rep at boss desk/influencer.",
+    "source": "PlayersGuide.txt"
+  }
+]

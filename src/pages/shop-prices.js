@@ -2,9 +2,9 @@ import React from "react";
 import Button from "@/components/pickles/Button";
 import { useRouter } from "next/router";
 import shops from "@/resources/shops.json";
-import Head from "next/head";
+import SEO from "@/components/SEO";
 
-const index = () => {
+const ShopPricesPage = () => {
   const router = useRouter();
   const regionBlacklist = [
     "Unknown",
@@ -28,6 +28,40 @@ const index = () => {
     "Bahía de Oro - Favela",
     "Casino",
   ];
+
+  const seoProps = {
+    title: "Shop Prices | DDSFAQ",
+    description: "Browse comprehensive shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, item availability, and regional variations. Compare prices across 12+ game areas to maximize your profits.",
+    keywords: "shop prices, Drug Dealer Simulator 2, DDS2, regions, items, stock levels, pricing guide, game economy, walkthrough, strategy, profits",
+    breadcrumbs: [
+      {
+        name: "Home",
+        url: "https://dds.yonga.dev"
+      },
+      {
+        name: "Shop Prices",
+        url: "https://dds.yonga.dev/shop-prices"
+      }
+    ],
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Drug Dealer Simulator 2 Shop Prices",
+      "description": "Comprehensive shop price guide for Drug Dealer Simulator 2 covering all regions and items",
+      "url": "https://dds.yonga.dev/shop-prices",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Game Regions with Shop Price Data",
+        "itemListElement": sorting.map((region, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "name": `${region} Shop Prices`,
+          "url": `https://dds.yonga.dev/shop-prices/${region.toLowerCase().replace(/ /g, '-')}`
+        }))
+      }
+    }
+  };
+
   return (
     <div
       style={{
@@ -41,40 +75,7 @@ const index = () => {
         textAlign: "center",
       }}
     >
-      <Head>
-        <title>Shop Prices | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
-        />
-        <meta
-          name="keywords"
-          content="Drug Dealer Simulator 2, DDS2, shop prices, regions, items, stock levels, game guide"
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Shop Prices | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
-        />
-        <meta property="og:url" content="https://dds.yonga.dev/shop-prices" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Shop Prices | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Browse shop prices for all regions in Drug Dealer Simulator 2. Find detailed pricing information, stock levels, and item availability across all game areas."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/shop-prices" />
-      </Head>
+      <SEO {...seoProps} />
       <h1>Drug Dealer Simulator 2 | Interactive FAQ</h1>
       <h2>Shop Prices</h2>
       <h3>Choose a Region</h3>
@@ -110,4 +111,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ShopPricesPage;

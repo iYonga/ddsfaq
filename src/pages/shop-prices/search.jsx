@@ -5,7 +5,7 @@ import { formatPrice } from "@/utils/numerology";
 import Button from "@/components/pickles/Button";
 import { Popover, Dropdown, Menu } from "antd";
 import Input from "@/components/pickles/Input";
-import Head from "next/head";
+import SEO from "@/components/SEO";
 
 const regionBlacklist = [
   "Unknown",
@@ -68,39 +68,41 @@ const Search = () => {
         padding: "1rem",
       }}
     >
-      <Head>
-        <title>Search Items | DDSFAQ</title>
-        <meta
-          name="description"
-          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
-        />
-
-        {/* OpenGraph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Search Items | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          property="og:description"
-          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
-        />
-        <meta
-          property="og:url"
-          content="https://dds.yonga.dev/shop-prices/search"
-        />
-
-        {/* Twitter Card Meta Tags */}
-        <meta
-          name="twitter:title"
-          content="Search Items | Drug Dealer Simulator 2 FAQ"
-        />
-        <meta
-          name="twitter:description"
-          content="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
-        />
-
-        <link rel="canonical" href="https://dds.yonga.dev/shop-prices/search" />
-      </Head>
+      <SEO
+        title="Search Items | DDSFAQ"
+        description="Search and find items across all shops in Drug Dealer Simulator 2. Quickly locate specific items, prices, and availability."
+        keywords="search items, Drug Dealer Simulator 2, DDS2, item finder, shop search, price comparison, item availability, game items"
+        canonical="https://dds.yonga.dev/shop-prices/search"
+        breadcrumbs={[
+          {
+            name: "Home",
+            url: "https://dds.yonga.dev"
+          },
+          {
+            name: "Shop Prices",
+            url: "https://dds.yonga.dev/shop-prices"
+          },
+          {
+            name: "Search Items",
+            url: "https://dds.yonga.dev/shop-prices/search"
+          }
+        ]}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Drug Dealer Simulator 2 Item Search",
+          "description": "Search and find items across all shops in Drug Dealer Simulator 2",
+          "url": "https://dds.yonga.dev/shop-prices/search",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://dds.yonga.dev/shop-prices/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }}
+      />
       <h3>Drug Dealer Simulator 2 | Interactive FAQ</h3>
       <h4>Search Items</h4>
       <Input
@@ -196,7 +198,7 @@ const Search = () => {
                               color: "red",
                             }}
                           >
-                            CAN'T
+                            CAN&apos;T
                           </span>{" "}
                           pay with your bank account,{" "}
                         </>
